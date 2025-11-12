@@ -3,209 +3,344 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ask AYO - Financial Jargon Translator</title>
-    <meta name="description" content="Translate financial jargon into plain English, instantly. Chrome extension for understanding financial terms while browsing.">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        .container {
-            max-width: 900px;
-            margin: 40px 20px;
-            padding: 60px 40px;
-            background: white;
-            border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-            text-align: center;
-        }
-        
-        .logo {
-            font-size: 4em;
-            margin-bottom: 20px;
-        }
-        
-        h1 {
-            color: #7c3aed;
-            font-size: 3em;
-            margin-bottom: 20px;
-        }
-        
-        .tagline {
-            font-size: 1.5em;
-            color: #666;
-            margin-bottom: 40px;
-        }
-        
-        .cta {
-            display: inline-block;
-            padding: 18px 40px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            text-decoration: none;
-            border-radius: 50px;
-            font-size: 1.2em;
-            font-weight: bold;
-            transition: transform 0.2s, box-shadow 0.2s;
-            margin: 10px;
-        }
-        
-        .cta:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
-        }
-        
-        .features {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-            margin: 60px 0;
-            text-align: left;
-        }
-        
-        .feature {
-            padding: 25px;
-            background: #f9fafb;
-            border-radius: 12px;
-            border-left: 4px solid #7c3aed;
-        }
-        
-        .feature h3 {
-            color: #7c3aed;
-            margin-bottom: 10px;
-            font-size: 1.3em;
-        }
-        
-        .feature p {
-            color: #666;
-        }
-        
-        .privacy-badge {
-            background: #ede9fe;
-            padding: 30px;
-            border-radius: 12px;
-            margin: 40px 0;
-        }
-        
-        .privacy-badge h2 {
-            color: #7c3aed;
-            margin-bottom: 15px;
-        }
-        
-        .privacy-badge ul {
-            list-style: none;
-            text-align: left;
-            display: inline-block;
-        }
-        
-        .privacy-badge li {
-            margin: 10px 0;
-            padding-left: 30px;
-            position: relative;
-        }
-        
-        .privacy-badge li:before {
-            content: "✅";
-            position: absolute;
-            left: 0;
-        }
-        
-        footer {
-            margin-top: 60px;
-            padding-top: 30px;
-            border-top: 2px solid #e5e7eb;
-            color: #666;
-        }
-        
-        footer a {
-            color: #7c3aed;
-            text-decoration: none;
-            margin: 0 15px;
-        }
-        
-        footer a:hover {
-            text-decoration: underline;
-        }
-        
-        .disclaimer {
-            background: #fef3c7;
-            padding: 20px;
-            border-radius: 8px;
-            border-left: 4px solid #f59e0b;
-            margin: 30px 0;
-            font-size: 0.9em;
-        }
-    </style>
+    <meta name="description" content="Highlight any finance term on any site and get instant, plain-English explanations. AYO gives you the textbook definition and the real-world takeaway.">
+    <title>Ask AYO — Translate Financial Jargon into Plain English (Chrome Extension)</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="logo">💡</div>
-        <h1>Ask AYO</h1>
-        <p class="tagline">Financial jargon? Translated instantly.</p>
-        
-        <a href="https://chrome.google.com/webstore/category/extensions" class="cta">
-            Add to Chrome - It's Free
-        </a>
-        
-        <div class="features">
-            <div class="feature">
-                <h3>📖 Clear Definitions</h3>
-                <p>Get formal, accurate explanations of financial terms</p>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="badge">Chrome Extension — Free</div>
+            <h1 class="hero-headline">Financial jargon,<br>finally explained like a human</h1>
+            <p class="hero-subheadline">Highlight any finance term on any site and get a plain-English explanation, instantly.</p>
+            <p class="hero-body">Understand terms like EBITDA and WACC without opening another tab.</p>
+            
+            <div class="cta-buttons">
+                <a href="#" class="btn-primary">Add to Chrome — Free</a>
+                <a href="#demo" class="btn-secondary">See it in action ↓</a>
             </div>
             
-            <div class="feature">
-                <h3>💬 Real Talk</h3>
-                <p>Plain English translations that actually make sense</p>
+            <div class="hero-features">
+                <span>✓ Works on any website</span>
+                <span>✓ No login</span>
+                <span>✓ No ads</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem">
+        <div class="container">
+            <h2>You've been here before</h2>
+            <div class="problem-content">
+                <p>You're reading an article about the economy. Or a company you're curious about. Or just trying to understand what's happening in the markets.</p>
+                <p>Then you hit a wall of jargon:</p>
+                <div class="jargon-example">
+                    <p>"The company's YoY revenue growth decelerated due to EBITDA margin compression and elevated SG&A expenses..."</p>
+                </div>
+                <p>And suddenly, you're lost.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section class="solutions">
+        <div class="container">
+            <h2>So you try to figure it out...</h2>
+            <div class="solutions-grid">
+                <div class="solution-card fade-in">
+                    <div class="solution-icon">🤔</div>
+                    <h3>You Pretend You Know</h3>
+                    <p>Nod along. Hope context clues help.<br>Spoiler: They don't.</p>
+                </div>
+                <div class="solution-card fade-in">
+                    <div class="solution-icon">📚</div>
+                    <h3>You Google It</h3>
+                    <p>Open Investopedia. Get a definition that's somehow more confusing than the original term. Close the tab.</p>
+                </div>
+                <div class="solution-card fade-in">
+                    <div class="solution-icon">🤖</div>
+                    <h3>You Ask ChatGPT</h3>
+                    <p>You might get an answer — but it's not tailored to where you found the term.</p>
+                </div>
+            </div>
+            <p class="solutions-closing">There's a better way.</p>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section class="demo" id="demo">
+        <div class="container">
+            <h2>Meet AYO.<br>Financial jargon, translated instantly.</h2>
+            <p class="demo-subheadline">Highlight any term. Get two explanations:<br>One formal. One human.<br>Right where you are.</p>
+            
+            <div class="demo-video-container fade-in">
+                <div class="demo-placeholder">
+                    <p>📹 Demo Video Placeholder</p>
+                    <p class="demo-description">Shows: Highlighting "CAGR" on a webpage → Right-click "Ask AYO" → Popup appears with Definition + Real Talk</p>
+                </div>
             </div>
             
-            <div class="feature">
-                <h3>⚡ Instant</h3>
-                <p>Highlight any term, right-click, done. No page navigation needed.</p>
+            <a href="#" class="btn-primary">Add to Chrome — Free</a>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2>Three seconds. Two explanations. Zero confusion.</h2>
+            
+            <div class="steps-grid">
+                <div class="step fade-in">
+                    <div class="step-number">1</div>
+                    <h3>Highlight any financial term</h3>
+                    <p>Reading news, reports, Reddit, Twitter—anywhere you encounter jargon.</p>
+                </div>
+                <div class="step fade-in">
+                    <div class="step-number">2</div>
+                    <h3>Right-click and select "Ask AYO"</h3>
+                    <p>Or press ⌥A. No app to open. No tab to switch. Just one click.</p>
+                </div>
+                <div class="step fade-in">
+                    <div class="step-number">3</div>
+                    <h3>Get it explained two ways</h3>
+                    <p>📖 <strong>The Definition</strong> - The formal explanation<br>💬 <strong>Real Talk</strong> - What it actually means, in plain English</p>
+                </div>
             </div>
             
-            <div class="feature">
-                <h3>🌐 Works Everywhere</h3>
-                <p>News sites, forums, social media - AYO works on any webpage</p>
+            <p class="works-everywhere">Works on news sites, PDFs in-browser, Reddit, X/Twitter, investor relations pages, and more.</p>
+        </div>
+    </section>
+
+    <!-- Two-Part Explanation -->
+    <section class="two-part">
+        <div class="container-full">
+            <h2 class="two-part-headline">We give you both versions</h2>
+            <p class="two-part-subheadline">Because sometimes you need the formal definition.<br>And sometimes you just need someone to explain it like a human.</p>
+            
+            <div class="two-part-grid">
+                <div class="definition-side fade-in">
+                    <h3>📖 The Definition</h3>
+                    <div class="example-box">
+                        <h4>EBITDA</h4>
+                        <p>"Earnings Before Interest, Taxes, Depreciation, and Amortization. A measure of a company's operating performance that excludes the effects of financing and accounting decisions."</p>
+                    </div>
+                </div>
+                <div class="realtalk-side fade-in">
+                    <h3>💬 Real Talk</h3>
+                    <div class="example-box">
+                        <h4>EBITDA</h4>
+                        <p>"It's basically how much money a company makes from its actual business, before you factor in loans, taxes, and accounting stuff. Think of it as: 'How good is this company at what it actually does?'"</p>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="two-part-closing">We keep definitions faithful to common finance sources, and Real Talk focused on what it means for you.</p>
+        </div>
+    </section>
+
+    <!-- Examples Strip -->
+    <section class="examples">
+        <div class="container">
+            <h2>Common terms we cover</h2>
+            <div class="examples-scroll">
+                <div class="example-pill">EBITDA</div>
+                <div class="example-pill">Dilution</div>
+                <div class="example-pill">YoY</div>
+                <div class="example-pill">MoM</div>
+                <div class="example-pill">Working Capital</div>
+                <div class="example-pill">SG&A</div>
+                <div class="example-pill">WACC</div>
+                <div class="example-pill">Runway</div>
+                <div class="example-pill">Gross vs. Net</div>
+                <div class="example-pill">EPS</div>
+                <div class="example-pill">Free Cash Flow</div>
+                <div class="example-pill">CAGR</div>
             </div>
         </div>
-        
-        <div class="privacy-badge">
-            <h2>🔒 Privacy-First Design</h2>
-            <ul>
-                <li>No personal data collected</li>
-                <li>No browsing history tracked</li>
-                <li>No cookies or trackers</li>
-                <li>Works completely privately</li>
-            </ul>
+    </section>
+
+    <!-- Who It's For -->
+    <section class="who-its-for">
+        <div class="container">
+            <h2>Built for anyone who reads about finance<br><span class="subtitle">(which is... everyone?)</span></h2>
+            
+            <div class="audience-grid">
+                <div class="audience-card fade-in">
+                    <div class="audience-icon">📰</div>
+                    <h3>News Readers</h3>
+                    <p>Trying to understand what's happening in the economy without a finance degree.</p>
+                </div>
+                <div class="audience-card fade-in">
+                    <div class="audience-icon">🎓</div>
+                    <h3>Students</h3>
+                    <p>Learning about business, economics, or finance and need plain-English translations.</p>
+                </div>
+                <div class="audience-card fade-in">
+                    <div class="audience-icon">💼</div>
+                    <h3>Professionals</h3>
+                    <p>Reading industry reports or competitor analysis and hitting unfamiliar terms.</p>
+                </div>
+                <div class="audience-card fade-in">
+                    <div class="audience-icon">🧾</div>
+                    <h3>Founders & Operators</h3>
+                    <p>Decode investor updates and board materials.</p>
+                </div>
+                <div class="audience-card fade-in">
+                    <div class="audience-icon">🤔</div>
+                    <h3>The Curious</h3>
+                    <p>Just want to understand the financial world without feeling like you need an MBA.</p>
+                </div>
+            </div>
+            
+            <p class="audience-closing">If you read about money, markets, or companies—this is for you.</p>
         </div>
-        
-        <div class="disclaimer">
-            <strong>⚠️ Not Investment Advice:</strong> AYO provides educational explanations only. We are not financial advisors. Always do your own research and consult a qualified professional before making investment decisions.
+    </section>
+
+    <!-- Why AYO -->
+    <section class="why-ayo">
+        <div class="container">
+            <h2>Why people use AYO instead of tab-hopping</h2>
+            
+            <div class="benefits-list">
+                <div class="benefit fade-in">
+                    <span class="check">✓</span>
+                    <div>
+                        <h3>Stay on the page you're reading</h3>
+                        <p>No new tabs. No context switching. Just instant clarity.</p>
+                    </div>
+                </div>
+                <div class="benefit fade-in">
+                    <span class="check">✓</span>
+                    <div>
+                        <h3>Get both the formal definition and the plain-English 'so what'</h3>
+                        <p>See both: the textbook and the takeaway.</p>
+                    </div>
+                </div>
+                <div class="benefit fade-in">
+                    <span class="check">✓</span>
+                    <div>
+                        <h3>Built specifically for finance terms</h3>
+                        <p>Not a generic dictionary. Designed for financial jargon.</p>
+                    </div>
+                </div>
+                <div class="benefit fade-in">
+                    <span class="check">✓</span>
+                    <div>
+                        <h3>No login, no ads, no tracking</h3>
+                        <p>Just explanations. That's it.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        
-        <footer>
-            <p>
-                <a href="/privacy.html">Privacy Policy</a> |
-                <a href="/terms.html">Terms of Service</a> |
-                <a href="mailto:helloaskayo@gmail.com">Contact</a>
-            </p>
-            <p style="margin-top: 20px; font-size: 0.9em;">
-                © 2025 AYO Invest. Made in the Netherlands 🇳🇱
-            </p>
-        </footer>
-    </div>
+    </section>
+
+    <!-- Privacy & Trust -->
+    <section class="privacy">
+        <div class="container">
+            <h2>Your learning, your privacy</h2>
+            
+            <div class="privacy-grid">
+                <div class="privacy-pillar fade-in">
+                    <div class="privacy-icon">🔒</div>
+                    <h3>No Browsing History Tracking</h3>
+                    <p>We don't know which websites you visit. We don't store your searches.</p>
+                </div>
+                <div class="privacy-pillar fade-in">
+                    <div class="privacy-icon">🔐</div>
+                    <h3>Minimal Data</h3>
+                    <p>When you look up a term, we send only that term (and optionally the surrounding sentence for context). Never the full page.</p>
+                </div>
+                <div class="privacy-pillar fade-in">
+                    <div class="privacy-icon">🎓</div>
+                    <h3>Education-Only</h3>
+                    <p>Not investment advice. We explain terms, you make decisions.</p>
+                </div>
+                <div class="privacy-pillar fade-in">
+                    <div class="privacy-icon">📚</div>
+                    <h3>Reviewed for Clarity & Correctness</h3>
+                    <p>Every definition is based on established financial principles.</p>
+                </div>
+            </div>
+            
+            <p class="privacy-disclaimer">Ask AYO provides educational explanations only. Not investment advice. For informational purposes; consider consulting a qualified professional.</p>
+        </div>
+    </section>
+
+    <!-- Feedback Section -->
+    <section class="feedback">
+        <div class="container">
+            <h2>We're just getting started</h2>
+            <p class="feedback-intro">AYO is new. We're building it for people who want to understand finance without the gatekeeping.</p>
+            
+            <div class="roadmap">
+                <h3>Roadmap sneak peek:</h3>
+                <p>Favorites • Save glossary • Keyboard shortcut customization</p>
+            </div>
+            
+            <div class="feedback-cta">
+                <h3>What we'd love to know:</h3>
+                <a href="mailto:helloaskayo@gmail.com?subject=AYO%20Feedback" class="btn-secondary">Share Feedback</a>
+                <p class="feedback-note">We actually read these. Promise.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Start understanding financial jargon today</h2>
+            <p class="final-subheadline">Free. No signup. No ads. Just clearer explanations.</p>
+            
+            <a href="#" class="btn-primary btn-large">Add to Chrome — Free</a>
+            
+            <div class="reassurance">
+                <span>No login</span>
+                <span>•</span>
+                <span>No ads</span>
+                <span>•</span>
+                <span>Remove anytime</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Ask AYO</h4>
+                    <p>Making financial jargon human, one term at a time.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="mailto:helloaskayo@gmail.com">Share Feedback</a></li>
+                        <li><a href="#">Changelog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Get in Touch</h4>
+                    <p><a href="mailto:helloaskayo@gmail.com">helloaskayo@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Ask AYO. Built for clarity.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
