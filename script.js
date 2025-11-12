@@ -100,101 +100,129 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-
 // ===========================
-// Animated Demo Logic
+// Animated Demo Logic - Two Terms
 // ===========================
 function initDemoAnimation() {
     const cursor = document.getElementById('animated-cursor');
-    const term = document.getElementById('ebitda-term');
+    const ebitdaTerm = document.getElementById('ebitda-term');
+    const liquidationTerm = document.getElementById('liquidation-term');
     const contextMenu = document.getElementById('context-menu');
     const popup = document.getElementById('ayo-popup');
     
-    if (!cursor || !term || !contextMenu || !popup) return;
+    if (!cursor || !ebitdaTerm || !liquidationTerm || !contextMenu || !popup) return;
     
-    // Get positions
-    const termRect = term.getBoundingClientRect();
     const browserContent = document.querySelector('.browser-content');
     const contentRect = browserContent.getBoundingClientRect();
     
-    // Calculate relative positions
-    const termX = termRect.left - contentRect.left + termRect.width / 2;
-    const termY = termRect.top - contentRect.top + termRect.height / 2;
-    
-    // Animation timeline
-    const timeline = [
-        // Step 1: Show cursor moving to term (0-1s)
+    // Term data
+    const terms = [
         {
-            time: 0,
-            action: () => {
-                cursor.style.left = '100px';
-                cursor.style.top = '100px';
-                cursor.classList.add('visible');
-            }
+            element: ebitdaTerm,
+            name: 'EBITDA',
+            definition: 'Earnings Before Interest, Taxes, Depreciation, and Amortization. A measure of a company\'s operating performance.',
+            realTalk: 'Basically how much money a company makes from its actual business, before you factor in loans, taxes, and accounting stuff.'
         },
         {
-            time: 500,
-            action: () => {
-                cursor.style.transition = 'all 0.8s ease';
-                cursor.style.left = termX + 'px';
-                cursor.style.top = termY + 'px';
-            }
-        },
-        // Step 2: Highlight the term (1.5s)
-        {
-            time: 1500,
-            action: () => {
-                term.classList.add('active');
-            }
-        },
-        // Step 3: Show context menu (2s)
-        {
-            time: 2000,
-            action: () => {
-                contextMenu.style.left = (termX + 10) + 'px';
-                contextMenu.style.top = (termY + 20) + 'px';
-                contextMenu.classList.add('visible');
-            }
-        },
-        // Step 4: Show popup (3s)
-        {
-            time: 3000,
-            action: () => {
-                contextMenu.classList.remove('visible');
-                // Center the popup more and position it below the term
-                const popupLeft = Math.max(20, termX - 200);
-                const popupTop = termY + 60;
-                popup.style.left = popupLeft + 'px';
-                popup.style.top = popupTop + 'px';
-                popup.classList.add('visible');
-            }
-        },
-        // Step 5: Hold for viewing (6s)
-        {
-            time: 6000,
-            action: () => {
-                // Just hold the popup visible
-            }
-        },
-        // Step 6: Reset (7s)
-        {
-            time: 7000,
-            action: () => {
-                popup.classList.remove('visible');
-                term.classList.remove('active');
-                cursor.classList.remove('visible');
-            }
-        },
-        // Step 7: Loop (8s)
-        {
-            time: 8000,
-            action: () => {
-                runAnimation();
-            }
+            element: liquidationTerm,
+            name: 'Liquidation Preference',
+            definition: 'A clause in an investment agreement that determines the payout order and amounts if the company is sold or liquidated.',
+            realTalk: 'Investors get their money back first (sometimes 2x or 3x) before founders and employees see anything. It\'s their safety net in case things go south.'
         }
     ];
     
-    function runAnimation() {
+    let currentTermIndex = 0;
+    
+    function animateTerm(termData) {
+        const term = termData.element;
+        const termRect = term.getBoundingClientRect();
+        
+        // Calculate relative positions
+        const termX = termRect.left - contentRect.left + termRect.width / 2;
+        const termY = termRect.top - contentRect.top + termRect.height / 2;
+        
+        // Update popup content
+        const popupTermEl = popup.querySelector('.popup-term');
+        const definitionText = popup.querySelector('.definition-section .section-text');
+        const realTalkText = popup.querySelector('.real-talk-section .section-text');
+        
+        popupTermEl.textContent = termData.name;
+        definitionText.textContent = termData.definition;
+        realTalkText.textContent = termData.realTalk;
+        
+        // Animation timeline for this term
+        const timeline = [
+            // Step 1: Show cursor moving to term (0-1s)
+            {
+                time: 0,
+                action: () => {
+                    cursor.style.left = '100px';
+                    cursor.style.top = '100px';
+                    cursor.classList.add('visible');
+                }
+            },
+            {
+                time: 500,
+                action: () => {
+                    cursor.style.transition = 'all 0.8s ease';
+                    cursor.style.left = termX + 'px';
+                    cursor.style.top = termY + 'px';
+                }
+            },
+            // Step 2: Highlight the term (1.5s)
+            {
+                time: 1500,
+                action: () => {
+                    term.classList.add('active');
+                }
+            },
+            // Step 3: Show context menu (2s)
+            {
+                time: 2000,
+                action: () => {
+                    contextMenu.style.left = (termX + 10) + 'px';
+                    contextMenu.style.top = (termY + 20) + 'px';
+                    contextMenu.classList.add('visible');
+                }
+            },
+            // Step 4: Show popup (3s)
+            {
+                time: 3000,
+                action: () => {
+                    contextMenu.classList.remove('visible');
+                    const popupLeft = Math.max(20, termX - 200);
+                    const popupTop = termY + 60;
+                    popup.style.left = popupLeft + 'px';
+                    popup.style.top = popupTop + 'px';
+                    popup.classList.add('visible');
+                }
+            },
+            // Step 5: Hold for viewing (6s)
+            {
+                time: 6000,
+                action: () => {
+                    // Just hold the popup visible
+                }
+            },
+            // Step 6: Reset (7s)
+            {
+                time: 7000,
+                action: () => {
+                    popup.classList.remove('visible');
+                    term.classList.remove('active');
+                    cursor.classList.remove('visible');
+                }
+            },
+            // Step 7: Move to next term or loop (8s)
+            {
+                time: 8000,
+                action: () => {
+                    currentTermIndex = (currentTermIndex + 1) % terms.length;
+                    animateTerm(terms[currentTermIndex]);
+                }
+            }
+        ];
+        
         timeline.forEach(step => {
             setTimeout(step.action, step.time);
         });
@@ -205,7 +233,8 @@ function initDemoAnimation() {
     const demoObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                runAnimation();
+                currentTermIndex = 0;
+                animateTerm(terms[currentTermIndex]);
             }
         });
     }, { threshold: 0.3 });
@@ -218,7 +247,10 @@ function initDemoAnimation() {
     if (demoSection) {
         const rect = demoSection.getBoundingClientRect();
         if (rect.top < window.innerHeight && rect.bottom > 0) {
-            setTimeout(runAnimation, 500);
+            setTimeout(() => {
+                currentTermIndex = 0;
+                animateTerm(terms[currentTermIndex]);
+            }, 500);
         }
     }
 }
