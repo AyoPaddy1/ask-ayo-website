@@ -84,9 +84,69 @@
             <p class="demo-subheadline">Highlight any term. Get two explanations:<br>One formal. One human.<br>Right where you are.</p>
             
             <div class="demo-video-container fade-in">
-                <div class="demo-placeholder">
-                    <p>📹 Demo Video Placeholder</p>
-                    <p class="demo-description">Shows: Highlighting "CAGR" on a webpage → Right-click "Ask AYO" → Popup appears with Definition + Real Talk</p>
+                <div class="demo-animation">
+                    <!-- Mock Browser Window -->
+                    <div class="mock-browser">
+                        <!-- Browser Chrome -->
+                        <div class="browser-header">
+                            <div class="browser-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="browser-url">techcrunch.com/article/startup-funding</div>
+                        </div>
+                        
+                        <!-- Browser Content -->
+                        <div class="browser-content">
+                            <div class="article-content">
+                                <h3 class="article-title">Startup Raises $50M Series B</h3>
+                                <p class="article-text">
+                                    The company reported strong growth with 
+                                    <span class="highlight-word" id="ebitda-term">EBITDA</span> 
+                                    margins improving quarter over quarter, signaling operational efficiency.
+                                </p>
+                            </div>
+                            
+                            <!-- Animated Cursor -->
+                            <div class="cursor" id="animated-cursor">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M0 0L0 16L5 11L8 20L11 19L8 10L14 10L0 0Z" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            
+                            <!-- Right-Click Menu -->
+                            <div class="context-menu" id="context-menu">
+                                <div class="menu-item">Copy</div>
+                                <div class="menu-item">Search Google</div>
+                                <div class="menu-item highlight-menu">
+                                    <span class="ayo-icon">🎯</span>
+                                    <strong>Ask AYO</strong>
+                                </div>
+                                <div class="menu-item">Inspect</div>
+                            </div>
+                            
+                            <!-- AYO Popup -->
+                            <div class="ayo-popup" id="ayo-popup">
+                                <div class="popup-header">
+                                    <div class="popup-logo">Ask AYO</div>
+                                    <div class="popup-term">EBITDA</div>
+                                </div>
+                                <div class="popup-content">
+                                    <div class="definition-section">
+                                        <div class="section-icon">📖</div>
+                                        <div class="section-label">Definition</div>
+                                        <p class="section-text">Earnings Before Interest, Taxes, Depreciation, and Amortization. A measure of a company's operating performance.</p>
+                                    </div>
+                                    <div class="real-talk-section">
+                                        <div class="section-icon">💬</div>
+                                        <div class="section-label">Real Talk</div>
+                                        <p class="section-text">Basically how much money a company makes from its actual business, before you factor in loans, taxes, and accounting stuff.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             

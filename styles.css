@@ -892,3 +892,266 @@ a {
         margin: 0 auto 16px;
     }
 }
+
+
+/* ===========================
+   Animated Demo Styles
+   =========================== */
+
+.demo-animation {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Mock Browser Window */
+.mock-browser {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    position: relative;
+}
+
+.browser-header {
+    background: #f5f5f5;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.browser-dots {
+    display: flex;
+    gap: 6px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.dot.red {
+    background: #ff5f57;
+}
+
+.dot.yellow {
+    background: #ffbd2e;
+}
+
+.dot.green {
+    background: #28ca42;
+}
+
+.browser-url {
+    background: white;
+    padding: 6px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #666;
+    flex: 1;
+    border: 1px solid #e0e0e0;
+}
+
+/* Browser Content */
+.browser-content {
+    padding: 48px;
+    min-height: 400px;
+    position: relative;
+    background: white;
+}
+
+.article-content {
+    max-width: 600px;
+}
+
+.article-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a3f;
+    margin-bottom: 16px;
+}
+
+.article-text {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #374151;
+}
+
+.highlight-word {
+    background: transparent;
+    padding: 2px 0;
+    border-radius: 3px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.highlight-word.active {
+    background: rgba(0, 212, 212, 0.2);
+    padding: 2px 4px;
+}
+
+/* Animated Cursor */
+.cursor {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: #1a1a3f;
+    pointer-events: none;
+    opacity: 0;
+    z-index: 10;
+}
+
+.cursor.visible {
+    opacity: 1;
+}
+
+/* Context Menu */
+.context-menu {
+    position: absolute;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    padding: 6px;
+    min-width: 200px;
+    opacity: 0;
+    transform: scale(0.95);
+    transform-origin: top left;
+    transition: all 0.2s ease;
+    z-index: 20;
+}
+
+.context-menu.visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.menu-item {
+    padding: 10px 16px;
+    font-size: 14px;
+    color: #374151;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.2s ease;
+}
+
+.menu-item:hover {
+    background: #f3f4f6;
+}
+
+.menu-item.highlight-menu {
+    background: linear-gradient(135deg, rgba(0, 212, 212, 0.1), rgba(255, 215, 0, 0.1));
+    border: 1px solid rgba(0, 212, 212, 0.3);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    color: #1a1a3f;
+}
+
+.ayo-icon {
+    font-size: 16px;
+}
+
+/* AYO Popup */
+.ayo-popup {
+    position: absolute;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    z-index: 30;
+    border: 2px solid #00D4D4;
+}
+
+.ayo-popup.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.popup-header {
+    background: linear-gradient(135deg, #00D4D4, #FFD700);
+    padding: 16px 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.popup-logo {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a1a3f;
+    margin-bottom: 4px;
+}
+
+.popup-term {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a3f;
+}
+
+.popup-content {
+    padding: 20px;
+}
+
+.definition-section,
+.real-talk-section {
+    margin-bottom: 20px;
+}
+
+.real-talk-section {
+    margin-bottom: 0;
+}
+
+.section-icon {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.section-label {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #9CA3AF;
+    margin-bottom: 8px;
+}
+
+.section-text {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #374151;
+    margin: 0;
+}
+
+/* Demo Animation Responsive */
+@media (max-width: 768px) {
+    .demo-animation .browser-content {
+        padding: 24px;
+        min-height: 350px;
+    }
+    
+    .demo-animation .article-title {
+        font-size: 22px;
+    }
+    
+    .demo-animation .article-text {
+        font-size: 16px;
+    }
+    
+    .demo-animation .ayo-popup {
+        width: 320px;
+    }
+    
+    .demo-animation .popup-term {
+        font-size: 20px;
+    }
+    
+    .demo-animation .section-text {
+        font-size: 14px;
+    }
+}
