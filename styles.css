@@ -165,7 +165,16 @@ a {
     border-radius: 50px;
     font-size: 14px;
     font-weight: 600;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
+}
+
+.hero-brand {
+    font-family: var(--font-heading);
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 24px;
+    letter-spacing: -0.5px;
 }
 
 .hero-headline {
