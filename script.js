@@ -161,8 +161,11 @@ function initDemoAnimation() {
             time: 3000,
             action: () => {
                 contextMenu.classList.remove('visible');
-                popup.style.left = (termX - 200) + 'px';
-                popup.style.top = (termY + 40) + 'px';
+                // Center the popup more and position it below the term
+                const popupLeft = Math.max(20, termX - 200);
+                const popupTop = termY + 60;
+                popup.style.left = popupLeft + 'px';
+                popup.style.top = popupTop + 'px';
                 popup.classList.add('visible');
             }
         },
