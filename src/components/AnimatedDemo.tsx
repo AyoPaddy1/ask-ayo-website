@@ -41,7 +41,9 @@ export function AnimatedDemo() {
   }, [animationStep, currentTermIndex]);
 
   const currentTerm = terms[currentTermIndex];
+  // Cursor should be on the highlighted term, menu appears below and to the right
   const termPosition = currentTermIndex === 0 ? { top: '45%', left: '30%' } : { top: '52%', left: '22%' };
+  const cursorPosition = currentTermIndex === 0 ? { top: '45%', left: '32%' } : { top: '52%', left: '30%' };
 
   return (
     <section className="py-20 sm:py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-teal-50 via-white to-yellow-50">
@@ -96,9 +98,8 @@ export function AnimatedDemo() {
               <div 
                 className="absolute w-6 h-6 pointer-events-none transition-all duration-500"
                 style={{ 
-                  top: termPosition.top, 
-                  left: termPosition.left,
-                  transform: 'translate(-50%, -50%)'
+                  top: cursorPosition.top, 
+                  left: cursorPosition.left
                 }}
               >
                 <svg viewBox="0 0 24 24" fill="none" className="w-full h-full">
@@ -112,8 +113,8 @@ export function AnimatedDemo() {
               <div 
                 className="absolute bg-white rounded-xl shadow-2xl border-2 border-gray-300 overflow-hidden w-48 sm:w-56 z-20 animate-in fade-in duration-200"
                 style={{ 
-                  top: `calc(${termPosition.top} + 20px)`, 
-                  left: `calc(${termPosition.left} + 20px)`
+                  top: `calc(${cursorPosition.top} + 24px)`, 
+                  left: `calc(${cursorPosition.left} + 12px)`
                 }}
               >
                 <div className="py-2">
