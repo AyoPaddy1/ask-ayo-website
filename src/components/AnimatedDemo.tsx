@@ -96,6 +96,7 @@ export function AnimatedDemo() {
             {/* Animated Cursor */}
             {animationStep >= 1 && (
               <div 
+                key={`cursor-${currentTermIndex}`}
                 className="absolute w-6 h-6 pointer-events-none transition-all duration-500"
                 style={{ 
                   top: cursorPosition.top, 
