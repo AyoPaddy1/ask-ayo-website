@@ -14,10 +14,18 @@ export function Footer() {
             See jargon. Highlight it. Understand it.
           </p>
           
-          <button className="bg-gradient-to-r from-teal-500 to-teal-600 hover:from-teal-600 hover:to-teal-700 text-white px-10 py-5 rounded-2xl transition-all shadow-lg hover:shadow-xl inline-flex items-center gap-3 text-lg font-bold border-2 border-gray-900 hover:scale-105 transform">
+          <a 
+            href="https://chromewebstore.google.com/detail/ask-ayo/aadolefccokodn0bpipmpknijggnjcj"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gradient-to-r from-teal-500 to-teal-600 hover:from-teal-600 hover:to-teal-700 text-white px-10 py-5 rounded-2xl transition-all shadow-lg hover:shadow-xl inline-flex items-center gap-3 text-lg font-bold border-2 border-gray-900 hover:scale-105 transform"
+          >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 14.894l-2.894-5.014a4.002 4.002 0 0 0-6.894 4.12l-2.894 5.014a10.002 10.002 0 0 1 12.682-4.12z"/>
+            </svg>
             Get the Chrome Extension — Free
             <ArrowRight className="w-5 h-5" />
-          </button>
+          </a>
         </div>
       </div>
       

@@ -6,7 +6,7 @@ export function TryIt() {
 
   const handleTranslate = () => {
     if (text.trim()) {
-      alert('Get the Chrome extension to start translating instantly! 🚀');
+      window.open('https://chromewebstore.google.com/detail/ask-ayo/aadolefccokodn0bpipmpknijggnjcj', '_blank');
     }
   };
 
@@ -69,9 +69,22 @@ export function TryIt() {
           </button>
         </div>
         
-        <p className="text-center text-gray-500 mt-8 text-lg">
-          <strong>The Chrome extension works even better:</strong> Just highlight any term on any website, right-click, and get instant explanations.
-        </p>
+        <div className="text-center mt-8">
+          <a 
+            href="https://chromewebstore.google.com/detail/ask-ayo/aadolefccokodn0bpipmpknijggnjcj"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-3 bg-white border-4 border-gray-900 px-8 py-4 rounded-2xl hover:bg-gray-50 transition-all shadow-xl hover:shadow-2xl hover:scale-105 text-lg font-bold text-gray-900"
+          >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 14.894l-2.894-5.014a4.002 4.002 0 0 0-6.894 4.12l-2.894 5.014a10.002 10.002 0 0 1 12.682-4.12z"/>
+            </svg>
+            <span>Get the Chrome Extension — It's Free</span>
+          </a>
+          <p className="text-gray-500 mt-4 text-base">
+            Just highlight any term on any website, right-click, and get instant explanations.
+          </p>
+        </div>
       </div>
     </section>
   );

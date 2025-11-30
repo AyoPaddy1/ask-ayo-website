@@ -152,10 +152,18 @@ export function Hero() {
 
         {/* CTA */}
         <div className="text-center">
-          <button className="bg-gradient-to-r from-teal-500 via-teal-600 to-yellow-500 hover:from-teal-600 hover:via-teal-700 hover:to-yellow-600 text-white px-10 py-5 rounded-2xl transition-all shadow-2xl hover:shadow-3xl hover:scale-105 inline-flex items-center gap-3 text-xl transform hover:-rotate-1 font-bold border-2 border-gray-900">
-            <span>Translate Financial BS</span>
+          <a 
+            href="https://chromewebstore.google.com/detail/ask-ayo/aadolefccokodn0bpipmpknijggnjcj"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gradient-to-r from-teal-500 via-teal-600 to-yellow-500 hover:from-teal-600 hover:via-teal-700 hover:to-yellow-600 text-white px-10 py-5 rounded-2xl transition-all shadow-2xl hover:shadow-3xl hover:scale-105 inline-flex items-center gap-3 text-xl transform hover:-rotate-1 font-bold border-2 border-gray-900"
+          >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 14.894l-2.894-5.014a4.002 4.002 0 0 0-6.894 4.12l-2.894 5.014a10.002 10.002 0 0 1 12.682-4.12z"/>
+            </svg>
+            <span>Add to Chrome — It's Free</span>
             <ArrowRight className="w-6 h-6" />
-          </button>
+          </a>
           <p className="text-sm text-gray-500 mt-6 flex items-center justify-center gap-2 flex-wrap">
             <span className="bg-gray-100 px-3 py-1 rounded-full">No signup</span>
             <span className="bg-gray-100 px-3 py-1 rounded-full">No ads</span>
