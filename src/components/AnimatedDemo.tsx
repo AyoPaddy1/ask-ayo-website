@@ -24,14 +24,15 @@ export function AnimatedDemo() {
       { duration: 500, nextStep: 3 },  // Show right-click menu
       { duration: 1000, nextStep: 4 }, // Show popup
       { duration: 4000, nextStep: 5 }, // Hold popup
-      { duration: 500, nextStep: 0 }   // Reset
+      { duration: 500, nextStep: 6 },  // Fade out popup
+      { duration: 500, nextStep: 1 }   // Move cursor to next term (skip step 0)
     ];
 
     const timer = setTimeout(() => {
-      if (animationStep === 5) {
+      if (animationStep === 6) {
         // Move to next term
         setCurrentTermIndex((prev) => (prev + 1) % terms.length);
-        setAnimationStep(0);
+        setAnimationStep(1); // Skip step 0, keep cursor visible
       } else {
         setAnimationStep((prev) => steps[prev].nextStep);
       }
