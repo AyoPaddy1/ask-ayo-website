@@ -32,7 +32,7 @@ export function Testimonials() {
             Now
           </h2>
           <p className="text-gray-600 text-2xl">
-            20,000+ confused people → now informed people 🎓
+            From confused to confident in seconds 🎓
           </p>
         </div>
         

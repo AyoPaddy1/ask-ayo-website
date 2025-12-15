@@ -43,7 +43,6 @@ export function AnimatedDemo() {
 
   const currentTerm = terms[currentTermIndex];
   // Cursor should be on the highlighted term, menu appears below and to the right
-  const termPosition = currentTermIndex === 0 ? { top: '45%', left: '30%' } : { top: '52%', left: '22%' };
   const cursorPosition = currentTermIndex === 0 ? { top: '45%', left: '32%' } : { top: '52%', left: '30%' };
 
   return (

@@ -56,7 +56,7 @@ export function Hero() {
           <div className="inline-block mb-6">
             <div className="bg-gradient-to-r from-teal-500 to-yellow-400 text-white px-6 py-2 rounded-full text-sm inline-flex items-center gap-2 transform -rotate-1 shadow-lg">
               <Zap className="w-4 h-4" />
-              <span>20,000+ people finally get it</span>
+              <span>Join the financial literacy revolution</span>
             </div>
           </div>
           
