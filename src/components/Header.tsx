@@ -23,9 +23,14 @@ export function Header() {
           <a href="#examples" className="text-gray-600 hover:text-gray-900 transition-colors hidden sm:block hover:underline decoration-yellow-500 decoration-4 underline-offset-4">
             Examples
           </a>
-          <button className="bg-gradient-to-r from-teal-500 to-yellow-500 hover:from-teal-600 hover:to-yellow-600 text-white px-6 py-3 rounded-xl transition-all shadow-lg hover:shadow-xl border-2 border-gray-900 hover:scale-105 transform">
+          <a 
+            href="https://chromewebstore.google.com/detail/askayo-financial-terms/aadolejfccokodnobpipmpknijggnjcj"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gradient-to-r from-teal-500 to-yellow-500 hover:from-teal-600 hover:to-yellow-600 text-white px-6 py-3 rounded-xl transition-all shadow-lg hover:shadow-xl border-2 border-gray-900 hover:scale-105 transform inline-block"
+          >
             Get Extension
-          </button>
+          </a>
         </div>
       </div>
     </header>

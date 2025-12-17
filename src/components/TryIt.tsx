@@ -71,7 +71,7 @@ export function TryIt() {
         
         <div className="text-center mt-8">
           <a 
-            href="https://chromewebstore.google.com/detail/ask-ayo/aadolefccokodn0bpipmpknijggnjcj"
+            href="https://chromewebstore.google.com/detail/askayo-financial-terms/aadolejfccokodnobpipmpknijggnjcj"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-white border-4 border-gray-900 px-8 py-4 rounded-2xl hover:bg-gray-50 transition-all shadow-xl hover:shadow-2xl hover:scale-105 text-lg font-bold text-gray-900"

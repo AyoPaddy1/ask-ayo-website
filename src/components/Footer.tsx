@@ -15,7 +15,7 @@ export function Footer() {
           </p>
           
           <a 
-            href="https://chromewebstore.google.com/detail/ask-ayo/aadolefccokodn0bpipmpknijggnjcj"
+            href="https://chromewebstore.google.com/detail/askayo-financial-terms/aadolejfccokodnobpipmpknijggnjcj"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gradient-to-r from-teal-500 to-teal-600 hover:from-teal-600 hover:to-teal-700 text-white px-10 py-5 rounded-2xl transition-all shadow-lg hover:shadow-xl inline-flex items-center gap-3 text-lg font-bold border-2 border-gray-900 hover:scale-105 transform"
