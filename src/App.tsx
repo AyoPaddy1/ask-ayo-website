@@ -1,27 +1,19 @@
-import { Header } from './components/Header';
-import { Hero } from './components/Hero';
-import { Problem } from './components/Problem';
-import { AnimatedDemo } from './components/AnimatedDemo';
-import { ExamplesGrid } from './components/ExamplesGrid';
-import { WhatWeDont } from './components/WhatWeDont';
-import { TryIt } from './components/TryIt';
-import { Testimonials } from './components/Testimonials';
-import { Mission } from './components/Mission';
-import { Footer } from './components/Footer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
+import { HomePage } from './pages/HomePage';
+import { BlogListPage } from './pages/BlogListPage';
+import { BlogArticlePage } from './pages/BlogArticlePage';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-white">
-      <Header />
-      <Hero />
-      <Problem />
-      <AnimatedDemo />
-      <ExamplesGrid />
-      <WhatWeDont />
-      <TryIt />
-      <Testimonials />
-      <Mission />
-      <Footer />
-    </div>
+    <HelmetProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/blog" element={<BlogListPage />} />
+          <Route path="/blog/:slug" element={<BlogArticlePage />} />
+        </Routes>
+      </BrowserRouter>
+    </HelmetProvider>
   );
 }

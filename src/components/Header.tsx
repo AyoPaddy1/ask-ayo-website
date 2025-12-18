@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-md border-b-4 border-gray-900 z-50 shadow-lg">
@@ -17,9 +19,9 @@ export function Header() {
         </div>
         
         <div className="flex items-center gap-4">
-          <a href="#try-it" className="text-gray-600 hover:text-gray-900 transition-colors hidden sm:block hover:underline decoration-teal-500 decoration-4 underline-offset-4">
-            Try It
-          </a>
+          <Link to="/blog" className="text-gray-600 hover:text-gray-900 transition-colors hidden sm:block hover:underline decoration-teal-500 decoration-4 underline-offset-4">
+            Blog
+          </Link>
           <a href="#examples" className="text-gray-600 hover:text-gray-900 transition-colors hidden sm:block hover:underline decoration-yellow-500 decoration-4 underline-offset-4">
             Examples
           </a>

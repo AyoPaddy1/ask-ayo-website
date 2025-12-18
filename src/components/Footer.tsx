@@ -51,7 +51,6 @@ export function Footer() {
             <h4 className="text-white mb-4 font-bold">Product</h4>
             <ul className="space-y-2 text-gray-400 text-sm">
               <li><a href="#" className="hover:text-teal-400 transition-colors">Home</a></li>
-              <li><a href="#try-it" className="hover:text-teal-400 transition-colors">Try It</a></li>
               <li><a href="#examples" className="hover:text-teal-400 transition-colors">Examples</a></li>
             </ul>
           </div>
