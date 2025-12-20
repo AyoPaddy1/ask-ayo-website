@@ -95,6 +95,102 @@ export const earningsReports: EarningsReport[] = [
       expected: '€1.80',
       beat: true
     }
+  },
+  {
+    id: '04',
+    company: 'Nvidia',
+    ticker: 'NVDA',
+    quarter: 'Q3',
+    fiscalYear: 'FY2025',
+    title: 'Nvidia Q3 FY2025 Earnings: What They Actually Said',
+    description: 'Nvidia keeps breaking records. Revenue hit $35.1 billion, up 94% from last year. Data center alone was $30.8 billion. Blackwell chips are in "full production" with demand exceeding supply. Jensen Huang declared "the age of AI is in full steam."',
+    date: 'November 20, 2024',
+    readTime: '8 min read',
+    sector: 'Tech',
+    slug: 'nvidia-q3-fy2025',
+    keywords: ['Nvidia', 'NVDA', 'AI chips', 'data center', 'Blackwell'],
+    revenue: {
+      actual: '$35.1B',
+      expected: '$33.16B',
+      beat: true
+    },
+    eps: {
+      actual: '$0.81',
+      expected: '$0.75',
+      beat: true
+    }
+  },
+  {
+    id: '05',
+    company: 'Apple',
+    ticker: 'AAPL',
+    quarter: 'Q4',
+    fiscalYear: 'FY2024',
+    title: 'Apple Q4 FY2024 Earnings: What They Actually Said',
+    description: 'Apple posted a record September quarter with $94.9B in revenue. Services hit an all-time high at nearly $25B. But there\'s an asterisk: Apple paid $10.2B to Ireland after losing an EU tax case. Greater China came in basically flat, missing expectations.',
+    date: 'October 31, 2024',
+    readTime: '8 min read',
+    sector: 'Tech',
+    slug: 'apple-q4-fy2024',
+    keywords: ['Apple', 'AAPL', 'iPhone', 'Services', 'China'],
+    revenue: {
+      actual: '$94.9B',
+      expected: '$94.36B',
+      beat: true
+    },
+    eps: {
+      actual: '$1.64',
+      expected: '$1.60',
+      beat: true
+    }
+  },
+  {
+    id: '06',
+    company: 'Netflix',
+    ticker: 'NFLX',
+    quarter: 'Q3',
+    fiscalYear: '2024',
+    title: 'Netflix Q3 2024 Earnings: What They Actually Said',
+    description: 'Netflix keeps proving the doubters wrong. Revenue up 15%. Subscribers up 5.1 million. The password sharing crackdown is working. The ad tier is taking off. Since the May 2022 low, the stock is up over 340%.',
+    date: 'October 17, 2024',
+    readTime: '8 min read',
+    sector: 'Tech',
+    slug: 'netflix-q3-2024',
+    keywords: ['Netflix', 'NFLX', 'streaming', 'subscribers', 'ad tier'],
+    revenue: {
+      actual: '$9.83B',
+      expected: '$9.77B',
+      beat: true
+    },
+    eps: {
+      actual: '$5.40',
+      expected: '$5.12',
+      beat: true
+    }
+  },
+  {
+    id: '07',
+    company: 'LVMH',
+    ticker: 'MC.PA',
+    quarter: 'Q3',
+    fiscalYear: '2024',
+    title: 'LVMH Q3 2024 Earnings: What They Actually Said',
+    description: 'The luxury party is over. First quarterly revenue decline since the pandemic. Fashion & Leather Goods fell 5%. Asia (ex-Japan) crashed 16%. CFO: Chinese consumer confidence is "back in line with the all-time low reached during Covid." Stock fell 10%.',
+    date: 'October 15, 2024',
+    readTime: '8 min read',
+    sector: 'Luxury',
+    slug: 'lvmh-q3-2024',
+    keywords: ['LVMH', 'luxury', 'China', 'Louis Vuitton', 'Dior'],
+    revenue: {
+      actual: '€19.08B',
+      expected: '€20.01B',
+      beat: false
+    },
+    eps: {
+      actual: 'N/A',
+      expected: 'N/A',
+      beat: false
+    }
   }
 ];
 
