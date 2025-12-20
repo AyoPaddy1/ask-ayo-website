@@ -5,6 +5,7 @@ import { earningsReports } from '../data/earnings';
 import { Helmet } from 'react-helmet-async';
 import { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { TrendingUp, TrendingDown, Calendar, Clock, ArrowLeft } from 'lucide-react';
 
 export function EarningsArticlePage() {
@@ -209,7 +210,7 @@ export function EarningsArticlePage() {
               prose-blockquote:border-l-4 prose-blockquote:border-teal-500 prose-blockquote:pl-4 prose-blockquote:italic prose-blockquote:text-gray-600 prose-blockquote:my-6
               prose-hr:my-10 prose-hr:border-gray-300
             ">
-              <ReactMarkdown>{content}</ReactMarkdown>
+              <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
             </div>
 
             {/* Back to Earnings Link */}
