@@ -194,17 +194,20 @@ export function EarningsArticlePage() {
             {/* Article Content */}
             <div className="prose prose-lg max-w-none
               prose-headings:font-bold prose-headings:text-gray-900
-              prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h2:text-teal-600
-              prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-h3:text-gray-800
-              prose-h4:text-lg prose-h4:mt-6 prose-h4:mb-2
-              prose-p:text-gray-700 prose-p:leading-relaxed prose-p:mb-4
+              prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-6 prose-h2:text-teal-600 prose-h2:border-b-2 prose-h2:border-gray-200 prose-h2:pb-3
+              prose-h3:text-xl prose-h3:mt-10 prose-h3:mb-4 prose-h3:text-gray-800
+              prose-h4:text-lg prose-h4:mt-8 prose-h4:mb-3
+              prose-p:text-gray-700 prose-p:leading-relaxed prose-p:mb-5
               prose-a:text-teal-600 prose-a:no-underline hover:prose-a:text-teal-700 hover:prose-a:underline
               prose-strong:text-gray-900 prose-strong:font-semibold
-              prose-ul:my-4 prose-li:my-1.5 prose-li:text-gray-700
-              prose-table:border-collapse prose-table:w-full prose-table:my-6
-              prose-th:bg-gray-100 prose-th:p-3 prose-th:text-left prose-th:font-semibold prose-th:border prose-th:border-gray-300
-              prose-td:p-3 prose-td:border prose-td:border-gray-300
-              prose-blockquote:border-l-4 prose-blockquote:border-teal-500 prose-blockquote:pl-4 prose-blockquote:italic prose-blockquote:text-gray-600
+              prose-ul:my-6 prose-li:my-2 prose-li:text-gray-700
+              prose-table:border-collapse prose-table:w-full prose-table:my-8 prose-table:border-2 prose-table:border-gray-300 prose-table:rounded-lg prose-table:overflow-hidden
+              prose-thead:bg-gray-100
+              prose-th:bg-gray-100 prose-th:p-4 prose-th:text-left prose-th:font-bold prose-th:border prose-th:border-gray-300 prose-th:text-gray-900
+              prose-td:p-4 prose-td:border prose-td:border-gray-300 prose-td:text-gray-700
+              prose-tr:border-b prose-tr:border-gray-300
+              prose-blockquote:border-l-4 prose-blockquote:border-teal-500 prose-blockquote:pl-4 prose-blockquote:italic prose-blockquote:text-gray-600 prose-blockquote:my-6
+              prose-hr:my-10 prose-hr:border-gray-300
             ">
               <ReactMarkdown>{content}</ReactMarkdown>
             </div>
