@@ -12,7 +12,7 @@ Netflix keeps proving the doubters wrong. Revenue up 15%. Subscribers up 5.1 mil
 
 ---
 
-## Beat or Miss?
+## The Numbers
 
 | Metric | Actual | Expected | Result |
 |--------|--------|----------|--------|
@@ -25,7 +25,7 @@ Everything came in above expectations. Free cash flow also surged to $2.19 billi
 
 ---
 
-## The Key Trends
+## What's Actually Happening
 
 ### Password Sharing Crackdown: Mission Accomplished
 
@@ -61,7 +61,7 @@ Q4 has heavy hitters: Squid Game Season 2, Jake Paul vs Mike Tyson boxing match,
 
 ---
 
-## What's the Money Question?
+## The Big Question
 
 **Can Netflix keep growing now that the "easy" levers (password crackdown, price increases) are largely pulled?**
 
@@ -77,36 +77,36 @@ The risk is that Netflix is already at 282 million subscribers. How much bigger 
 
 ---
 
-## Management Speak, Translated
+## What Management Said
 
 > "We had a plan to reaccelerate growth, and we delivered on that plan."
 > — Ted Sarandos, Co-CEO
 
-**Translation:** Remember when everyone said we were dead in 2022? Yeah, about that...
+This is a victory lap. Remember when everyone said Netflix was dead in 2022? Two years later, they're posting 15% revenue growth and the stock is up 340%. Sarandos isn't being subtle about it.
 
 > "Engagement on Netflix is healthy: around two hours a day per paid membership on average."
 > — Netflix shareholder letter
 
-**Translation:** People still watch a lot of Netflix despite all the competition. We're not losing the attention war.
+Two hours daily is significant in a world where TikTok, YouTube, Disney+, and a dozen other services are fighting for attention. Netflix is holding its ground despite the competition explosion.
 
 > "It's still very early for our advertising initiative... we don't expect ads to be a primary driver of our revenue growth in 2025."
 > — Netflix shareholder letter
 
-**Translation:** Please don't expect advertising to save the day next year. We're building it right, not fast.
+Managing expectations. The ad tier is growing fast, but Netflix is being honest that it won't move the needle materially until 2026. They're building the infrastructure right rather than rushing to monetize.
 
 > "Fun fact, if the quarter lasted one more day, net adds would have been up instead of down [in Latin America]."
 > — Spencer Neumann, CFO
 
-**Translation:** The slight subscriber decline in Latin America was a timing quirk, not a trend. Don't read too much into it.
+A slightly defensive but fair point. The small subscriber dip in Latin America was literally a matter of timing around price changes. The underlying trend is fine.
 
 > "Our top 10 films that premiere on Netflix all have over 100 million views, among the most-watched films in the world."
 > — Ted Sarandos
 
-**Translation:** We don't need theatrical releases to create cultural moments. Netflix IS the theater.
+Netflix doesn't need theatrical releases to create cultural moments. Their direct-to-streaming movies get audiences that rival blockbusters. That's the scale advantage they've built.
 
 ---
 
-## Jargon Decoder
+## Jargon, Explained
 
 **Paid Sharing:** Netflix's program where they charge extra for password sharing outside your household. When someone borrows your password, Netflix prompts them to either pay for their own account or pay to be added to yours. This converted a lot of "free" viewers into paying customers.
 
