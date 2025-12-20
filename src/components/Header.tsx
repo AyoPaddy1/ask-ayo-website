@@ -19,6 +19,9 @@ export function Header() {
         </div>
         
         <div className="flex items-center gap-4">
+          <Link to="/earnings" className="text-gray-600 hover:text-gray-900 transition-colors hidden sm:block hover:underline decoration-teal-500 decoration-4 underline-offset-4">
+            Earnings
+          </Link>
           <Link to="/blog" className="text-gray-600 hover:text-gray-900 transition-colors hidden sm:block hover:underline decoration-teal-500 decoration-4 underline-offset-4">
             Blog
           </Link>
