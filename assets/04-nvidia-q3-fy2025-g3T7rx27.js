@@ -12,7 +12,7 @@ Nvidia keeps breaking records. Revenue hit $35.1 billion, up 94% from last year.
 
 ---
 
-## Beat or Miss?
+## The Numbers
 
 | Metric | Actual | Expected | Result |
 |--------|--------|----------|--------|
@@ -25,7 +25,7 @@ Nvidia beat across the board, but the stock fell about 2% in after-hours trading
 
 ---
 
-## The Key Trends
+## What's Actually Happening
 
 ### Data Center Is the Whole Story
 
@@ -55,7 +55,7 @@ This isn't really concerning though. Early production always has lower margins a
 
 ---
 
-## What's the Money Question?
+## The Big Question
 
 **Is AI demand sustainable or is this a bubble?**
 
@@ -73,31 +73,31 @@ The bulls see infinite demand ahead. The bears worry that at some point, the $30
 
 ---
 
-## Management Speak, Translated
+## What Management Said
 
 > "The age of AI is in full steam, propelling a global shift to Nvidia computing."
 > — Jensen Huang, CEO
 
-**Translation:** Everyone is buying our chips. Everyone. And they're going to keep buying them.
+Jensen isn't being subtle. Everyone is buying Nvidia chips. Everyone. And he's betting they'll keep buying for years. When the CEO of a $3 trillion company says something this bullish, he's either right or setting himself up for a spectacular fall.
 
 > "Demand for Hopper and anticipation for Blackwell — in full production — are incredible as foundation model makers scale pretraining, post-training and inference."
 > — Jensen Huang
 
-**Translation:** Not only are current chips selling out, but the next-generation chips are selling out before we can make them. Good luck to our competitors.
+Current chips are selling out. Next-gen chips are selling out before they can make them. That's the position every company dreams of. The question is how long it lasts.
 
 > "We have created a whole new industry called AI factories."
 > — Jensen Huang
 
-**Translation:** Data centers used to just store data. Now they're factories that produce intelligence. And we make the machines for those factories.
+This is Jensen reframing the narrative. Data centers used to just store and process data. Now they're factories that produce intelligence. And Nvidia makes the machines for those factories. It's a clever way to explain why spending on GPUs should keep growing.
 
 > "Our leadership in inference is extraordinary. GB200, NVLink 72, is 10 times, 10-15 times higher performance... Our leadership there is surely multi-year."
 > — Jensen Huang, on Blackwell's inference capabilities
 
-**Translation:** Even if AMD or anyone else catches up on training, we're so far ahead on inference (actually running AI) that it'll take them years.
+Even if AMD or others catch up on training chips, Nvidia believes they're so far ahead on inference (actually running AI applications) that competitors will take years to close the gap. This matters because inference is where the long-term volume is.
 
 ---
 
-## Jargon Decoder
+## Jargon, Explained
 
 **Hopper vs Blackwell:** These are the names of Nvidia's GPU architectures, named after famous scientists (Grace Hopper and David Blackwell). Hopper (H100, H200) is the current generation that powered the AI boom. Blackwell (B100, B200, GB200) is the next generation, roughly 2-2.5x faster for AI workloads.
 

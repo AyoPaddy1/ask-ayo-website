@@ -12,7 +12,7 @@ Apple posted a record September quarter with $94.9 billion in revenue, up 6% fro
 
 ---
 
-## Beat or Miss?
+## The Numbers
 
 | Metric | Actual | Expected | Result |
 |--------|--------|----------|--------|
@@ -24,7 +24,7 @@ A quick note on earnings: The reported EPS was $0.97, down 34% from last year. B
 
 ---
 
-## The Key Trends
+## What's Actually Happening
 
 ### Services Is the Real Growth Engine
 
@@ -52,7 +52,7 @@ While China struggles, India set an all-time revenue record. Cook specifically c
 
 ---
 
-## What's the Money Question?
+## The Big Question
 
 **Will Apple Intelligence actually drive an upgrade cycle?**
 
@@ -66,26 +66,26 @@ Cook's candid admission: "We believe that AI-driven features are a compelling up
 
 ---
 
-## Management Speak, Translated
+## What Management Said
 
 > "Apple Intelligence marks the beginning of a new chapter for Apple Innovation."
 > — Tim Cook, CEO
 
-**Translation:** We're really hoping this AI stuff drives iPhone upgrades because we need a new growth story beyond Services.
+Cook is betting big on AI as the next upgrade driver. "New chapter" is significant language from a company that doesn't hype easily. They need Apple Intelligence to give people a reason to buy new iPhones beyond incremental camera improvements.
 
 > "We've been investing heavily in R&D over the last several years."
 > — Luca Maestri, CFO (in his final earnings call before retiring)
 
-**Translation:** All that spending is finally paying off with Apple Intelligence. Also, please don't ask about the $30 billion R&D budget again.
+Apple has been spending around $30 billion annually on R&D. Maestri is saying that investment is now paying off with Apple Intelligence. It's also a subtle reminder that Apple plays the long game.
 
 > "We had the top two selling smartphones in urban China."
 > — Tim Cook, on China performance
 
-**Translation:** Yes, China is tough. But at least in the cities where rich people live, we're still winning. Please focus on that.
+Cook is threading a needle here. China overall is tough, but Apple is still winning in wealthy urban areas. The emphasis on "urban" is telling. Outside major cities, domestic competitors like Huawei are eating Apple's lunch.
 
 ---
 
-## Jargon Decoder
+## Jargon, Explained
 
 **Installed Base:** The total number of Apple devices currently being used by people worldwide. Apple doesn't give exact numbers anymore, but they say it hit an all-time high across all products. This matters because a bigger installed base means more potential Services revenue.
 

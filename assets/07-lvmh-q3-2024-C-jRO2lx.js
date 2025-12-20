@@ -12,7 +12,7 @@ The luxury party is over. LVMH, the world's largest luxury company, just reporte
 
 ---
 
-## Beat or Miss?
+## The Numbers
 
 | Metric | Actual | Expected | Result |
 |--------|--------|----------|--------|
@@ -25,7 +25,7 @@ This was an ugly miss across the board. Analysts expected low single-digit growt
 
 ---
 
-## The Key Trends
+## What's Actually Happening
 
 ### China: The Dam Has Broken
 
@@ -66,7 +66,7 @@ Champagne was also weak as consumers pulled back on celebration spending.
 
 ---
 
-## What's the Money Question?
+## The Big Question
 
 **Is this a cyclical downturn or something worse?**
 
@@ -80,31 +80,31 @@ The honest answer: Nobody knows. China has been the luxury industry's growth eng
 
 ---
 
-## Management Speak, Translated
+## What Management Said
 
 > "Consumer confidence in mainland China today is back in line with the all-time low reached during Covid."
 > — Jean-Jacques Guiony, CFO
 
-**Translation:** It's really bad. As bad as when stores were literally closed for months.
+This is the most alarming quote from any luxury executive this quarter. Covid all-time low means when stores were literally closed for months. That's the comparison point for current consumer sentiment.
 
 > "In an uncertain economic and geopolitical environment, the Group remains confident."
 > — LVMH press release
 
-**Translation:** Standard corporate boilerplate. What else would they say?
+Standard corporate boilerplate. They have to say this. What matters is what they're actually doing, which is hunkering down and waiting.
 
 > "Our future customers should feel drawn to our products because of their perception of the excellence of our craftspeople, and not because we're trying to reel them in with some classic marketing tactic."
 > — Bernard Arnault, Chairman & CEO (at an event the prior week)
 
-**Translation:** We're not going to discount. We're not going to chase aspirational customers with cheaper products. If demand weakens, we'll wait it out.
+Arnault is drawing a line. LVMH won't discount. They won't chase aspirational customers with cheaper products. If demand weakens, they'll wait it out. This is the luxury playbook: protect the brand at all costs, even if it means short-term pain.
 
 > "We haven't, or almost haven't, increased prices last year, so we couldn't offset in gross margin the increase in the price of labor."
 > — Jean-Jacques Guiony (on profit margins)
 
-**Translation:** We held prices steady to protect demand, but that meant absorbing higher costs. Margins got squeezed as a result.
+They held prices steady to protect demand, but that meant absorbing higher labor costs. Margins got squeezed. It's a trade-off: you can protect volume or protect margin, but in a downturn you can't always do both.
 
 ---
 
-## Jargon Decoder
+## Jargon, Explained
 
 **Organic Growth:** Revenue growth excluding currency effects and acquisitions. This shows how the underlying business is actually performing. When LVMH reports -3% organic growth, it means actual sales at existing stores fell 3% after adjusting for currency swings.
 
