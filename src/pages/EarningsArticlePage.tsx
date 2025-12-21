@@ -16,10 +16,9 @@ export function EarningsArticlePage() {
 
   useEffect(() => {
     if (report) {
-      import(`../data/${report.slug}.md?raw`)
-        .then(module => {
-          setContent(module.default);
-        })
+      fetch(`/articles/${report.slug}.md`)
+        .then(response => response.text())
+        .then(text => setContent(text))
         .catch(error => console.error('Error loading markdown:', error));
     }
   }, [report]);
