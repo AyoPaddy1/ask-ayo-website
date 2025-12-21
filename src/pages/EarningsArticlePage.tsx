@@ -16,7 +16,7 @@ export function EarningsArticlePage() {
 
   useEffect(() => {
     if (report) {
-      fetch(`/articles/${report.slug}.md`)
+      fetch(`/articles/${report.id}-${report.slug}.md`)
         .then(response => response.text())
         .then(text => setContent(text))
         .catch(error => console.error('Error loading markdown:', error));
