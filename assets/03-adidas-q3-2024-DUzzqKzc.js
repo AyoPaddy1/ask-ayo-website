@@ -1,0 +1,192 @@
+const e=`# Adidas Q3 2024 Earnings: What They Actually Said
+
+*Published: October 29, 2024*
+
+---
+
+## The 30-Second Version
+
+Adidas is back. Revenue up 10% (14% excluding Yeezy), gross margin above 51%, and operating profit of €598 million. The Samba and Gazelle sneaker craze is real. CEO Bjørn Gulden says this is "proof we are moving in the right direction." They've raised full-year guidance for the third time this year. The Yeezy nightmare is almost over, with final inventory sales expected in Q4. Europe grew 18%, and even North America turned positive for the underlying Adidas brand for the first time in ages.
+
+---
+
+## Beat or Miss?
+
+| Metric | What Adidas Reported | What Wall Street Expected | Verdict |
+|--------|---------------------|--------------------------|---------|
+| Revenue | €6.44 billion | ~€6.0 billion | ✅ Beat by 7% |
+| Operating Profit | €598 million | ~€400 million | ✅ Beat by ~50% |
+| Gross Margin | 51.3% | ~50% | ✅ Beat |
+
+**Real Talk:** This was a decisive beat. Adidas exceeded expectations on every major metric and raised guidance for the third time in 2024. The underlying Adidas business (excluding Yeezy) grew 14%, which is remarkable given where this company was two years ago. The EPS of €2.44 beat estimates by about 36%.
+
+---
+
+## The Trends That Matter
+
+### The Samba/Gazelle Phenomenon
+
+Originals footwear (including Samba, Gazelle, SL 72) delivered double-digit growth.
+
+**Real Talk:** This is the story of the year in sneakers. The retro terrace shoe trend has made Adidas cool again. Sambas were selling out on Adidas.com and resale sites throughout 2024. Analyst Matt Powell called it "the main reason the landscape has shifted for Adidas over the past couple of years." The question everyone's asking: how long can this last? Management is confident, but fashion trends don't last forever. They're trying to diversify growth across more styles.
+
+### Beyond Lifestyle: Performance Is Growing Too
+
+Football: Double-digit growth (Euro 2024, Copa America, new Predator boots). Running, training, golf: All growing.
+
+**Real Talk:** This isn't just about retro sneakers anymore. Adidas is winning in actual sports categories. Their Football (soccer) jerseys sold strongly during Euro 2024 and Copa America, and Spain (Adidas-sponsored) won the Euros. The F50 boot franchise returned. Performance is growing high single digits, giving Adidas a more balanced business than the "Samba company" critics feared.
+
+### Europe: The Stronghold
+
+Revenue up 18% in constant currency.
+
+**Real Talk:** Home turf advantage. Europe is Adidas's backyard, and they're dominating. The terrace shoe trend started here and spread globally. Brand heat is high, and they're gaining share from competitors.
+
+### North America: Finally Turning
+
+Adidas brand revenue turned positive for the first time in several quarters. Total revenue down 7% only because of smaller Yeezy sales.
+
+**Real Talk:** Excluding Yeezy, North America is growing again. This was the market that fell the hardest post-Yeezy, and recovery is critical. CEO Gulden specifically called out "the earlier-than-expected turn to positive numbers for the Adidas brand in North America" as a confidence builder. Still, at €1.36 billion for the quarter, it's well below where Adidas wants to be.
+
+### Greater China: Growing Again
+
+Revenue up 9% in constant currency.
+
+**Real Talk:** While Nike struggles in China (down 17%), Adidas is growing. That's a complete reversal from a few years ago when Adidas was boycotted over political issues. They've rebuilt relationships and brand heat. Growth is broad-based across categories.
+
+### The Yeezy Final Chapter
+
+Yeezy sales: ~€200 million in Q3 (vs. €350 million in Q3 2023). Expected €50 million remaining in Q4, sold at cost.
+
+**Real Talk:** The Yeezy saga is nearly over. Adidas finally reached a settlement with Ye (Kanye West), with "no payments" exchanging hands. The remaining inventory will be sold at cost in Q4, meaning no profit contribution. After that, it's done. Adidas has proven they don't need Yeezy anymore. The underlying business growth has more than compensated.
+
+---
+
+## The Money Question
+
+### Margins Are Healthy
+
+Gross margin: 51.3%, up from last year.
+
+**Real Talk:** For every €100 Adidas makes in revenue, they keep about €51 after paying for manufacturing and materials. This is a healthy number for sportswear. Notably, this is the first time the core Adidas business had a higher margin than Yeezy. The lower-margin Yeezy liquidation is dragging overall numbers down, but the underlying business is improving.
+
+### Operating Profit Surging
+
+Operating profit: €598 million, operating margin 9.3%.
+
+**Real Talk:** Operating profit jumped nearly 50% year-over-year. They're closing in on their 10% operating margin target. This comes from revenue growth, healthy gross margins, and controlled costs. If they hit €1.2 billion for the full year (new guidance), that's a massive turnaround from the losses of 2023.
+
+### Inventory Is Positioned for Growth
+
+Inventory at €4.5 billion, described as "healthy."
+
+**Real Talk:** Adidas has the right amount of stock to support continued double-digit growth. No concerning buildup, no desperate discounting needed. Clean inventory enables full-price selling and healthy margins.
+
+### Guidance Raised Again
+
+Full-year revenue: Now expected at ~10% growth (was "high single digits"). Full-year operating profit: Now ~€1.2 billion (was ~€1.0 billion).
+
+**Real Talk:** This is the third guidance raise of 2024. The market initially didn't react much because expectations had already moved higher. But consistently beating and raising is exactly what you want to see in a turnaround.
+
+---
+
+## What Management Said
+
+**CEO Bjørn Gulden on the quarter:**
+
+"14% underlying growth for the Adidas brand, a very healthy gross margin above 51%, and an operating profit of €598 million are numbers that we are very happy with and proof that we are moving in the right direction."
+
+**Real Talk:** Gulden has earned the right to be pleased. He took over a mess (post-Yeezy collapse, boycotts, declining relevance) and has restored brand heat in about two years. This was one of the faster corporate turnarounds in sportswear history.
+
+**On the Yeezy settlement:**
+
+"With the settlement, there were no payments. The chapter has been closed."
+
+**Real Talk:** No money changed hands in the legal settlement. Ten years of collaboration generated payments during the partnership, but the breakup itself didn't cost Adidas anything. Relief all around.
+
+**On sustainability of growth:**
+
+"We expect to continue growing around 10% double-digit in the future."
+
+**Real Talk:** Gulden is setting expectations for continued momentum. There may be variations by category or region, but the goal is sustained double-digit topline growth without sacrificing profitability.
+
+**On the Samba question:**
+
+The terrace trend won't last forever, but Adidas is broadening the offering across price points and scaling Sportswear as a category.
+
+**Real Talk:** Management is smart enough to know Samba can't grow 50% forever. They're trying to build a bigger Lifestyle business in Football, scale commercial propositions in Sportswear, and grow Performance categories. Diversification is the strategy for when the trend cools.
+
+---
+
+## What Analysts Pushed On
+
+**Can you maintain double-digit growth?**
+
+Gulden believes yes, with variations across categories and regions. They have "the resources to achieve this without negatively impacting profitability."
+
+**What's driving North America recovery?**
+
+Better product, rebuilt wholesale relationships, and Samba/Gazelle momentum reaching the US later than Europe.
+
+**What happens when Samba cools?**
+
+Adidas is scaling other franchises, introducing retro-inspired third jerseys in Football, and growing Performance categories. They're not a one-trick pony anymore.
+
+**The Yeezy margin question**
+
+This quarter was the first time core Adidas margins exceeded Yeezy margins. Going forward, without Yeezy dilution, margins should trend higher.
+
+---
+
+## Jargon From This Report
+
+| Term | What It Means |
+|------|---------------|
+| Currency-Neutral | Growth excluding foreign exchange movements. Shows real underlying growth. |
+| Organic Growth | Same as currency-neutral. Excludes acquisitions and FX. |
+| Yeezy | Kanye West collaboration that ended in 2022. Remaining inventory being sold off. |
+| Originals | Adidas lifestyle/retro category including Samba, Gazelle, Stan Smith. |
+| Sportswear | Broader lifestyle category between Originals and Performance. |
+| EBIT | Earnings Before Interest and Taxes. Same as operating profit. |
+| Operating Margin | Operating profit divided by revenue. Shows profitability of core business. |
+| Wholesale | Selling to retailers like Foot Locker, JD Sports. |
+| DTC | Direct-to-Consumer. Adidas's own stores and website. |
+| Terrace Culture | Fashion trend rooted in British football fan culture. Driving Samba popularity. |
+
+---
+
+## What's Next
+
+**Q4 Expectations:**
+- Final ~€50 million of Yeezy sales (at cost, no profit)
+- Continued double-digit growth for Adidas brand
+- Operating profit guidance: ~€1.2 billion for full year
+
+**Key Dates:**
+- Full year 2024 results: March 2025
+- World Cup 2026 preparation begins
+
+**Milestones to Watch:**
+- Does North America continue improving?
+- Can Originals growth stay double-digit as Samba comparisons get harder?
+- Does Performance grow enough to diversify from Lifestyle?
+- How does margin trend after Yeezy exits?
+
+---
+
+## The Bottom Line
+
+Adidas has pulled off one of the most impressive turnarounds in sportswear history. Two years ago, they were in crisis mode: Yeezy collapse, China boycotts, losing relevance to Nike. Today, they're growing 14% organically, margins are healthy, and the brand is culturally relevant again.
+
+CEO Bjørn Gulden deserves credit for focusing on basics: fix the product, rebuild wholesale relationships, let the brand breathe. The Samba/Gazelle trend helped, but they've executed well to capitalise on it.
+
+The risk is concentration. A lot of growth depends on retro sneaker trends continuing. Management is working to diversify into Performance and broaden the Lifestyle offering, but Samba/Gazelle are doing heavy lifting right now.
+
+If you believe Adidas can sustain momentum as they lap easier comparisons and Samba eventually cools, this is a quality turnaround story with multiple years of growth ahead. If you think the terrace trend is peaking, the 2025 comparisons look harder.
+
+**One number to remember:** 14%. That's underlying Adidas brand growth, excluding all the Yeezy noise. The core business is genuinely healthy.
+
+---
+
+*Sources: Adidas Q3 2024 Earnings Release, Earnings Call Transcript (October 29, 2024)*
+`;export{e as default};
