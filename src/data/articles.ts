@@ -39,5 +39,25 @@ export const articles: Article[] = [
     category: 'Stock Basics',
     slug: 'understanding-market-cap',
     keywords: ['market cap', 'market capitalization', 'stock size', 'investing', 'company valuation']
+  },
+  {
+    id: '04',
+    title: 'What is ROI? A Simple Guide to Return on Investment',
+    description: 'Learn what ROI means, how to calculate it, and how to use it to make better financial decisions. Includes examples and comparisons with other metrics.',
+    date: 'January 3, 2026',
+    readTime: '6 min read',
+    category: 'Financial Metrics',
+    slug: 'what-is-roi',
+    keywords: ['ROI', 'return on investment', 'profitability', 'investing', 'financial metrics']
+  },
+  {
+    id: '05',
+    title: 'What is Dividend Yield? A Beginner\'s Guide to Earning Income from Stocks',
+    description: 'Discover what dividend yield means, how to calculate it, and how to find great dividend-paying stocks. Complete guide for income investors.',
+    date: 'January 3, 2026',
+    readTime: '5 min read',
+    category: 'Stock Valuation',
+    slug: 'what-is-dividend-yield',
+    keywords: ['dividend yield', 'dividends', 'income investing', 'stock valuation', 'passive income']
   }
 ];
