@@ -59,5 +59,35 @@ export const articles: Article[] = [
     category: 'Stock Valuation',
     slug: 'what-is-dividend-yield',
     keywords: ['dividend yield', 'dividends', 'income investing', 'stock valuation', 'passive income']
+  },
+  {
+    id: '06',
+    title: 'Bull Market vs Bear Market: What\'s the Difference?',
+    description: 'Learn the difference between bull and bear markets, what causes them, and how investors should respond to each market condition.',
+    date: 'January 5, 2026',
+    readTime: '7 min read',
+    category: 'Market Trends',
+    slug: 'bull-market-vs-bear-market',
+    keywords: ['bull market', 'bear market', 'market trends', 'investing', 'stock market']
+  },
+  {
+    id: '07',
+    title: 'What Are Blue Chip Stocks? A Guide for Conservative Investors',
+    description: 'Discover what blue chip stocks are, why they\'re popular with conservative investors, and how to identify quality blue chip companies.',
+    date: 'January 5, 2026',
+    readTime: '6 min read',
+    category: 'Stock Basics',
+    slug: 'blue-chip-stocks',
+    keywords: ['blue chip stocks', 'conservative investing', 'dividend stocks', 'stock basics', 'investing']
+  },
+  {
+    id: '08',
+    title: 'What Is an IPO? A Complete Guide to Initial Public Offerings',
+    description: 'Learn what an IPO is, how the IPO process works, and what investors should know before investing in newly public companies.',
+    date: 'January 5, 2026',
+    readTime: '8 min read',
+    category: 'Stock Basics',
+    slug: 'what-is-ipo',
+    keywords: ['IPO', 'initial public offering', 'going public', 'stock market', 'investing']
   }
 ];
