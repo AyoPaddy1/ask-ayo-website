@@ -121,9 +121,9 @@ export function BlogArticlePage() {
 
           {/* Article Content */}
           <div className="prose prose-lg max-w-none
-            prose-headings:font-bold prose-headings:text-gray-900
-            prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-4
-            prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-3
+            prose-headings:font-bold
+            prose-h2:text-teal-600 prose-h2:text-3xl prose-h2:mt-16 prose-h2:mb-6 prose-h2:pb-3 prose-h2:border-b-2 prose-h2:border-gray-200
+            prose-h3:text-teal-600 prose-h3:text-2xl prose-h3:mt-12 prose-h3:mb-4
             prose-p:text-gray-700 prose-p:leading-relaxed prose-p:mb-6
             prose-a:text-teal-600 prose-a:no-underline hover:prose-a:text-teal-700
             prose-strong:text-gray-900 prose-strong:font-semibold
