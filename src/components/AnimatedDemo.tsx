@@ -58,7 +58,7 @@ export function AnimatedDemo() {
             How It Works
           </h2>
           <p className="text-gray-600 text-xl sm:text-2xl">
-            Highlight any term → Right-click → Get it explained
+            Highlight any term or passage → Right-click → Get the full story: what it means, why it matters to you, and related terms to explore
           </p>
         </div>
 

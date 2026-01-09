@@ -168,6 +168,7 @@ export function Hero() {
             <span className="bg-gray-100 px-3 py-1 rounded-full">No signup</span>
             <span className="bg-gray-100 px-3 py-1 rounded-full">No ads</span>
             <span className="bg-gray-100 px-3 py-1 rounded-full">Remove anytime</span>
+            <span className="bg-gray-100 px-3 py-1 rounded-full">Explains why it matters (not just what it means)</span>
           </p>
         </div>
       </div>
