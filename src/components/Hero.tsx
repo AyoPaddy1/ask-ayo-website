@@ -71,8 +71,8 @@ export function Hero() {
           </h1>
           
           <p className="text-gray-600 max-w-2xl mx-auto text-lg sm:text-2xl mb-8 leading-relaxed">
-            Highlight any confusing term on any website. <br />
-            Get it explained in <span className="bg-green-200 px-2 py-1 rounded">plain English</span>. <span className="line-through decoration-red-500">No BS</span>.
+            Right-click any financial term for an instant explanation that actually makes sense. <br />
+            <span className="bg-green-200 px-2 py-1 rounded">Plain English</span>. <span className="line-through decoration-red-500">No BS</span>.
           </p>
         </div>
 
@@ -165,10 +165,10 @@ export function Hero() {
             <ArrowRight className="w-6 h-6" />
           </a>
           <p className="text-sm text-gray-500 mt-6 flex items-center justify-center gap-2 flex-wrap">
-            <span className="bg-gray-100 px-3 py-1 rounded-full">No signup</span>
-            <span className="bg-gray-100 px-3 py-1 rounded-full">No ads</span>
-            <span className="bg-gray-100 px-3 py-1 rounded-full">Remove anytime</span>
-            <span className="bg-gray-100 px-3 py-1 rounded-full">Explains why it matters (not just what it means)</span>
+            <span className="bg-gray-100 px-3 py-1 rounded-full">✓ No signup</span>
+            <span className="bg-gray-100 px-3 py-1 rounded-full">✓ No ads</span>
+            <span className="bg-gray-100 px-3 py-1 rounded-full">✓ No scary permissions</span>
+            <span className="bg-gray-100 px-3 py-1 rounded-full">✓ Unlock faster access after first use</span>
           </p>
         </div>
       </div>
