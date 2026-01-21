@@ -4,11 +4,11 @@ import { ChevronDown } from 'lucide-react';
 const faqs = [
   {
     question: "How does Ask AYO work?",
-    answer: "Highlight any financial term on any website, right-click, and select 'Ask AYO: Explain'. You'll get an instant explanation in plain English. After your first use, you can unlock the AYO tab for even faster access."
+    answer: "See the AYO icon in your Chrome toolbar? Tap it when you're reading a finance article and hit a wall of jargon. AYO will scan the page, find the confusing terms, and explain them in plain English. No finance degree required."
   },
   {
-    question: "Why do I need to enable the AYO tab separately?",
-    answer: "We start with minimal permissions so you can try AYO without handing over the keys to your browser. Once you've seen it in action, you can choose to enable the AYO tab for faster, one-tap access on every page. Your call."
+    question: "Why tap instead of always-on?",
+    answer: "AYO shows up when you need it, not when you don't. We don't watch your browsing or hover over your shoulder. Tap the icon when you're confused, and we'll help. That's it. This approach also means no scary permission warnings on install."
   },
   {
     question: "What data does Ask AYO collect?",
