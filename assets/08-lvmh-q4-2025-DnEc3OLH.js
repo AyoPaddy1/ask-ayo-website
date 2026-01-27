@@ -1,0 +1,160 @@
+const e=`# LVMH Q4 2025 Earnings Preview: What to Expect
+
+**Published:** January 27, 2026  
+**Company:** LVMH Moët Hennessy Louis Vuitton (MC.PA / LVMUY)  
+**Quarter:** Q4 2025 (October - December 2025) / Full Year 2025  
+**Earnings Date:** Tuesday, January 27, 2026 at 11:45am EST
+
+---
+
+## The 30-Second Version
+
+The world's largest luxury company reports earnings today, and expectations are low. Analysts expect Q4 organic sales to decline 0.3%, marking another quarter of weakness. The stock is down 8.6% year-to-date as investors brace for more bad news from China, where consumer confidence remains at pandemic-era lows. The Fashion & Leather Goods division—home to Louis Vuitton and Dior—is the key metric to watch. If it shows signs of stabilization, the stock could rally. If China deteriorates further, expect another sell-off. This isn't just an LVMH story. It's a referendum on whether the luxury boom is over.
+
+---
+
+## What to Expect: The Numbers
+
+| Metric | Expected | Previous (Q3 2024) | What It Means |
+|--------|----------|-------------------|---------------|
+| Q4 Revenue | ~€23.7B | €19.08B | Slight decline expected |
+| Organic Growth | -0.3% | -3.0% | Less bad, but still negative |
+| Full Year Operating Profit | €17.15B | €19.57B (2024) | Down 12% year-over-year |
+| Fashion & Leather Goods | Flat to slight decline | -5% | Critical division to watch |
+
+Analysts are expecting another weak quarter, but not as bad as Q3. Morgan Stanley forecasts Q4 top-line growth of +0.6% year-over-year, which would be an improvement from the -3% decline in Q3. The consensus view is that the worst might be behind LVMH, but recovery is still months away.
+
+---
+
+## What's Actually Happening
+
+### China: Still the Biggest Problem
+
+The Chinese luxury consumer hasn't come back. After CFO Jean-Jacques Guiony said in Q3 that consumer confidence was "back in line with the all-time low reached during Covid," investors have been waiting for any sign of improvement. So far, there isn't one.
+
+What's driving the weakness? The property market crisis continues to crush household wealth. Youth unemployment remains elevated. Government stimulus has focused on infrastructure, not consumption. And culturally, there's been a shift toward "quiet luxury" and saving rather than conspicuous consumption.
+
+The question everyone wants answered today: **Is China stabilizing, or is it getting worse?**
+
+If LVMH reports that Asia (excluding Japan) sales are still declining double digits, expect the stock to sell off. If the decline has moderated to mid-single digits, that's actually good news in this environment.
+
+### Fashion & Leather Goods: The Crown Jewel Under Pressure
+
+This division represents about 50% of LVMH's profit and includes Louis Vuitton, Christian Dior, Celine, Loewe, Fendi, and Givenchy. In Q3, it declined 5%, the worst miss versus expectations of any segment.
+
+What to watch today:
+
+**Louis Vuitton performance:** In Q3, management said LV performed "slightly above" the division average. If LV is holding up better than peers, that's a positive signal. Louis Vuitton is the profit engine of the entire company.
+
+**Dior trends:** Dior was "slightly below" the division average in Q3. Any improvement here would be encouraging.
+
+**Creative director impact:** Hedi Slimane left Celine (Michael Rider replacing), Kim Jones left Fendi (no successor named yet), and Sarah Burton joined Givenchy. New creative directors take 12-18 months to develop collections, so expect continued choppiness.
+
+### Japan: The Tailwind is Fading
+
+Japan had been LVMH's bright spot for the past year as tourists flooded in to take advantage of the weak yen. But the yen strengthened in Q4, making Japan shopping less attractive. Expect Japan growth to slow notably compared to earlier quarters.
+
+### Wines & Spirits: Cognac Tariffs Bite
+
+China imposed temporary anti-dumping measures on French brandy in Q4, partly in response to EU tariffs on Chinese electric vehicles. This directly impacts LVMH's cognac business (Hennessy is the world's #1 cognac brand). Champagne was also weak as consumers pulled back on celebration spending. Management already warned this would affect profits going forward.
+
+---
+
+## The Big Question
+
+**Is luxury in a cyclical downturn or a structural decline?**
+
+**The bull case:** This is temporary. Chinese consumers will come back when the economy stabilizes. Luxury brands are iconic and irreplaceable. Pent-up demand will drive recovery in 2026. LVMH has survived downturns before and always bounces back stronger.
+
+**The bear case:** The post-Covid luxury boom is over. Chinese consumers are permanently more cautious. "Quiet luxury" means less logo-heavy Louis Vuitton and Dior spending. The industry needs to right-size expectations for a slower-growth future.
+
+**What to listen for today:** Any commentary from management about whether they see this as temporary or a longer-term shift. Bernard Arnault and CFO Guiony's tone will matter as much as the numbers.
+
+---
+
+## What Management Will Probably Say
+
+Based on LVMH's history and recent commentary, expect:
+
+**On China:** "We remain confident in the long-term potential of the Chinese market. Consumer confidence is recovering gradually." (Translation: Still bad, but maybe getting less bad.)
+
+**On brand strength:** "Our brands continue to demonstrate their desirability and pricing power." (Translation: We're not discounting, even if it means lower volumes.)
+
+**On 2026 outlook:** "In an uncertain economic and geopolitical environment, the Group remains confident." (Translation: Standard boilerplate. They have to say this.)
+
+**On succession:** Probably nothing, despite investor pressure. LVMH has made it clear that succession planning is not public information.
+
+---
+
+## Key Metrics to Watch
+
+### Geographic Performance:
+- **Asia (ex-Japan):** Was -16% in Q3. Anything better than -10% would be encouraging.
+- **Japan:** Expect growth to slow from previous quarters as yen strengthened.
+- **United States:** Watch for any tariff commentary or concerns about US consumer.
+- **Europe:** Typically stable, but watch for any weakness.
+
+### Segment Performance:
+- **Fashion & Leather Goods:** The most important number. Anything better than -5% is positive.
+- **Wines & Spirits:** Expect weakness due to cognac tariffs and soft champagne demand.
+- **Perfumes & Cosmetics:** Typically more resilient than fashion.
+- **Watches & Jewelry:** Tiffany performance is key here.
+- **Selective Retailing:** Sephora and DFS performance.
+
+### Profitability:
+- **Operating margin:** Expected to compress due to higher labor costs and inability to raise prices.
+- **Full year operating profit:** Consensus is €17.15B, down from €19.57B in 2024.
+
+---
+
+## What Happens Next
+
+### If LVMH Beats Expectations:
+- Stock could rally 5-10%
+- Would signal that Q3 was the bottom
+- Other luxury stocks (Kering, Hermès, Richemont) would follow
+- Narrative shifts to "recovery starting in 2026"
+
+### If LVMH Misses Expectations:
+- Stock could fall 5-10%
+- Would confirm that luxury weakness is continuing
+- Investors would push out recovery expectations to late 2026 or 2027
+- Pressure on management to provide more detailed turnaround plan
+
+### If Results Are In-Line:
+- Stock probably trades flat to slightly down
+- "Meh" results don't excite anyone in this environment
+- Focus shifts to 2026 guidance and management commentary
+
+---
+
+## Jargon, Explained
+
+**Organic Growth:** Revenue growth excluding currency effects and acquisitions. This shows how the underlying business is actually performing. When LVMH reports -0.3% organic growth, it means actual sales at existing stores fell 0.3% after adjusting for currency swings.
+
+**Fashion & Leather Goods:** LVMH's largest division, representing about 50% of profit. Includes Louis Vuitton (by far the largest), Christian Dior, Celine, Loewe, Fendi, Givenchy, Marc Jacobs, and others. When this division struggles, the whole company feels it.
+
+**Greater China / Asia ex-Japan:** Industry terminology for mainland China, Hong Kong, Macau, and Taiwan combined. LVMH and other luxury companies track this separately from Japan because the customer bases behave differently.
+
+**Aspirational Customers:** Industry term for people who stretch to buy luxury goods but aren't truly wealthy. They might save up for an entry-level LV bag. In downturns, aspirational customers pull back first, which is why entry-level luxury products often suffer more than ultra-high-end.
+
+**Operating Margin:** Operating profit divided by revenue. Shows how much profit the company makes on each euro of sales after paying for costs but before taxes and interest. If margins are compressing, it means costs are rising faster than sales.
+
+**Analyst Consensus:** The average of all analyst estimates. When LVMH reports results, they're measured against consensus expectations, not against the previous year. A company can grow revenue but still "miss" if it's below what analysts expected.
+
+---
+
+## The Bottom Line
+
+LVMH reports earnings today with expectations set low. The market is bracing for another weak quarter, particularly in China and Fashion & Leather Goods. The key question isn't whether results will be bad—everyone knows they will be. The question is whether they'll be less bad than Q3, signaling that the bottom is in.
+
+Watch for three things: (1) Any improvement in China trends, (2) Fashion & Leather Goods stabilization, and (3) Management's tone about 2026. If all three are positive, the stock could rally despite weak headline numbers. If any of the three disappoint, expect another sell-off.
+
+This isn't just an LVMH story. It's a signal for the entire luxury industry. If the world's largest and most diversified luxury company can't find growth, it suggests the post-pandemic luxury boom is truly over. The question is whether this is a temporary pause or a permanent reset.
+
+**We'll update this article with actual results and analysis after the earnings announcement at 11:45am EST today.**
+
+---
+
+*This is a preview article. Check back after 11:45am EST on January 27, 2026 for the full earnings analysis with actual results.*
+`;export{e as default};
