@@ -239,6 +239,30 @@ export const earningsReports: EarningsReport[] = [
       expected: '$0.45',
       beat: false
     }
+  },
+  {
+    id: '10',
+    company: 'Apple',
+    ticker: 'AAPL',
+    quarter: 'Q1',
+    fiscalYear: 'FY2026',
+    title: 'Apple Q1 FY2026 Earnings Preview: The China Comeback',
+    description: 'Apple is about to report its strongest revenue growth in four years. The iPhone 16 is selling like crazy. But the real story is China—Apple reclaimed the #1 spot with 21.8% market share. Is this a real comeback or a temporary bounce?',
+    date: 'January 29, 2026',
+    readTime: '13 min read',
+    sector: 'Tech',
+    slug: 'apple-q1-fy2026',
+    keywords: ['Apple', 'AAPL', 'iPhone 16', 'China', 'Services', 'Apple Intelligence', 'earnings preview'],
+    revenue: {
+      actual: 'TBD',
+      expected: '$138.4B',
+      beat: false
+    },
+    eps: {
+      actual: 'TBD',
+      expected: '$2.65',
+      beat: false
+    }
   }
 ];
 
