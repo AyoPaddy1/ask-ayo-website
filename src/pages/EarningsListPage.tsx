@@ -96,7 +96,7 @@ export function EarningsListPage() {
                 </p>
                 <div className="pt-2">
                   <a
-                    href="https://chromewebstore.google.com/detail/ask-ayo-ai-financial-term/nnpjfpfbnnfhnfkjjdjfjjjdjfjjjdjf"
+                    href="https://chromewebstore.google.com/detail/askayo-financial-terms/aadolejfccokodnobpipmpknijggnjcj"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-teal-700 transition-colors"
