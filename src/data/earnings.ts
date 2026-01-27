@@ -215,6 +215,30 @@ export const earningsReports: EarningsReport[] = [
       expected: 'N/A',
       beat: false
     }
+  },
+  {
+    id: '09',
+    company: 'Tesla',
+    ticker: 'TSLA',
+    quarter: 'Q4',
+    fiscalYear: '2025',
+    title: 'Tesla Q4 2025 Earnings Preview: The Reckoning',
+    description: 'Tesla reports its second consecutive year of declining deliveries and earnings. Deliveries fell 8.6%, margins are compressing, and Chinese competitors are winning. Meanwhile, Musk keeps promising robotaxis and robots. Do you believe the dream or the numbers?',
+    date: 'January 28, 2026',
+    readTime: '14 min read',
+    sector: 'Tech',
+    slug: 'tesla-q4-2025',
+    keywords: ['Tesla', 'TSLA', 'EV', 'electric vehicles', 'robotaxi', 'FSD', 'Elon Musk', 'earnings preview'],
+    revenue: {
+      actual: 'TBD',
+      expected: '$24.77B',
+      beat: false
+    },
+    eps: {
+      actual: 'TBD',
+      expected: '$0.45',
+      beat: false
+    }
   }
 ];
 
