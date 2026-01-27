@@ -191,6 +191,30 @@ export const earningsReports: EarningsReport[] = [
       expected: 'N/A',
       beat: false
     }
+  },
+  {
+    id: '08',
+    company: 'LVMH',
+    ticker: 'MC.PA',
+    quarter: 'Q4',
+    fiscalYear: '2025',
+    title: 'LVMH Q4 2025 Earnings Preview: What to Expect',
+    description: 'The world\'s largest luxury company reports earnings today. Analysts expect Q4 organic sales to decline 0.3%. The key question: Is China stabilizing or getting worse? Fashion & Leather Goods performance will determine if the stock rallies or sells off.',
+    date: 'January 27, 2026',
+    readTime: '12 min read',
+    sector: 'Luxury',
+    slug: 'lvmh-q4-2025',
+    keywords: ['LVMH', 'luxury', 'China', 'Louis Vuitton', 'Dior', 'earnings preview'],
+    revenue: {
+      actual: 'TBD',
+      expected: '€23.7B',
+      beat: false
+    },
+    eps: {
+      actual: 'N/A',
+      expected: 'N/A',
+      beat: false
+    }
   }
 ];
 
