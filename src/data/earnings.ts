@@ -8,7 +8,8 @@ export interface EarningsReport {
   description: string;
   date: string;
   readTime: string;
-  sector: 'Tech' | 'Sportswear' | 'Luxury';
+  sector: 'Tech' | 'Sportswear' | 'Luxury' | 'Automotive' | 'Consumer' | 'Financial Services' | 'Industrial';
+  status?: 'preview' | 'results';
   slug: string;
   keywords: string[];
   revenue: {
@@ -204,6 +205,7 @@ export const earningsReports: EarningsReport[] = [
     readTime: '12 min read',
     sector: 'Luxury',
     slug: 'lvmh-q4-2025',
+    status: 'preview',
     keywords: ['LVMH', 'luxury', 'China', 'Louis Vuitton', 'Dior', 'earnings preview'],
     revenue: {
       actual: 'TBD',
@@ -228,6 +230,7 @@ export const earningsReports: EarningsReport[] = [
     readTime: '14 min read',
     sector: 'Tech',
     slug: 'tesla-q4-2025',
+    status: 'preview',
     keywords: ['Tesla', 'TSLA', 'EV', 'electric vehicles', 'robotaxi', 'FSD', 'Elon Musk', 'earnings preview'],
     revenue: {
       actual: 'TBD',
@@ -252,6 +255,7 @@ export const earningsReports: EarningsReport[] = [
     readTime: '13 min read',
     sector: 'Tech',
     slug: 'apple-q1-fy2026',
+    status: 'preview',
     keywords: ['Apple', 'AAPL', 'iPhone 16', 'China', 'Services', 'Apple Intelligence', 'earnings preview'],
     revenue: {
       actual: 'TBD',
@@ -267,7 +271,7 @@ export const earningsReports: EarningsReport[] = [
 ];
 
 // Helper function to get earnings by sector
-export function getEarningsBySector(sector: 'Tech' | 'Sportswear' | 'Luxury'): EarningsReport[] {
+export function getEarningsBySector(sector: 'Tech' | 'Sportswear' | 'Luxury' | 'Automotive' | 'Consumer' | 'Financial Services' | 'Industrial'): EarningsReport[] {
   return earningsReports.filter(report => report.sector === sector);
 }
 

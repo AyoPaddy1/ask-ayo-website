@@ -4,17 +4,54 @@ import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import { earningsReports } from '../data/earnings';
 import { Helmet } from 'react-helmet-async';
-import { TrendingUp, TrendingDown, Clock } from 'lucide-react';
+import { TrendingUp, TrendingDown, Clock, Calendar } from 'lucide-react';
 
 export function EarningsListPage() {
   const [selectedSector, setSelectedSector] = useState<string>('All');
+  const [selectedStatus, setSelectedStatus] = useState<string>('All');
 
-  // Filter reports based on selected sector
-  const filteredReports = selectedSector === 'All' 
-    ? earningsReports 
-    : earningsReports.filter(r => r.sector === selectedSector);
+  // Sort reports by date (most recent first)
+  const sortedReports = [...earningsReports].sort((a, b) => {
+    return new Date(b.date).getTime() - new Date(a.date).getTime();
+  });
 
-  const sectors = ['All', 'Tech', 'Sportswear', 'Luxury'];
+  // Filter reports based on selected sector and status
+  const filteredReports = sortedReports.filter(r => {
+    const sectorMatch = selectedSector === 'All' || r.sector === selectedSector;
+    const statusMatch = selectedStatus === 'All' || 
+      (selectedStatus === 'Beat' && r.revenue.beat && r.eps.beat) ||
+      (selectedStatus === 'Miss' && (!r.revenue.beat || !r.eps.beat)) ||
+      (selectedStatus === 'Preview' && r.status === 'preview');
+    return sectorMatch && statusMatch;
+  });
+
+  const sectors = ['All', 'Tech', 'Sportswear', 'Luxury', 'Automotive', 'Consumer'];
+  const statuses = ['All', 'Preview', 'Beat', 'Miss'];
+
+  // Get status badge
+  const getStatusBadge = (report: any) => {
+    if (report.status === 'preview') {
+      return (
+        <span className="px-3 py-1 rounded-full text-sm font-semibold bg-blue-100 text-blue-700">
+          PREVIEW
+        </span>
+      );
+    } else if (report.revenue.beat && report.eps.beat) {
+      return (
+        <span className="px-3 py-1 rounded-full text-sm font-semibold bg-green-100 text-green-700 flex items-center gap-1">
+          <TrendingUp className="w-4 h-4" />
+          BEAT
+        </span>
+      );
+    } else {
+      return (
+        <span className="px-3 py-1 rounded-full text-sm font-semibold bg-red-100 text-red-700 flex items-center gap-1">
+          <TrendingDown className="w-4 h-4" />
+          MISS
+        </span>
+      );
+    }
+  };
 
   return (
     <>
@@ -36,25 +73,42 @@ export function EarningsListPage() {
           {/* Content Card */}
           <div className="bg-white rounded-3xl shadow-2xl p-8 sm:p-12">
             
-            {/* Page Header */}
+            {/* Page Header - Story-Driven Copy */}
             <div className="mb-12">
               <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-                Earnings Companion
+                Earnings Calls, Decoded
               </h1>
               <p className="text-sm text-gray-500 mb-6">
-                Last updated: December 20, 2025
+                Last updated: January 27, 2026
               </p>
               <div className="border-t-4 border-teal-500 w-24 mb-6"></div>
-              <h2 className="text-2xl font-bold text-teal-600 mb-4">
-                What They Actually Said
-              </h2>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Plain-English summaries of earnings calls from companies you care about. No jargon. No fluff.
-              </p>
+              
+              {/* Story-driven explanation */}
+              <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
+                <p>
+                  <strong>What's an earnings call?</strong> It's when a company's CEO gets on a conference call with Wall Street and reports how much money they made (or didn't). Happens four times a year. Usually involves a lot of corporate speak that makes your eyes glaze over.
+                </p>
+                <p>
+                  <strong>Why this exists:</strong> We're on a mission to break down the language barrier of finance. Most people care about brands—Nike, Apple, Tesla, LVMH—but the way these companies talk about their business is deliberately confusing. We created this section to fix that. Plain-English summaries of what these companies actually said, updated within hours of every earnings call.
+                </p>
+                <p className="text-base text-gray-600 pt-4 border-t border-gray-200">
+                  <strong>Still confused by a term?</strong> Download the AYO extension. Highlight any financial jargon anywhere on the web, get an instant explanation.
+                </p>
+                <div className="pt-2">
+                  <a
+                    href="https://chromewebstore.google.com/detail/ask-ayo-ai-financial-term/nnpjfpfbnnfhnfkjjdjfjjjdjfjjjdjf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-teal-700 transition-colors"
+                  >
+                    Download AYO
+                  </a>
+                </div>
+              </div>
             </div>
 
             {/* Filter by Sector */}
-            <div className="mb-12">
+            <div className="mb-8">
               <h2 className="text-2xl font-bold text-teal-600 mb-4">
                 Filter by sector
               </h2>
@@ -70,6 +124,28 @@ export function EarningsListPage() {
                     }`}
                   >
                     {sector}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Filter by Status */}
+            <div className="mb-12">
+              <h2 className="text-2xl font-bold text-teal-600 mb-4">
+                Filter by status
+              </h2>
+              <div className="flex flex-wrap gap-3">
+                {statuses.map(status => (
+                  <button
+                    key={status}
+                    onClick={() => setSelectedStatus(status)}
+                    className={`px-4 py-2 rounded-lg font-medium transition-all ${
+                      selectedStatus === status
+                        ? 'bg-teal-600 text-white shadow-lg'
+                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                    }`}
+                  >
+                    {status}
                   </button>
                 ))}
               </div>
@@ -94,22 +170,13 @@ export function EarningsListPage() {
                         <h3 className="text-xl font-bold text-gray-900">
                           {report.company} · {report.ticker}
                         </h3>
-                        <div className="flex items-center gap-2">
-                          {report.revenue.beat && report.eps.beat ? (
-                            <span className="text-green-600 font-semibold flex items-center gap-1">
-                              <TrendingUp className="w-5 h-5" />
-                              Beat expectations
-                            </span>
-                          ) : (
-                            <span className="text-red-600 font-semibold flex items-center gap-1">
-                              <TrendingDown className="w-5 h-5" />
-                              Miss
-                            </span>
-                          )}
-                        </div>
+                        {getStatusBadge(report)}
                       </div>
-                      <div className="text-sm text-gray-600">
-                        {report.quarter} {report.fiscalYear} · {report.date}
+                      <div className="flex items-center gap-4 text-sm text-gray-600">
+                        <span className="flex items-center gap-1">
+                          <Calendar className="w-4 h-4" />
+                          {report.quarter} {report.fiscalYear} · {report.date}
+                        </span>
                       </div>
                     </div>
 
@@ -121,7 +188,7 @@ export function EarningsListPage() {
                     {/* Read More */}
                     <div className="text-teal-600 font-medium flex items-center gap-2">
                       <Clock className="w-4 h-4" />
-                      {report.readTime} min read →
+                      {report.readTime} →
                     </div>
                   </Link>
                 ))}
@@ -129,7 +196,7 @@ export function EarningsListPage() {
 
               {filteredReports.length === 0 && (
                 <div className="text-center py-12 text-gray-500">
-                  <p className="text-lg">No earnings reports yet for this sector.</p>
+                  <p className="text-lg">No earnings reports yet for this filter.</p>
                   <p className="text-sm mt-2">Check back soon!</p>
                 </div>
               )}
