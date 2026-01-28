@@ -24,6 +24,9 @@ export function Header() {
         
         {/* Desktop Navigation */}
         <div className="hidden sm:flex items-center gap-4">
+          <Link to="/brands" className="text-gray-600 hover:text-gray-900 transition-colors hover:underline decoration-purple-500 decoration-4 underline-offset-4">
+            Brands
+          </Link>
           <Link to="/earnings" className="text-gray-600 hover:text-gray-900 transition-colors hover:underline decoration-teal-500 decoration-4 underline-offset-4">
             Earnings
           </Link>
@@ -57,6 +60,13 @@ export function Header() {
       {mobileMenuOpen && (
         <div className="sm:hidden bg-white border-t border-gray-200 shadow-lg">
           <div className="px-4 py-4 space-y-3">
+            <Link 
+              to="/brands" 
+              className="block text-gray-600 hover:text-gray-900 transition-colors py-2 hover:underline decoration-purple-500 decoration-4 underline-offset-4"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Brands
+            </Link>
             <Link 
               to="/earnings" 
               className="block text-gray-600 hover:text-gray-900 transition-colors py-2 hover:underline decoration-teal-500 decoration-4 underline-offset-4"
