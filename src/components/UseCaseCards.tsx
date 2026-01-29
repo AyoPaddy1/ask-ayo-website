@@ -66,7 +66,7 @@ export function UseCaseCards() {
                 {useCase.description}
               </p>
               <div className="flex items-center text-teal-600 font-semibold group-hover:text-teal-700">
-                {useCase.title === 'Investing' ? 'Explore Brands' : 'Learn More'} 
+                Learn More 
                 <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>

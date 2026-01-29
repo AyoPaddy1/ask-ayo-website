@@ -15,9 +15,9 @@ export function HomePage() {
     <div className="min-h-screen bg-white">
       <Header />
       <Hero />
+      <UseCaseCards />
       <Problem />
       <AnimatedDemo />
-      <UseCaseCards />
       <ExamplesGrid />
       <WhatWeDont />
       <Testimonials />
