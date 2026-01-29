@@ -10,7 +10,6 @@ import { Footer } from '../components/Footer';
 export function BrandPage() {
   const { slug } = useParams<{ slug: string }>();
   const brand = brands.find(b => b.slug === slug);
-  const [activeTab, setActiveTab] = useState<'overview' | 'earnings'>('overview');
   const [livePrice, setLivePrice] = useState<number | null>(null);
   const [priceChange, setPriceChange] = useState<number | null>(null);
   const [loading, setLoading] = useState(true);
@@ -25,7 +24,7 @@ export function BrandPage() {
     if (!brand) return;
 
     try {
-      const apiKey = 'demo'; // Replace with actual API key
+      const apiKey = 'a565b337a77c4e6586e4158a21e2d4c4';
       const url = `https://api.twelvedata.com/quote?symbol=${brand.ticker}&apikey=${apiKey}`;
       
       const response = await fetch(url);
@@ -65,11 +64,17 @@ export function BrandPage() {
     e.title.toLowerCase().includes(brand.name.toLowerCase())
   );
 
+  // Get IR page URL (construct from name)
+  const getIRUrl = (name: string) => {
+    const domain = name.toLowerCase().replace(/[^a-z0-9]/g, '');
+    return `https://${domain}.com/investor-relations`;
+  };
+
   return (
     <>
       <Helmet>
-        <title>{brand.name} ({brand.ticker}) - Earnings, Stock Price & Business Breakdown | Ask AYO</title>
-        <meta name="description" content={`${brand.insight} Track ${brand.name}'s earnings, live stock price, and understand how they make money. ${brand.tagline}`} />
+        <title>{brand.name} ({brand.ticker}) - Earnings & Stock Price | Ask AYO</title>
+        <meta name="description" content={`Track ${brand.name}'s earnings and live stock price. Understand every term in their reports with Ask AYO.`} />
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">
@@ -96,7 +101,7 @@ export function BrandPage() {
                 <div className="text-6xl">{brand.logo}</div>
                 <div>
                   <h1 className="text-3xl font-bold text-gray-900">{brand.name}</h1>
-                  <p className="text-lg text-gray-600 mt-1">{brand.ticker}</p>
+                  <p className="text-lg text-gray-600 mt-1">{brand.ticker} · {brand.sector}</p>
                 </div>
               </div>
 
@@ -122,167 +127,106 @@ export function BrandPage() {
                 <p className="text-xs text-gray-500 mt-1">Live price</p>
               </div>
             </div>
-
-            {/* Tagline */}
-            <p className="text-xl text-gray-700 mt-4 italic">"{brand.tagline}"</p>
           </div>
         </div>
 
-        {/* Tabs */}
-        <div className="bg-white border-b border-gray-200 sticky top-0 z-10">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex gap-8">
-              <button
-                onClick={() => setActiveTab('overview')}
-                className={`py-4 px-2 border-b-2 font-medium text-sm transition-colors ${
-                  activeTab === 'overview'
-                    ? 'border-purple-600 text-purple-600'
-                    : 'border-transparent text-gray-500 hover:text-gray-700'
-                }`}
-              >
-                Overview
-              </button>
-              <button
-                onClick={() => setActiveTab('earnings')}
-                className={`py-4 px-2 border-b-2 font-medium text-sm transition-colors ${
-                  activeTab === 'earnings'
-                    ? 'border-purple-600 text-purple-600'
-                    : 'border-transparent text-gray-500 hover:text-gray-700'
-                }`}
-              >
-                Earnings ({brandEarnings.length})
-              </button>
-            </div>
-          </div>
-        </div>
-
-        {/* Tab Content */}
+        {/* Main Content */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          {activeTab === 'overview' && (
-            <div className="space-y-12">
-              {/* Stock Chart */}
+          <div className="space-y-12">
+            {/* Stock Chart */}
+            <div>
               <StockChart ticker={brand.ticker} />
-
-              {/* Section 1: The Killer Hook */}
-              <section className="bg-white rounded-lg border border-gray-200 p-8">
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">The Real Business</h2>
-                <p className="text-lg text-gray-700 leading-relaxed">{brand.insight}</p>
-              </section>
-
-              {/* Section 2: How They Make Money */}
-              <section className="bg-white rounded-lg border border-gray-200 p-8">
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">How They Make Money</h2>
-                <p className="text-gray-700 leading-relaxed mb-6">{brand.howTheyMakeMoney.summary}</p>
-                
-                <div className="space-y-4">
-                  {brand.howTheyMakeMoney.breakdown.map((segment, idx) => (
-                    <div key={idx} className="border-l-4 border-purple-600 pl-4">
-                      <div className="flex items-center justify-between mb-2">
-                        <h3 className="font-semibold text-gray-900">{segment.segment}</h3>
-                        <span className="text-lg font-bold text-purple-600">{segment.percentage}%</span>
-                      </div>
-                      <p className="text-sm text-gray-600">{segment.description}</p>
-                    </div>
-                  ))}
-                </div>
-              </section>
-
-              {/* Section 3: The Growth Story */}
-              <section className="bg-white rounded-lg border border-gray-200 p-8">
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">The Growth Story</h2>
-                <p className="text-gray-700 leading-relaxed">{brand.growthStory}</p>
-              </section>
-
-              {/* Section 4: What the Pros Watch */}
-              <section className="bg-white rounded-lg border border-gray-200 p-8">
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">What the Pros Watch</h2>
-                <p className="text-gray-600 mb-6">These are the metrics that move the stock:</p>
-                
-                <div className="space-y-4">
-                  {brand.whatProsWatch.map((item, idx) => (
-                    <div key={idx} className="bg-gray-50 rounded-lg p-4">
-                      <h3 className="font-semibold text-gray-900 mb-2">📊 {item.metric}</h3>
-                      <p className="text-sm text-gray-600">{item.why}</p>
-                    </div>
-                  ))}
-                </div>
-              </section>
-
-              {/* Section 5: Right Now */}
-              <section className="bg-purple-50 rounded-lg border border-purple-200 p-8">
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Right Now</h2>
-                <p className="text-gray-700 leading-relaxed mb-4">{brand.rightNow}</p>
-                <p className="text-sm text-gray-500">Last updated: {brand.lastUpdated}</p>
-              </section>
-
-              {/* Extension CTA */}
-              <section className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg p-8 text-white text-center">
-                <h2 className="text-2xl font-bold mb-3">Understand Every Term in {brand.name}'s Reports</h2>
-                <p className="text-lg mb-6 opacity-90">
-                  Highlight any financial jargon — on this page or anywhere else — and get an instant explanation.
-                </p>
-                <a
-                  href="https://chromewebstore.google.com/detail/ask-ayo/your-extension-id"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block bg-white text-purple-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
-                >
-                  Add to Chrome — It's Free
-                </a>
-              </section>
-
-              {/* Disclaimer */}
-              <div className="bg-gray-50 rounded-lg p-6 text-sm text-gray-600">
-                <p className="font-semibold mb-2">⚠️ Not Financial Advice</p>
-                <p>
-                  This is educational content, not investment advice. We're not telling you to buy or sell anything. 
-                  Do your own research. Past performance doesn't guarantee future results. Investing involves risk. 
-                  We may earn affiliate commissions if you sign up for services through our links.
-                </p>
-              </div>
+              <p className="text-xs text-gray-500 mt-2">
+                Data provided by Twelve Data. 15-minute delay.
+              </p>
             </div>
-          )}
 
-          {activeTab === 'earnings' && (
-            <div className="space-y-6">
+            {/* Earnings Feed */}
+            <section>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">Earnings</h2>
+              
               {brandEarnings.length === 0 ? (
                 <div className="bg-white rounded-lg border border-gray-200 p-12 text-center">
                   <p className="text-gray-500">No earnings articles yet. Check back soon!</p>
                 </div>
               ) : (
-                <>
-                  <h2 className="text-2xl font-bold text-gray-900">Earnings Coverage</h2>
-                  <div className="grid gap-6">
-                    {brandEarnings.map((article: any) => (
-                      <Link
-                        key={article.id}
-                        to={`/investing/${brand.slug}/earnings/${article.slug}`}
-                        className="bg-white rounded-lg border border-gray-200 p-6 hover:border-purple-600 transition-colors"
-                      >
-                        <div className="flex items-start justify-between mb-3">
-                          <span className={`px-3 py-1 rounded-full text-sm font-medium ${
-                            article.type === 'preview'
-                              ? 'bg-blue-100 text-blue-700'
-                              : 'bg-green-100 text-green-700'
-                          }`}>
-                            {article.type === 'preview' ? '📅 Preview' : '✅ Results'}
-                          </span>
-                          <span className="text-sm text-gray-500">{article.date}</span>
-                        </div>
-                        <h3 className="text-xl font-bold text-gray-900 mb-2">{article.title}</h3>
-                        <p className="text-gray-600 mb-4">{article.excerpt}</p>
+                <div className="space-y-4">
+                  {brandEarnings.map((article: any) => (
+                    <Link
+                      key={article.id}
+                      to={`/investing/${brand.slug}/earnings/${article.slug}`}
+                      className="block bg-white rounded-lg border border-gray-200 p-6 hover:border-purple-600 hover:shadow-md transition-all"
+                    >
+                      <div className="flex items-start justify-between mb-3">
+                        <span className={`px-3 py-1 rounded-full text-sm font-medium ${
+                          article.type === 'preview'
+                            ? 'bg-blue-100 text-blue-700'
+                            : 'bg-green-100 text-green-700'
+                        }`}>
+                          {article.type === 'preview' ? '📅 Preview' : '✅ Results'}
+                        </span>
+                        <span className="text-sm text-gray-500">{article.date}</span>
+                      </div>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">{article.title}</h3>
+                      <p className="text-gray-600 mb-4">{article.excerpt}</p>
+                      <div className="flex items-center justify-between">
                         <div className="flex items-center gap-4 text-sm text-gray-500">
                           <span>{article.readTime}</span>
                           <span>•</span>
                           <span>{article.author}</span>
                         </div>
-                      </Link>
-                    ))}
-                  </div>
-                </>
+                        <span className="text-purple-600 font-medium">Read breakdown →</span>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
               )}
+            </section>
+
+            {/* Investor Relations Link */}
+            <section className="bg-white rounded-lg border border-gray-200 p-6">
+              <div className="flex items-center gap-3">
+                <span className="text-2xl">📎</span>
+                <div>
+                  <p className="text-sm text-gray-600 mb-1">Investor Relations</p>
+                  <a
+                    href={getIRUrl(brand.name)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-purple-600 hover:text-purple-700 font-medium"
+                  >
+                    {brand.name.toLowerCase().replace(/[^a-z0-9]/g, '')}.com/ir →
+                  </a>
+                </div>
+              </div>
+            </section>
+
+            {/* Extension CTA */}
+            <section className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg p-8 text-white text-center">
+              <h2 className="text-2xl font-bold mb-3">Understand every term in these reports.</h2>
+              <p className="text-lg mb-6 opacity-90">
+                Highlight any financial jargon — on this page or anywhere else — and get an instant explanation.
+              </p>
+              <a
+                href="https://chromewebstore.google.com/detail/ask-ayo/your-extension-id"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-white text-purple-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+              >
+                Get the Extension — Free →
+              </a>
+            </section>
+
+            {/* Disclaimer */}
+            <div className="bg-gray-50 rounded-lg p-6 text-sm text-gray-600">
+              <p className="font-semibold mb-2">⚠️ Not Financial Advice</p>
+              <p>
+                This is educational content, not investment advice. We're not telling you to buy or sell anything. 
+                Do your own research. Past performance doesn't guarantee future results. Investing involves risk. 
+                We may earn affiliate commissions if you sign up for services through our links.
+              </p>
             </div>
-          )}
+          </div>
         </div>
 
         <Footer />
