@@ -147,34 +147,48 @@ export function BrandPage() {
                 </div>
               ) : (
                 <div className="space-y-4">
-                  {brandEarnings.map((article: any) => (
-                    <Link
-                      key={article.id}
-                      to={`/investing/${brand.slug}/earnings/${article.slug}`}
-                      className="block bg-white rounded-lg border border-gray-200 p-6 hover:border-purple-600 hover:shadow-md transition-all"
-                    >
-                      <div className="flex items-start justify-between mb-3">
-                        <span className={`px-3 py-1 rounded-full text-sm font-medium ${
-                          article.type === 'preview'
-                            ? 'bg-blue-100 text-blue-700'
-                            : 'bg-green-100 text-green-700'
-                        }`}>
-                          {article.type === 'preview' ? '📅 Preview' : '✅ Results'}
-                        </span>
-                        <span className="text-sm text-gray-500">{article.date}</span>
-                      </div>
-                      <h3 className="text-xl font-bold text-gray-900 mb-2">{article.title}</h3>
-                      <p className="text-gray-600 mb-4">{article.excerpt}</p>
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-4 text-sm text-gray-500">
-                          <span>{article.readTime}</span>
-                          <span>•</span>
-                          <span>{article.author}</span>
+                  {brandEarnings.map((article: any) => {
+                    // Determine badge based on beat status
+                    const didBeat = article.revenue?.beat && article.eps?.beat;
+                    const didMiss = !article.revenue?.beat || !article.eps?.beat;
+                    
+                    let badgeClass = '';
+                    let badgeText = '';
+                    
+                    if (article.status === 'preview') {
+                      badgeClass = 'bg-blue-100 text-blue-700';
+                      badgeText = 'PREVIEW';
+                    } else if (didBeat) {
+                      badgeClass = 'bg-green-100 text-green-700';
+                      badgeText = '↗ BEAT';
+                    } else if (didMiss) {
+                      badgeClass = 'bg-red-100 text-red-700';
+                      badgeText = '↘ MISS';
+                    } else {
+                      badgeClass = 'bg-green-100 text-green-700';
+                      badgeText = '✅ Results';
+                    }
+                    
+                    return (
+                      <Link
+                        key={article.id}
+                        to={`/investing/${brand.slug}/earnings/${article.slug}`}
+                        className="block bg-white rounded-lg border border-gray-200 p-6 hover:border-purple-600 hover:shadow-md transition-all"
+                      >
+                        <div className="flex items-start justify-between mb-3">
+                          <span className={`px-3 py-1 rounded-full text-xs font-bold uppercase ${badgeClass}`}>
+                            {badgeText}
+                          </span>
+                          <span className="text-sm text-gray-500">{article.date}</span>
                         </div>
-                        <span className="text-purple-600 font-medium">Read breakdown →</span>
-                      </div>
-                    </Link>
-                  ))}
+                        <h3 className="text-xl font-bold text-gray-900 mb-3">{article.title}</h3>
+                        <p className="text-gray-600 mb-4 leading-relaxed">{article.description}</p>
+                        <div className="flex items-center text-sm text-teal-600 font-medium">
+                          <span>{article.readTime} →</span>
+                        </div>
+                      </Link>
+                    );
+                  })}
                 </div>
               )}
             </section>
