@@ -52,11 +52,11 @@ export function EarningsArticlePage() {
           <div className="max-w-4xl mx-auto">
             {/* Back Link */}
             <Link 
-              to="/earnings"
+              to={slug ? `/investing/${slug}` : '/investing'}
               className="inline-flex items-center gap-2 text-teal-400 hover:text-teal-300 transition-colors mb-8 group"
             >
               <ArrowLeft size={20} className="group-hover:-translate-x-1 transition-transform" />
-              <span>Back to Earnings</span>
+              <span>Back to {report.company}</span>
             </Link>
 
             {/* Report Card */}
@@ -143,11 +143,11 @@ export function EarningsArticlePage() {
                     <span className="font-semibold">Sector:</span> {report.sector}
                   </div>
                   <Link 
-                    to="/earnings"
+                    to={slug ? `/investing/${slug}` : '/investing'}
                     className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-lg transition-colors font-semibold"
                   >
                     <ArrowLeft size={18} />
-                    <span>View All Earnings</span>
+                    <span>Back to {report.company}</span>
                   </Link>
                 </div>
               </div>
@@ -156,6 +156,23 @@ export function EarningsArticlePage() {
         </main>
 
         <Footer />
+        
+        {/* Sticky Footer Prompt */}
+        <div className="fixed bottom-0 left-0 right-0 bg-gradient-to-r from-purple-600 to-pink-600 text-white py-3 px-4 shadow-lg z-50">
+          <div className="max-w-4xl mx-auto flex items-center justify-between gap-4">
+            <p className="text-sm font-medium">
+              Confused by a term? Highlight it. AYO explains.
+            </p>
+            <a
+              href="https://chromewebstore.google.com/detail/ask-ayo/your-extension-id"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-purple-600 px-4 py-2 rounded-lg font-semibold text-sm hover:bg-gray-100 transition-colors whitespace-nowrap"
+            >
+              Try it →
+            </a>
+          </div>
+        </div>
       </div>
     </>
   );
