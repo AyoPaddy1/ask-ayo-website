@@ -128,7 +128,14 @@ export function BrandsDirectoryPage() {
                     className="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all p-6 border border-gray-200 hover:border-purple-600 group"
                   >
                     <div className="flex items-center gap-4 mb-4">
-                      <div className="w-12 h-12 rounded-full bg-gradient-to-br from-purple-600 to-pink-600 flex items-center justify-center text-white font-bold text-xl flex-shrink-0">
+                      <div className={`w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-xl flex-shrink-0 ${
+                        brand.sector === 'Tech' ? 'bg-blue-600' :
+                        brand.sector === 'Consumer' ? 'bg-orange-600' :
+                        brand.sector === 'Luxury' ? 'bg-purple-600' :
+                        brand.sector === 'Automotive' ? 'bg-green-600' :
+                        brand.sector === 'Sportswear' ? 'bg-pink-600' :
+                        'bg-indigo-600'
+                      }`}>
                         {brand.name.charAt(0)}
                       </div>
                       <div>
