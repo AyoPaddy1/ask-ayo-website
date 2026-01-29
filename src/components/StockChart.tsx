@@ -50,7 +50,7 @@ export function StockChart({ ticker }: StockChartProps) {
       const outputsize = outputSizeMap[timeRange];
 
       // Twelve Data API endpoint
-      const apiKey = 'demo'; // Replace with actual API key from env
+      const apiKey = 'a565b337a77c4e6586e4158a21e2d4c4';
       const url = `https://api.twelvedata.com/time_series?symbol=${ticker}&interval=${interval}&outputsize=${outputsize}&apikey=${apiKey}`;
 
       const response = await fetch(url);

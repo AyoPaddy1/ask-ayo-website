@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { HomePage } from './pages/HomePage';
 import { BlogListPage } from './pages/BlogListPage';
@@ -7,6 +7,9 @@ import { EarningsListPage } from './pages/EarningsListPage';
 import { EarningsArticlePage } from './pages/EarningsArticlePage';
 import { BrandsDirectoryPage } from './pages/BrandsDirectoryPage';
 import { BrandPage } from './pages/BrandPage';
+import { NewsPage } from './pages/NewsPage';
+import { WorkPage } from './pages/WorkPage';
+import { YourMoneyPage } from './pages/YourMoneyPage';
 
 export default function App() {
   return (
@@ -16,11 +19,22 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/blog" element={<BlogListPage />} />
           <Route path="/blog/:slug" element={<BlogArticlePage />} />
-          <Route path="/brands" element={<BrandsDirectoryPage />} />
-          <Route path="/brands/:slug" element={<BrandPage />} />
-          <Route path="/brands/:slug/earnings/:earningsSlug" element={<EarningsArticlePage />} />
+          {/* Investing routes */}
+          <Route path="/investing" element={<BrandsDirectoryPage />} />
+          <Route path="/investing/:slug" element={<BrandPage />} />
+          <Route path="/investing/:slug/earnings/:earningsSlug" element={<EarningsArticlePage />} />
+          
+          {/* 301 redirects from old /brands/ URLs */}
+          <Route path="/brands" element={<Navigate to="/investing" replace />} />
+          <Route path="/brands/:slug" element={<Navigate to="/investing/:slug" replace />} />
+          <Route path="/brands/:slug/earnings/:earningsSlug" element={<Navigate to="/investing/:slug/earnings/:earningsSlug" replace />} />
           <Route path="/earnings" element={<EarningsListPage />} />
           <Route path="/earnings/:slug" element={<EarningsArticlePage />} />
+          
+          {/* Explanation pages */}
+          <Route path="/news" element={<NewsPage />} />
+          <Route path="/work" element={<WorkPage />} />
+          <Route path="/your-money" element={<YourMoneyPage />} />
         </Routes>
       </BrowserRouter>
     </HelmetProvider>

@@ -23,24 +23,24 @@ export function Header() {
         </Link>
         
         {/* Desktop Navigation */}
-        <div className="hidden sm:flex items-center gap-4">
-          <Link to="/brands" className="text-gray-600 hover:text-gray-900 transition-colors hover:underline decoration-purple-500 decoration-4 underline-offset-4">
-            Brands
+        <div className="hidden md:flex items-center gap-6">
+          <Link to="/investing" className="text-gray-600 hover:text-gray-900 transition-colors font-medium">
+            Investing
           </Link>
-          <Link to="/earnings" className="text-gray-600 hover:text-gray-900 transition-colors hover:underline decoration-teal-500 decoration-4 underline-offset-4">
-            Earnings
+          <Link to="/news" className="text-gray-600 hover:text-gray-900 transition-colors font-medium">
+            News
           </Link>
-          <Link to="/blog" className="text-gray-600 hover:text-gray-900 transition-colors hover:underline decoration-teal-500 decoration-4 underline-offset-4">
-            Blog
+          <Link to="/work" className="text-gray-600 hover:text-gray-900 transition-colors font-medium">
+            Work
           </Link>
-          <Link to="/#examples" className="text-gray-600 hover:text-gray-900 transition-colors hover:underline decoration-yellow-500 decoration-4 underline-offset-4">
-            Examples
+          <Link to="/your-money" className="text-gray-600 hover:text-gray-900 transition-colors font-medium">
+            Your Money
           </Link>
           <a 
             href="https://chromewebstore.google.com/detail/askayo-financial-terms/aadolejfccokodnobpipmpknijggnjcj"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-gradient-to-r from-teal-500 to-yellow-500 hover:from-teal-600 hover:to-yellow-600 text-white px-6 py-3 rounded-xl transition-all shadow-lg hover:shadow-xl border-2 border-gray-900 hover:scale-105 transform inline-block"
+            className="bg-gradient-to-r from-teal-500 to-yellow-500 hover:from-teal-600 hover:to-yellow-600 text-white px-6 py-3 rounded-xl transition-all shadow-lg hover:shadow-xl border-2 border-gray-900 hover:scale-105 transform inline-block font-semibold"
           >
             Get Extension
           </a>
@@ -49,7 +49,7 @@ export function Header() {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          className="sm:hidden p-2 text-gray-600 hover:text-gray-900 transition-colors"
+          className="md:hidden p-2 text-gray-600 hover:text-gray-900 transition-colors"
           aria-label="Toggle menu"
         >
           {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -58,41 +58,41 @@ export function Header() {
 
       {/* Mobile Navigation Menu */}
       {mobileMenuOpen && (
-        <div className="sm:hidden bg-white border-t border-gray-200 shadow-lg">
+        <div className="md:hidden bg-white border-t border-gray-200 shadow-lg">
           <div className="px-4 py-4 space-y-3">
             <Link 
-              to="/brands" 
-              className="block text-gray-600 hover:text-gray-900 transition-colors py-2 hover:underline decoration-purple-500 decoration-4 underline-offset-4"
+              to="/investing" 
+              className="block text-gray-600 hover:text-gray-900 transition-colors py-2 font-medium"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Brands
+              Investing
             </Link>
             <Link 
-              to="/earnings" 
-              className="block text-gray-600 hover:text-gray-900 transition-colors py-2 hover:underline decoration-teal-500 decoration-4 underline-offset-4"
+              to="/news" 
+              className="block text-gray-600 hover:text-gray-900 transition-colors py-2 font-medium"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Earnings
+              News
             </Link>
             <Link 
-              to="/blog" 
-              className="block text-gray-600 hover:text-gray-900 transition-colors py-2 hover:underline decoration-teal-500 decoration-4 underline-offset-4"
+              to="/work" 
+              className="block text-gray-600 hover:text-gray-900 transition-colors py-2 font-medium"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Blog
+              Work
             </Link>
             <Link 
-              to="/#examples" 
-              className="block text-gray-600 hover:text-gray-900 transition-colors py-2 hover:underline decoration-yellow-500 decoration-4 underline-offset-4"
+              to="/your-money" 
+              className="block text-gray-600 hover:text-gray-900 transition-colors py-2 font-medium"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Examples
+              Your Money
             </Link>
             <a 
               href="https://chromewebstore.google.com/detail/askayo-financial-terms/aadolejfccokodnobpipmpknijggnjcj"
               target="_blank"
               rel="noopener noreferrer"
-              className="block bg-gradient-to-r from-teal-500 to-yellow-500 hover:from-teal-600 hover:to-yellow-600 text-white px-6 py-3 rounded-xl transition-all shadow-lg hover:shadow-xl border-2 border-gray-900 text-center"
+              className="block bg-gradient-to-r from-teal-500 to-yellow-500 hover:from-teal-600 hover:to-yellow-600 text-white px-6 py-3 rounded-xl transition-all shadow-lg hover:shadow-xl border-2 border-gray-900 text-center font-semibold"
               onClick={() => setMobileMenuOpen(false)}
             >
               Get Extension

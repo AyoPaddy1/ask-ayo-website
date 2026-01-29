@@ -7,6 +7,7 @@ import { WhatWeDont } from '../components/WhatWeDont';
 import { Testimonials } from '../components/Testimonials';
 import { Mission } from '../components/Mission';
 import { PermissionsExplainer } from '../components/PermissionsExplainer';
+import { UseCaseCards } from '../components/UseCaseCards';
 import { Footer } from '../components/Footer';
 
 export function HomePage() {
@@ -16,6 +17,7 @@ export function HomePage() {
       <Hero />
       <Problem />
       <AnimatedDemo />
+      <UseCaseCards />
       <ExamplesGrid />
       <WhatWeDont />
       <Testimonials />
