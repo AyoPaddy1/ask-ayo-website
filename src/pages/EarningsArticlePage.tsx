@@ -9,10 +9,12 @@ import remarkGfm from 'remark-gfm';
 import { TrendingUp, TrendingDown, Calendar, Clock, ArrowLeft } from 'lucide-react';
 
 export function EarningsArticlePage() {
-  const { slug } = useParams<{ slug: string }>();
+  const { slug, earningsSlug } = useParams<{ slug?: string; earningsSlug?: string }>();
   const [content, setContent] = useState('');
   
-  const report = earningsReports.find(r => r.slug === slug);
+  // Support both /earnings/:slug and /investing/:brandSlug/earnings/:earningsSlug
+  const articleSlug = earningsSlug || slug;
+  const report = earningsReports.find(r => r.slug === articleSlug);
 
   useEffect(() => {
     if (report) {

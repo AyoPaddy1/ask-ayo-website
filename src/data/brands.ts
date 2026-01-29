@@ -7,6 +7,7 @@ export interface Brand {
   category: 'Your Digital Life' | 'The Fit' | 'Cravings' | 'The Drive' | 'The Stream' | 'The Cart';
   slug: string;
   tagline: string; // One-sentence hook for the card
+  irUrl: string; // Investor Relations URL
   insight: string; // The killer hook about the business
   howTheyMakeMoney: {
     summary: string;
@@ -28,6 +29,7 @@ export const brands: Brand[] = [
     category: 'Your Digital Life',
     slug: 'apple',
     tagline: 'The ecosystem you can\'t escape',
+    irUrl: 'https://investor.apple.com/',
     insight: 'Apple doesn\'t sell phones. They sell a walled garden you pay rent on forever.',
     howTheyMakeMoney: {
       summary: 'Apple makes money from hardware (iPhones, Macs, iPads) and an increasingly lucrative services business (App Store, iCloud, Apple Music, Apple TV+).',
@@ -73,6 +75,7 @@ export const brands: Brand[] = [
     category: 'The Fit',
     slug: 'nike',
     tagline: 'Just do it. And report quarterly earnings.',
+    irUrl: 'https://investors.nike.com/',
     insight: 'Nike doesn\'t make shoes. They make desire.',
     howTheyMakeMoney: {
       summary: 'Nike designs and markets athletic footwear, apparel, and equipment. They don\'t manufacture—they outsource production to factories (mostly in Asia) and focus on branding, design, and distribution.',
@@ -113,6 +116,7 @@ export const brands: Brand[] = [
     category: 'The Stream',
     slug: 'netflix',
     tagline: 'Binge now, cancel later',
+    irUrl: 'https://ir.netflix.net/',
     insight: 'Netflix doesn\'t sell shows. They sell the illusion of infinite choice.',
     howTheyMakeMoney: {
       summary: 'Subscription streaming service. You pay monthly, they give you unlimited access to movies and shows. No ads (unless you pick the cheap tier). Revenue = subscribers × average price.',
@@ -153,6 +157,7 @@ export const brands: Brand[] = [
     category: 'The Drive',
     slug: 'tesla',
     tagline: 'Electric dreams, earnings reality',
+    irUrl: 'https://ir.tesla.com/',
     insight: 'Tesla doesn\'t sell cars. They sell Elon Musk\'s vision of the future.',
     howTheyMakeMoney: {
       summary: 'Tesla makes electric vehicles (EVs) and sells them directly to consumers (no dealerships). They also sell solar panels, batteries, and Full Self-Driving (FSD) software subscriptions.',
@@ -198,6 +203,7 @@ export const brands: Brand[] = [
     category: 'Cravings',
     slug: 'mcdonalds',
     tagline: 'Billions served, franchises owned',
+    irUrl: 'https://corporate.mcdonalds.com/corpmcd/investors.html',
     insight: 'McDonald\'s doesn\'t sell burgers. They sell real estate and franchise fees.',
     howTheyMakeMoney: {
       summary: 'McDonald\'s is a franchise business. They don\'t own most restaurants—franchisees do. McDonald\'s makes money from franchise fees (4-5% of sales) and rent (they own the land, franchisees lease it).',
@@ -238,6 +244,7 @@ export const brands: Brand[] = [
     category: 'Cravings',
     slug: 'coca-cola',
     tagline: 'Sugar water, global scale',
+    irUrl: 'https://investors.coca-colacompany.com/',
     insight: 'Coca-Cola doesn\'t sell soda. They sell a distribution network.',
     howTheyMakeMoney: {
       summary: 'Coca-Cola makes beverage concentrates and syrups, then sells them to bottling partners who manufacture, package, and distribute the final products. They also own some bottling operations.',
@@ -283,6 +290,7 @@ export const brands: Brand[] = [
     category: 'The Cart',
     slug: 'amazon',
     tagline: 'Everything store, cloud empire',
+    irUrl: 'https://ir.aboutamazon.com/',
     insight: 'Amazon doesn\'t sell products. They sell infrastructure.',
     howTheyMakeMoney: {
       summary: 'Amazon has three businesses: E-commerce (retail), AWS (cloud computing), and Advertising. E-commerce has thin margins, AWS prints money, and ads are growing fast.',
@@ -333,6 +341,7 @@ export const brands: Brand[] = [
     category: 'The Fit',
     slug: 'lvmh',
     tagline: 'Luxury at scale, margins at altitude',
+    irUrl: 'https://www.lvmh.com/investors/',
     insight: 'LVMH doesn\'t sell handbags. They sell status.',
     howTheyMakeMoney: {
       summary: 'LVMH owns 75+ luxury brands (Louis Vuitton, Dior, Tiffany, Moët Hennessy). They make money from selling high-margin luxury goods to wealthy consumers globally.',

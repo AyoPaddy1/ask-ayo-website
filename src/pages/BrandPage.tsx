@@ -64,11 +64,7 @@ export function BrandPage() {
     e.title.toLowerCase().includes(brand.name.toLowerCase())
   );
 
-  // Get IR page URL (construct from name)
-  const getIRUrl = (name: string) => {
-    const domain = name.toLowerCase().replace(/[^a-z0-9]/g, '');
-    return `https://${domain}.com/investor-relations`;
-  };
+
 
   return (
     <>
@@ -190,12 +186,12 @@ export function BrandPage() {
                 <div>
                   <p className="text-sm text-gray-600 mb-1">Investor Relations</p>
                   <a
-                    href={getIRUrl(brand.name)}
+                    href={brand.irUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-purple-600 hover:text-purple-700 font-medium"
                   >
-                    {brand.name.toLowerCase().replace(/[^a-z0-9]/g, '')}.com/ir →
+                    View Investor Relations →
                   </a>
                 </div>
               </div>
