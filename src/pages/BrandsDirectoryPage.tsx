@@ -44,7 +44,7 @@ export function BrandsDirectoryPage() {
               <div className="mb-8">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">What is this?</h2>
                 <p className="text-xl text-gray-700 leading-relaxed">
-                  A plain-English guide to the world's biggest companies. How they make money, what their earnings calls actually said, and what the numbers mean.
+                  A plain-English guide to the world's biggest companies — how they make money, what their earnings calls actually said, and what the numbers actually mean.
                 </p>
               </div>
 
@@ -60,7 +60,7 @@ export function BrandsDirectoryPage() {
               <div className="mb-12">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">Still confused by a term?</h2>
                 <p className="text-xl text-gray-700 leading-relaxed">
-                  Download the AYO extension. Highlight any financial jargon anywhere on the web, get an instant explanation.
+                  That's what the extension is for. Highlight any term — on this site or anywhere else — and get an instant, plain-English explanation.
                 </p>
               </div>
 
@@ -128,11 +128,9 @@ export function BrandsDirectoryPage() {
                     className="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all p-6 border border-gray-200 hover:border-purple-600 group"
                   >
                     <div className="flex items-center gap-4 mb-4">
-                      <img
-                        src={brand.logo}
-                        alt={`${brand.name} logo`}
-                        className="w-12 h-12 object-contain"
-                      />
+                      <div className="w-12 h-12 rounded-full bg-gradient-to-br from-purple-600 to-pink-600 flex items-center justify-center text-white font-bold text-xl flex-shrink-0">
+                        {brand.name.charAt(0)}
+                      </div>
                       <div>
                         <h3 className="font-bold text-gray-900 group-hover:text-purple-600 transition-colors">
                           {brand.name}
