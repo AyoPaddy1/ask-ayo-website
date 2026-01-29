@@ -30,8 +30,8 @@ export function BrandPage() {
       const response = await fetch(url);
       const data = await response.json();
 
-      if (data.price) {
-        setLivePrice(parseFloat(data.price));
+      if (data.close) {
+        setLivePrice(parseFloat(data.close));
         if (data.percent_change) {
           setPriceChange(parseFloat(data.percent_change));
         }
