@@ -52,8 +52,8 @@ export function BrandPage() {
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-2xl font-bold text-gray-900 mb-2">Brand not found</h1>
-          <Link to="/brands" className="text-purple-600 hover:text-purple-700">
-            ← Back to Brands
+          <Link to="/investing" className="text-purple-600 hover:text-purple-700">
+            ← Back to Investing
           </Link>
         </div>
       </div>
@@ -81,7 +81,7 @@ export function BrandPage() {
             <nav className="flex items-center gap-2 text-sm">
               <Link to="/" className="text-gray-500 hover:text-gray-700">Home</Link>
               <span className="text-gray-400">/</span>
-              <Link to="/brands" className="text-gray-500 hover:text-gray-700">Brands</Link>
+              <Link to="/investing" className="text-gray-500 hover:text-gray-700">Investing</Link>
               <span className="text-gray-400">/</span>
               <span className="text-gray-900 font-medium">{brand.name}</span>
             </nav>
@@ -217,9 +217,9 @@ export function BrandPage() {
 
               {/* Extension CTA */}
               <section className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg p-8 text-white text-center">
-                <h2 className="text-2xl font-bold mb-3">Want earnings alerts for {brand.name}?</h2>
+                <h2 className="text-2xl font-bold mb-3">Understand Every Term in {brand.name}'s Reports</h2>
                 <p className="text-lg mb-6 opacity-90">
-                  Get notified when {brand.name} reports earnings. No spam, just the numbers that matter.
+                  Highlight any financial jargon — on this page or anywhere else — and get an instant explanation.
                 </p>
                 <a
                   href="https://chromewebstore.google.com/detail/ask-ayo/your-extension-id"
@@ -256,7 +256,7 @@ export function BrandPage() {
                     {brandEarnings.map((article: any) => (
                       <Link
                         key={article.id}
-                        to={`/brands/${brand.slug}/earnings/${article.slug}`}
+                        to={`/investing/${brand.slug}/earnings/${article.slug}`}
                         className="bg-white rounded-lg border border-gray-200 p-6 hover:border-purple-600 transition-colors"
                       >
                         <div className="flex items-start justify-between mb-3">
