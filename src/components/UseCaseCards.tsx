@@ -82,7 +82,7 @@ export function UseCaseCards() {
             rel="noopener noreferrer"
             className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-teal-600 to-teal-500 text-white font-semibold rounded-full hover:shadow-lg transition-all text-lg"
           >
-            Get the Chrome Extension — Free →
+            Get the Extension — Free →
           </a>
         </div>
       </div>

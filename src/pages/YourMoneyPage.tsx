@@ -48,7 +48,7 @@ export function YourMoneyPage() {
               {/* CTA */}
               <div className="text-center">
                 <a
-                  href="https://chrome.google.com/webstore"
+                  href="https://chromewebstore.google.com/detail/askayo-financial-terms/aadolejfccokodnobpipmpknijggnjcj"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-teal-600 to-teal-500 text-white font-semibold rounded-full hover:shadow-lg transition-all text-lg"
@@ -113,7 +113,7 @@ export function YourMoneyPage() {
                 Your money. Your language.
               </p>
               <a
-                href="https://chrome.google.com/webstore"
+                href="https://chromewebstore.google.com/detail/askayo-financial-terms/aadolejfccokodnobpipmpknijggnjcj"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-teal-600 to-teal-500 text-white font-semibold rounded-full hover:shadow-lg transition-all text-lg"

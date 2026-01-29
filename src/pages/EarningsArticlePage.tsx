@@ -164,7 +164,7 @@ export function EarningsArticlePage() {
               Confused by a term? Highlight it. AYO explains.
             </p>
             <a
-              href="https://chromewebstore.google.com/detail/ask-ayo/your-extension-id"
+              href="https://chromewebstore.google.com/detail/askayo-financial-terms/aadolejfccokodnobpipmpknijggnjcj"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-purple-600 px-4 py-2 rounded-lg font-semibold text-sm hover:bg-gray-100 transition-colors whitespace-nowrap"

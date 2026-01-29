@@ -218,7 +218,7 @@ export function BrandPage() {
                 Highlight any financial jargon — on this page or anywhere else — and get an instant explanation.
               </p>
               <a
-                href="https://chromewebstore.google.com/detail/ask-ayo/your-extension-id"
+                href="https://chromewebstore.google.com/detail/askayo-financial-terms/aadolejfccokodnobpipmpknijggnjcj"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-white text-purple-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"

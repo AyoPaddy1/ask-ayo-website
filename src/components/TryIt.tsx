@@ -216,7 +216,7 @@ export function TryIt() {
             <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
               <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 14.894l-2.894-5.014a4.002 4.002 0 0 0-6.894 4.12l-2.894 5.014a10.002 10.002 0 0 1 12.682-4.12z"/>
             </svg>
-            <span>Get the Chrome Extension — It's Free</span>
+            <span>Get the Extension — It's Free</span>
           </a>
           <p className="text-gray-500 mt-4 text-base">
             Just highlight any term on any website, right-click, and get instant explanations.

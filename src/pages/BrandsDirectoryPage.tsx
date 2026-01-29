@@ -67,7 +67,7 @@ export function BrandsDirectoryPage() {
               {/* CTA */}
               <div className="text-center">
                 <a
-                  href="https://chromewebstore.google.com/detail/ask-ayo/your-extension-id"
+                  href="https://chromewebstore.google.com/detail/askayo-financial-terms/aadolejfccokodnobpipmpknijggnjcj"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-full hover:shadow-lg transition-all text-lg"
@@ -163,12 +163,12 @@ export function BrandsDirectoryPage() {
                 Highlight any financial jargon - on this page or anywhere else - and get an instant explanation.
               </p>
               <a
-                href="https://chromewebstore.google.com/detail/ask-ayo/your-extension-id"
+                href="https://chromewebstore.google.com/detail/askayo-financial-terms/aadolejfccokodnobpipmpknijggnjcj"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-full hover:shadow-lg transition-all text-lg"
               >
-                Get the Chrome Extension - Free →
+                Get the Extension - Free →
               </a>
             </div>
           </section>
