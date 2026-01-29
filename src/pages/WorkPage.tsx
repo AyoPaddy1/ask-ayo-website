@@ -63,16 +63,11 @@ export function WorkPage() {
           <section className="py-16 px-6 bg-gray-50">
             <div className="max-w-5xl mx-auto">
               <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
-                <div className="aspect-video bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl flex items-center justify-center">
-                  <div className="text-center text-gray-500">
-                    <svg className="w-24 h-24 mx-auto mb-4 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                    </svg>
-                    <p className="text-sm font-medium">Screenshot: Extension working on company docs</p>
-                    <p className="text-xs mt-2 text-gray-400">User highlights "burn rate"</p>
-                    <p className="text-xs text-gray-400">→ AYO explains what it means for your job</p>
-                  </div>
-                </div>
+                <img 
+                  src="/images/demo-work.png" 
+                  alt="AYO extension explaining EBITDA in a company all-hands presentation" 
+                  className="w-full rounded-xl shadow-lg"
+                />
               </div>
             </div>
           </section>

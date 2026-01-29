@@ -63,16 +63,11 @@ export function NewsPage() {
           <section className="py-16 px-6 bg-gray-50">
             <div className="max-w-5xl mx-auto">
               <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
-                <div className="aspect-video bg-gradient-to-br from-teal-50 to-blue-50 rounded-xl flex items-center justify-center">
-                  <div className="text-center text-gray-500">
-                    <svg className="w-24 h-24 mx-auto mb-4 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                    </svg>
-                    <p className="text-sm font-medium">Screenshot: Extension working on BBC Business</p>
-                    <p className="text-xs mt-2 text-gray-400">User highlights "quantitative easing"</p>
-                    <p className="text-xs text-gray-400">→ AYO explains it in plain English</p>
-                  </div>
-                </div>
+                <img 
+                  src="/images/demo-news.png" 
+                  alt="AYO extension explaining quantitative easing on BBC Business" 
+                  className="w-full rounded-xl shadow-lg"
+                />
               </div>
             </div>
           </section>

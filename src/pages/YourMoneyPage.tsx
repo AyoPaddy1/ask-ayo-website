@@ -63,16 +63,11 @@ export function YourMoneyPage() {
           <section className="py-16 px-6 bg-gray-50">
             <div className="max-w-5xl mx-auto">
               <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
-                <div className="aspect-video bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl flex items-center justify-center">
-                  <div className="text-center text-gray-500">
-                    <svg className="w-24 h-24 mx-auto mb-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
-                    </svg>
-                    <p className="text-sm font-medium">Screenshot: Extension working on bank documents</p>
-                    <p className="text-xs mt-2 text-gray-400">User highlights "APR"</p>
-                    <p className="text-xs text-gray-400">→ AYO explains it in plain English</p>
-                  </div>
-                </div>
+                <img 
+                  src="/images/demo-money.png" 
+                  alt="AYO extension explaining APR on a mortgage offer document" 
+                  className="w-full rounded-xl shadow-lg"
+                />
               </div>
             </div>
           </section>
