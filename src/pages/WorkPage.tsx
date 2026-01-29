@@ -33,7 +33,7 @@ export function WorkPage() {
               <div className="mb-8">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">Why this exists</h2>
                 <p className="text-xl text-gray-700 leading-relaxed">
-                  Business jargon isn't just annoying — it keeps you in the dark about your own company. What does "cash flow positive" mean for your job security? What are your stock options actually worth? You should know.
+                  Business jargon isn't just annoying - it keeps you in the dark about your own company. What does "cash flow positive" mean for your job security? What are your stock options actually worth? You should know.
                 </p>
               </div>
 
@@ -41,7 +41,7 @@ export function WorkPage() {
               <div className="mb-12">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">How it works</h2>
                 <p className="text-xl text-gray-700 leading-relaxed">
-                  Reading an internal doc, a strategy update, or your company's earnings? Highlight any term. AYO explains what it means — and why it matters to you.
+                  Reading an internal doc, a strategy update, or your company's earnings? Highlight any term. AYO explains what it means - and why it matters to you.
                 </p>
               </div>
 
@@ -53,7 +53,7 @@ export function WorkPage() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-teal-600 to-teal-500 text-white font-semibold rounded-full hover:shadow-lg transition-all text-lg"
                 >
-                  Get the Extension — Free →
+                  Get the Extension - Free →
                 </a>
               </div>
             </div>
@@ -114,7 +114,7 @@ export function WorkPage() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-teal-600 to-teal-500 text-white font-semibold rounded-full hover:shadow-lg transition-all text-lg"
               >
-                Get the Extension — Free →
+                Get the Extension - Free →
               </a>
             </div>
           </section>

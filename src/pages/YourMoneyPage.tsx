@@ -41,7 +41,7 @@ export function YourMoneyPage() {
               <div className="mb-12">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">How it works</h2>
                 <p className="text-xl text-gray-700 leading-relaxed">
-                  Reading a bank document, insurance policy, or tax letter? Highlight any term — APR, LTV, amortization, drawdown — and get a plain-English explanation instantly.
+                  Reading a bank document, insurance policy, or tax letter? Highlight any term - APR, LTV, amortization, drawdown - and get a plain-English explanation instantly.
                 </p>
               </div>
 
@@ -53,7 +53,7 @@ export function YourMoneyPage() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-teal-600 to-teal-500 text-white font-semibold rounded-full hover:shadow-lg transition-all text-lg"
                 >
-                  Get the Extension — Free →
+                  Get the Extension - Free →
                 </a>
               </div>
             </div>
@@ -118,7 +118,7 @@ export function YourMoneyPage() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-teal-600 to-teal-500 text-white font-semibold rounded-full hover:shadow-lg transition-all text-lg"
               >
-                Get the Extension — Free →
+                Get the Extension - Free →
               </a>
             </div>
           </section>

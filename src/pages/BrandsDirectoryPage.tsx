@@ -39,7 +39,7 @@ export function BrandsDirectoryPage() {
               Finally understand the brands you invest in.
             </h1>
             <p className="text-xl opacity-90 max-w-2xl mb-6">
-              Before you invest, know how they make money. We decode earnings and explain the numbers — in plain English.
+              Before you invest, know how they make money. We decode earnings and explain the numbers - in plain English.
             </p>
             <a
               href="https://chromewebstore.google.com/detail/ask-ayo/your-extension-id"
@@ -52,6 +52,44 @@ export function BrandsDirectoryPage() {
             <p className="text-sm opacity-75 mt-3">
               to understand any term, anywhere.
             </p>
+          </div>
+        </div>
+
+        {/* Intro Copy Section */}
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          {/* What is this? */}
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">What is this?</h2>
+            <p className="text-xl text-gray-700 leading-relaxed">
+              A plain-English guide to the world's biggest companies. How they make money, what their earnings calls actually said, and what the numbers mean.
+            </p>
+          </div>
+
+          {/* Why this exists */}
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">Why this exists</h2>
+            <p className="text-xl text-gray-700 leading-relaxed">
+              We're on a mission to break down the language barrier of finance. Most people care about brands like Nike, Apple, Tesla, LVMH. But the way these companies talk about their business is deliberately confusing. We decode it. Plain-English summaries updated within hours of every earnings call.
+            </p>
+          </div>
+
+          {/* Still confused? */}
+          <div className="mb-8">
+            <p className="text-xl text-gray-700 leading-relaxed">
+              Still confused by a term? Download the AYO extension. Highlight any financial jargon anywhere on the web, get an instant explanation.
+            </p>
+          </div>
+
+          {/* CTA */}
+          <div className="text-center mb-8">
+            <a
+              href="https://chromewebstore.google.com/detail/ask-ayo/your-extension-id"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-full hover:shadow-lg transition-all text-lg"
+            >
+              Get the Extension - Free →
+            </a>
           </div>
         </div>
 
@@ -129,7 +167,7 @@ export function BrandsDirectoryPage() {
               Want this for every article you read?
             </h2>
             <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-              Highlight any financial jargon — on this page or anywhere else — and get an instant explanation.
+              Highlight any financial jargon - on this page or anywhere else - and get an instant explanation.
             </p>
             <a
               href="https://chromewebstore.google.com/detail/ask-ayo/your-extension-id"
@@ -137,7 +175,7 @@ export function BrandsDirectoryPage() {
               rel="noopener noreferrer"
               className="inline-block bg-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors"
             >
-              Get the Chrome Extension — Free →
+              Get the Chrome Extension - Free →
             </a>
             <p className="text-sm text-gray-500 mt-4">
               Education, not advice.

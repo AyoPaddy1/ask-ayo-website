@@ -41,7 +41,7 @@ export function NewsPage() {
               <div className="mb-12">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">How it works</h2>
                 <p className="text-xl text-gray-700 leading-relaxed">
-                  See a term you don't understand? Highlight it. AYO explains it in plain English — on BBC, Reuters, the Financial Times, anywhere.
+                  See a term you don't understand? Highlight it. AYO explains it in plain English - on BBC, Reuters, the Financial Times, anywhere.
                 </p>
               </div>
 
@@ -53,7 +53,7 @@ export function NewsPage() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-teal-600 to-teal-500 text-white font-semibold rounded-full hover:shadow-lg transition-all text-lg"
                 >
-                  Get the Extension — Free →
+                  Get the Extension - Free →
                 </a>
               </div>
             </div>
@@ -122,7 +122,7 @@ export function NewsPage() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-teal-600 to-teal-500 text-white font-semibold rounded-full hover:shadow-lg transition-all text-lg"
               >
-                Get the Extension — Free →
+                Get the Extension - Free →
               </a>
             </div>
           </section>
