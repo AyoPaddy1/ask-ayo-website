@@ -1,220 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Main Pages -->
   <url>
     <loc>https://ask-ayo.com/</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-01-29</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://ask-ayo.com/investing</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <!-- Brand Pages -->
-  <url>
-    <loc>https://ask-ayo.com/investing/apple</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://ask-ayo.com/investing/nike</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ask-ayo.com/investing/netflix</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ask-ayo.com/investing/tesla</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ask-ayo.com/investing/mcdonalds</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ask-ayo.com/investing/coca-cola</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ask-ayo.com/investing/amazon</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ask-ayo.com/investing/lvmh</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ask-ayo.com/investing/google</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://ask-ayo.com/investing/disney</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ask-ayo.com/investing/pepsi</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <!-- Earnings Articles -->
-  <url>
-    <loc>https://ask-ayo.com/investing/apple/q1-fy2026-preview</loc>
+    <loc>https://ask-ayo.com/brands</loc>
     <lastmod>2026-01-29</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ask-ayo.com/brands/apple</loc>
+    <lastmod>2026-01-29</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ask-ayo.com/investing/apple/q4-fy2024-results</loc>
-    <lastmod>2024-10-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ask-ayo.com/investing/nike/q2-fy2026-results</loc>
-    <lastmod>2026-01-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ask-ayo.com/investing/lululemon/q3-fy2024-results</loc>
-    <lastmod>2024-12-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ask-ayo.com/investing/adidas/q3-2024-results</loc>
-    <lastmod>2024-10-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ask-ayo.com/investing/nvidia/q3-fy2025-results</loc>
-    <lastmod>2024-11-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ask-ayo.com/investing/netflix/q3-2024-results</loc>
-    <lastmod>2024-10-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ask-ayo.com/investing/lvmh/q3-2024-results</loc>
-    <lastmod>2024-10-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ask-ayo.com/investing/lvmh/q4-2025-preview</loc>
-    <lastmod>2026-01-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ask-ayo.com/investing/tesla/q4-2025-results</loc>
-    <lastmod>2026-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ask-ayo.com/investing/coca-cola/q4-2025-preview</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://ask-ayo.com/brands/nike</loc>
+    <lastmod>2026-01-29</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ask-ayo.com/investing/google/q4-2025-preview</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://ask-ayo.com/brands/netflix</loc>
+    <lastmod>2026-01-29</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ask-ayo.com/investing/amazon/q4-2025-preview</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://ask-ayo.com/brands/tesla</loc>
+    <lastmod>2026-01-29</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ask-ayo.com/investing/disney/q1-fy2026-preview</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://ask-ayo.com/brands/mcdonalds</loc>
+    <lastmod>2026-01-29</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ask-ayo.com/investing/mcdonalds/q4-2025-preview</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://ask-ayo.com/brands/coca-cola</loc>
+    <lastmod>2026-01-29</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ask-ayo.com/investing/pepsi/q4-2025-preview</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://ask-ayo.com/brands/amazon</loc>
+    <lastmod>2026-01-29</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  
-  <!-- Blog/Education Pages -->
+  <url>
+    <loc>https://ask-ayo.com/brands/lvmh</loc>
+    <lastmod>2026-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://ask-ayo.com/blog</loc>
     <lastmod>2024-12-18</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://ask-ayo.com/blog/what-does-ebitda-mean</loc>
     <lastmod>2024-12-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ask-ayo.com/blog/what-is-pe-ratio</loc>
     <lastmod>2024-12-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ask-ayo.com/blog/understanding-market-cap</loc>
     <lastmod>2024-12-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ask-ayo.com/blog/what-is-roi</loc>
-    <lastmod>2024-12-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ask-ayo.com/blog/what-is-dividend-yield</loc>
-    <lastmod>2024-12-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://ask-ayo.com/earnings</loc>
+    <lastmod>2026-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
 </urlset>
