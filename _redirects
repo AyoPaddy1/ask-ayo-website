@@ -1,0 +1,10 @@
+# 301 Redirects for old URLs
+
+# Old /earnings page → New /investing page
+/earnings /investing 301
+
+# Old /examples page → Homepage
+/examples / 301
+
+# Old /brands/* URLs → New /investing/* URLs
+/brands/* /investing/:splat 301
