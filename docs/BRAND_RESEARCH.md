@@ -31,22 +31,24 @@ For each brand, we collect a standardized set of data points, which are stored i
 
 ### Key Data Points
 
-| Field | Type | Description |
-|---|---|---|
-| `name` | `string` | The official name of the company. |
-| `ticker` | `string` | The company's stock ticker symbol. |
-| `logo` | `string` | The company's logo (emoji or URL). |
-| `sector` | `enum` | The traditional industry sector. |
-| `category` | `enum` | The user-friendly thematic category. |
-| `slug` | `string` | The URL-friendly identifier for the brand. |
-| `tagline` | `string` | A one-sentence hook for the brand card. |
-| `irUrl` | `string` | The URL of the company's investor relations page. |
-| `insight` | `string` | The "killer hook" or core insight about the business model. |
-| `howTheyMakeMoney` | `object` | A breakdown of the company's revenue streams. |
-| `growthStory` | `string` | A 2-3 sentence summary of the company's growth strategy. |
-| `whatProsWatch` | `array` | The key metrics that professional investors use to evaluate the company. |
-| `rightNow` | `string` | The latest news or context affecting the company. |
-| `lastUpdated` | `string` | The date the brand data was last updated. |
+| Field | Type | Description | Currently Displayed? |
+|---|---|---|---|
+| `name` | `string` | The official name of the company. | ✅ Yes |
+| `ticker` | `string` | The company's stock ticker symbol. | ✅ Yes |
+| `logo` | `string` | The company's logo (emoji or URL). | ✅ Yes |
+| `sector` | `enum` | The traditional industry sector. | ✅ Yes |
+| `category` | `enum` | The user-friendly thematic category. | ✅ Yes (directory only) |
+| `slug` | `string` | The URL-friendly identifier for the brand. | ✅ Yes (in URL) |
+| `tagline` | `string` | A one-sentence hook for the brand card. | ✅ Yes (directory only) |
+| `irUrl` | `string` | The URL of the company's investor relations page. | ❌ No (reserved for future use) |
+| `insight` | `string` | The "killer hook" or core insight about the business model. | ❌ No (reserved for future use) |
+| `howTheyMakeMoney` | `object` | A breakdown of the company's revenue streams. | ❌ No (reserved for future use) |
+| `growthStory` | `string` | A 2-3 sentence summary of the company's growth strategy. | ❌ No (reserved for future use) |
+| `whatProsWatch` | `array` | The key metrics that professional investors use to evaluate the company. | ❌ No (reserved for future use) |
+| `rightNow` | `string` | The latest news or context affecting the company. | ❌ No (reserved for future use) |
+| `lastUpdated` | `string` | The date the brand data was last updated. | ❌ No (reserved for future use) |
+
+**Important Note:** Brand pages currently display only the ticker, live stock price, stock chart, and a list of recent earnings reports. The fields marked as "reserved for future use" exist in `brands.ts` but are not displayed on the site. This is an intentional design decision to keep brand pages focused and information-first (see `SITE_ARCHITECTURE.md`). These fields may be used in future features or more detailed brand analysis pages.
 
 ## Source Hierarchy
 

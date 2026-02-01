@@ -38,14 +38,16 @@ These colors are used for the border on brand cards in the Investing directory, 
 
 ## Logos
 
-**Decision:** We use the Logo.dev API (`https://logo.clearbit.com/:domain`) for all company logos.
+**Current Implementation:** Logos are currently stored as emoji characters in the `logo` field of `brands.ts` (e.g., `logo: '🍎'` for Apple).
 
-**Rationale:**
-1.  **Consistency:** Ensures all logos have a consistent, high-quality appearance.
-2.  **Automation:** Allows us to fetch logos dynamically based on the company's domain, which is stored in `brands.ts`.
-3.  **Simplicity:** Avoids the need to manually source, upload, and manage logo image files.
+**Future Implementation:** We plan to migrate to the Logo.dev API (`https://img.logo.dev/:domain?token=API_KEY`) for all company logos.
 
-**Implementation:** The `BrandPage.tsx` and `BrandsDirectoryPage.tsx` components fetch logos using the domain field from the `brands.ts` data file.
+**Rationale for Future Migration:**
+1.  **Professionalism:** Real brand logos look more professional than emojis.
+2.  **Consistency:** Ensures all logos have a consistent, high-quality appearance.
+3.  **Automation:** Allows us to fetch logos dynamically based on the company's domain.
+
+**Implementation Notes:** When migrating, add a `domain` field to the `Brand` interface in `brands.ts` (e.g., `domain: 'apple.com'`), then update `BrandPage.tsx` and `BrandsDirectoryPage.tsx` to fetch logos from Logo.dev.
 
 ## Charts
 
@@ -70,10 +72,12 @@ Our stock charts are designed for clarity and immediate visual comprehension.
 
 ### Caching
 
-**Decision:** Live stock prices on the individual `BrandPage.tsx` are cached in `localStorage` with a 10-minute Time-to-Live (TTL).
+**Current Implementation:** Live stock prices are fetched fresh on every page load from the Twelve Data API.
 
-**Rationale:**
-1.  **API Usage:** Reduces the number of API calls to the Twelve Data API, staying within the free tier limits.
-2.  **Performance:** Improves the user experience for users who frequently navigate between brand pages.
+**Future Implementation:** We plan to cache stock prices in `localStorage` with a 10-minute Time-to-Live (TTL).
 
-**Implementation:** The `BrandPage.tsx` component includes logic to check for a cached price in `localStorage` before making a new API call.
+**Rationale for Future Caching:**
+1.  **API Usage:** Would reduce the number of API calls to the Twelve Data API, staying within the free tier limits.
+2.  **Performance:** Would improve the user experience for users who frequently navigate between brand pages.
+
+**Implementation Notes:** When implementing, add logic to `BrandPage.tsx` to check for a cached price in `localStorage` before making a new API call. Store the price with a timestamp and check if it's older than 10 minutes before using it.
