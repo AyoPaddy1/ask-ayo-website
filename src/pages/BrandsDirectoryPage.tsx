@@ -128,16 +128,11 @@ export function BrandsDirectoryPage() {
                     className="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all p-6 border border-gray-200 hover:border-purple-600 group"
                   >
                     <div className="flex items-center gap-4 mb-4">
-                      <div className={`w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-xl flex-shrink-0 ${
-                        brand.sector === 'Tech' ? 'bg-blue-600' :
-                        brand.sector === 'Consumer' ? 'bg-orange-600' :
-                        brand.sector === 'Luxury' ? 'bg-purple-600' :
-                        brand.sector === 'Automotive' ? 'bg-green-600' :
-                        brand.sector === 'Sportswear' ? 'bg-pink-600' :
-                        'bg-indigo-600'
-                      }`}>
-                        {brand.name.charAt(0)}
-                      </div>
+                      <img
+                        src={`https://img.logo.dev/${brand.domain}?token=pk_ZsKdfCf9SJqbryuxYrFPDA&format=png&size=128`}
+                        alt={`${brand.name} logo`}
+                        className="w-12 h-12 object-contain flex-shrink-0"
+                      />
                       <div>
                         <h3 className="font-bold text-gray-900 group-hover:text-purple-600 transition-colors">
                           {brand.name}

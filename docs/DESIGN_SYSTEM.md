@@ -38,16 +38,25 @@ These colors are used for the border on brand cards in the Investing directory, 
 
 ## Logos
 
-**Current Implementation:** Logos are currently stored as emoji characters in the `logo` field of `brands.ts` (e.g., `logo: '🍎'` for Apple).
+**Current Implementation:** We use the Logo.dev API to fetch real brand logos dynamically.
 
-**Future Implementation:** We plan to migrate to the Logo.dev API (`https://img.logo.dev/:domain?token=API_KEY`) for all company logos.
+**API Pattern:**
+```
+https://img.logo.dev/${brand.domain}?token=pk_ZsKdfCf9SJqbryuxYrFPDA&format=png&size=128
+```
 
-**Rationale for Future Migration:**
-1.  **Professionalism:** Real brand logos look more professional than emojis.
-2.  **Consistency:** Ensures all logos have a consistent, high-quality appearance.
-3.  **Automation:** Allows us to fetch logos dynamically based on the company's domain.
+**Data Structure:** Each brand in `brands.ts` has a `domain` field (e.g., `domain: 'apple.com'`) that is used to fetch the logo from Logo.dev.
 
-**Implementation Notes:** When migrating, add a `domain` field to the `Brand` interface in `brands.ts` (e.g., `domain: 'apple.com'`), then update `BrandPage.tsx` and `BrandsDirectoryPage.tsx` to fetch logos from Logo.dev.
+**Implementation:**
+- `BrandsDirectoryPage.tsx`: Displays 12x12 (48px) logos on brand cards
+- `BrandPage.tsx`: Displays 16x16 (64px) logos on individual brand pages
+
+**Rationale:**
+1.  **Professionalism:** Real brand logos provide immediate recognition and look more professional than emojis or letter circles.
+2.  **Consistency:** Ensures all logos have a consistent, high-quality appearance across the site.
+3.  **Automation:** Logos are fetched dynamically based on the company's domain, no manual image management needed.
+
+**Note:** The `logo` field in `brands.ts` still contains emoji characters for backwards compatibility, but these are not displayed on the site.
 
 ## Charts
 
@@ -74,10 +83,6 @@ Our stock charts are designed for clarity and immediate visual comprehension.
 
 **Current Implementation:** Live stock prices are fetched fresh on every page load from the Twelve Data API.
 
-**Future Implementation:** We plan to cache stock prices in `localStorage` with a 10-minute Time-to-Live (TTL).
+**Rationale:** This ensures users always see the most up-to-date stock prices, which is critical for financial data accuracy.
 
-**Rationale for Future Caching:**
-1.  **API Usage:** Would reduce the number of API calls to the Twelve Data API, staying within the free tier limits.
-2.  **Performance:** Would improve the user experience for users who frequently navigate between brand pages.
-
-**Implementation Notes:** When implementing, add logic to `BrandPage.tsx` to check for a cached price in `localStorage` before making a new API call. Store the price with a timestamp and check if it's older than 10 minutes before using it.
+**Future Optimization:** If API rate limits become an issue, we may implement `localStorage` caching with a short Time-to-Live (TTL) of 5-10 minutes. However, this is not currently necessary as the Twelve Data free tier provides sufficient API calls for our traffic.

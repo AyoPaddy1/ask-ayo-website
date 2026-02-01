@@ -3,6 +3,7 @@ export interface Brand {
   name: string;
   ticker: string;
   logo: string;
+  domain: string; // Domain for Logo.dev API (e.g., 'apple.com')
   sector: 'Tech' | 'Consumer' | 'Luxury' | 'Automotive' | 'Sportswear' | 'Financial Services' | 'Industrial';
   category: 'Your Digital Life' | 'The Fit' | 'Cravings' | 'The Drive' | 'The Stream' | 'The Cart';
   slug: string;
@@ -25,6 +26,7 @@ export const brands: Brand[] = [
     name: 'Apple',
     ticker: 'AAPL',
     logo: '🍎',
+    domain: 'apple.com',
     sector: 'Tech',
     category: 'Your Digital Life',
     slug: 'apple',
@@ -71,6 +73,7 @@ export const brands: Brand[] = [
     name: 'Nike',
     ticker: 'NKE',
     logo: '👟',
+    domain: 'nike.com',
     sector: 'Sportswear',
     category: 'The Fit',
     slug: 'nike',
@@ -112,6 +115,7 @@ export const brands: Brand[] = [
     name: 'Netflix',
     ticker: 'NFLX',
     logo: '🎬',
+    domain: 'netflix.com',
     sector: 'Tech',
     category: 'The Stream',
     slug: 'netflix',
@@ -153,6 +157,7 @@ export const brands: Brand[] = [
     name: 'Tesla',
     ticker: 'TSLA',
     logo: '⚡',
+    domain: 'tesla.com',
     sector: 'Automotive',
     category: 'The Drive',
     slug: 'tesla',
@@ -240,6 +245,7 @@ export const brands: Brand[] = [
     name: 'Coca-Cola',
     ticker: 'KO',
     logo: '🥤',
+    domain: 'coca-cola.com',
     sector: 'Consumer',
     category: 'Cravings',
     slug: 'coca-cola',
@@ -286,6 +292,7 @@ export const brands: Brand[] = [
     name: 'Amazon',
     ticker: 'AMZN',
     logo: '📦',
+    domain: 'amazon.com',
     sector: 'Tech',
     category: 'The Cart',
     slug: 'amazon',
@@ -337,6 +344,7 @@ export const brands: Brand[] = [
     name: 'LVMH',
     ticker: 'MC.PA',
     logo: '👜',
+    domain: 'lvmh.com',
     sector: 'Luxury',
     category: 'The Fit',
     slug: 'lvmh',

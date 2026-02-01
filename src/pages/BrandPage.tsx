@@ -94,7 +94,11 @@ export function BrandPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <div className="flex items-start justify-between">
               <div className="flex items-center gap-4">
-                <div className="text-6xl">{brand.logo}</div>
+                <img
+                  src={`https://img.logo.dev/${brand.domain}?token=pk_ZsKdfCf9SJqbryuxYrFPDA&format=png&size=128`}
+                  alt={`${brand.name} logo`}
+                  className="w-16 h-16 object-contain"
+                />
                 <div>
                   <h1 className="text-3xl font-bold text-gray-900">{brand.name}</h1>
                   <p className="text-lg text-gray-600 mt-1">{brand.ticker} · {brand.sector}</p>
