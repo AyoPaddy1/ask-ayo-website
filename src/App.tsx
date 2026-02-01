@@ -24,12 +24,12 @@ export default function App() {
           <Route path="/investing/:slug" element={<BrandPage />} />
           <Route path="/investing/:slug/earnings/:earningsSlug" element={<EarningsArticlePage />} />
           
-          {/* 301 redirects from old /brands/ URLs */}
+          {/* 301 redirects from old URLs */}
           <Route path="/brands" element={<Navigate to="/investing" replace />} />
           <Route path="/brands/:slug" element={<Navigate to="/investing/:slug" replace />} />
           <Route path="/brands/:slug/earnings/:earningsSlug" element={<Navigate to="/investing/:slug/earnings/:earningsSlug" replace />} />
-          <Route path="/earnings" element={<EarningsListPage />} />
-          <Route path="/earnings/:slug" element={<EarningsArticlePage />} />
+          <Route path="/earnings" element={<Navigate to="/investing" replace />} />
+          <Route path="/examples" element={<Navigate to="/" replace />} />
           
           {/* Explanation pages */}
           <Route path="/news" element={<NewsPage />} />
