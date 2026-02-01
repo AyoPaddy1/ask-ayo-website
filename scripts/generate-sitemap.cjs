@@ -134,6 +134,24 @@ sitemap += `
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://ask-ayo.com/blog/bull-market-vs-bear-market</loc>
+    <lastmod>2024-12-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ask-ayo.com/blog/what-are-blue-chip-stocks</loc>
+    <lastmod>2024-12-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ask-ayo.com/blog/what-is-an-ipo</loc>
+    <lastmod>2024-12-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>`;
 
 // Write sitemap
@@ -145,5 +163,5 @@ const urlCount = (sitemap.match(/<url>/g) || []).length;
 console.log(`✅ Sitemap generated with ${urlCount} URLs`);
 console.log(`   - ${brandSlugs.length} brand pages`);
 console.log(`   - ${earningsData.length} earnings articles`);
-console.log(`   - 9 static pages (homepage, investing, use cases, blog)`);
+console.log(`   - 12 static pages (homepage, investing, use cases, blog posts)`);
 console.log(`📝 Sitemap saved to: ${sitemapPath}`);

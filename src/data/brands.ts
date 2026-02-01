@@ -167,7 +167,7 @@ export const brands: Brand[] = [
     domain: 'hm.com',
     sector: 'Consumer',
     category: 'Consumer Brands',
-    slug: 'h&m',
+    slug: 'hm',
     tagline: 'Track H&M earnings and performance'
   },
   {
@@ -177,7 +177,7 @@ export const brands: Brand[] = [
     domain: 'hermes.com',
     sector: 'Luxury',
     category: 'Luxury',
-    slug: 'hermès',
+    slug: 'hermes',
     tagline: 'Track Hermès earnings and performance'
   },
   {
@@ -237,7 +237,7 @@ export const brands: Brand[] = [
     domain: 'loreal.com',
     sector: 'Luxury',
     category: 'Consumer Brands',
-    slug: 'loréal',
+    slug: 'loreal',
     tagline: 'Track L'Oréal earnings and performance'
   },
   {
@@ -307,7 +307,7 @@ export const brands: Brand[] = [
     domain: 'nescafe.com',
     sector: 'Consumer',
     category: 'Consumer Brands',
-    slug: 'nescafé',
+    slug: 'nescafe',
     tagline: 'Track Nescafé earnings and performance'
   },
   {

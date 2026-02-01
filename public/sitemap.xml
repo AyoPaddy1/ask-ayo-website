@@ -128,13 +128,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ask-ayo.com/investing/h&m</loc>
+    <loc>https://ask-ayo.com/investing/hm</loc>
     <lastmod>2026-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ask-ayo.com/investing/hermès</loc>
+    <loc>https://ask-ayo.com/investing/hermes</loc>
     <lastmod>2026-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -170,7 +170,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ask-ayo.com/investing/loréal</loc>
+    <loc>https://ask-ayo.com/investing/loreal</loc>
     <lastmod>2026-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -212,7 +212,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ask-ayo.com/investing/nescafé</loc>
+    <loc>https://ask-ayo.com/investing/nescafe</loc>
     <lastmod>2026-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -409,6 +409,24 @@
   </url>
   <url>
     <loc>https://ask-ayo.com/blog/what-is-dividend-yield</loc>
+    <lastmod>2024-12-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ask-ayo.com/blog/bull-market-vs-bear-market</loc>
+    <lastmod>2024-12-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ask-ayo.com/blog/what-are-blue-chip-stocks</loc>
+    <lastmod>2024-12-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ask-ayo.com/blog/what-is-an-ipo</loc>
     <lastmod>2024-12-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
