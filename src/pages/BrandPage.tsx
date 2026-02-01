@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { brands } from '../data/brands';
 import { earningsReports } from '../data/earnings';
-import { StockChart } from '../components/StockChart';
+import { StockChartStatic } from '../components/StockChartStatic';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 
@@ -135,10 +135,7 @@ export function BrandPage() {
           <div className="space-y-12">
             {/* Stock Chart */}
             <div>
-              <StockChart ticker={brand.ticker} />
-              <p className="text-xs text-gray-500 mt-2">
-                Data provided by Twelve Data. 15-minute delay.
-              </p>
+              <StockChartStatic ticker={brand.ticker} brandSlug={brand.slug} />
             </div>
 
             {/* Earnings Feed */}

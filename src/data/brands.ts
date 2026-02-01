@@ -470,7 +470,6 @@ export const brands: Brand[] = [
     slug: 'ebay',
     tagline: 'Track eBay earnings and performance'
   },
-];
   {
     name: 'Lucid',
     ticker: 'LCID',
@@ -570,5 +569,135 @@ export const brands: Brand[] = [
     category: 'Financial Services',
     slug: 'berkshire-hathaway',
     tagline: 'Warren Buffett\'s legendary investment company'
+  },
+  {
+    name: 'Uber',
+    ticker: 'UBER',
+    logo: '🚗',
+    domain: 'uber.com',
+    sector: 'Tech',
+    category: 'Tech Giants',
+    slug: 'uber',
+    tagline: 'Ride-sharing and food delivery leader'
+  },
+  {
+    name: 'Qualcomm',
+    ticker: 'QCOM',
+    logo: '📱',
+    domain: 'qualcomm.com',
+    sector: 'Tech',
+    category: 'Tech Giants',
+    slug: 'qualcomm',
+    tagline: 'Mobile chip maker powering smartphones globally'
+  },
+  {
+    name: 'Snap',
+    ticker: 'SNAP',
+    logo: '👻',
+    domain: 'snap.com',
+    sector: 'Tech',
+    category: 'Tech Giants',
+    slug: 'snap',
+    tagline: 'Snapchat parent company, AR and AI innovator'
+  },
+  {
+    name: 'Pinterest',
+    ticker: 'PINS',
+    logo: '📌',
+    domain: 'pinterest.com',
+    sector: 'Tech',
+    category: 'Tech Giants',
+    slug: 'pinterest',
+    tagline: 'Visual discovery platform with e-commerce integration'
+  },
+  {
+    name: 'Reddit',
+    ticker: 'RDDT',
+    logo: '🤖',
+    domain: 'reddit.com',
+    sector: 'Tech',
+    category: 'Tech Giants',
+    slug: 'reddit',
+    tagline: 'The front page of the internet and retail investor hub'
+  },
+  {
+    name: 'Robinhood',
+    ticker: 'HOOD',
+    logo: '🏹',
+    domain: 'robinhood.com',
+    sector: 'Financial Services',
+    category: 'Financial Services',
+    slug: 'robinhood',
+    tagline: 'Commission-free trading platform for beginners'
+  },
+  {
+    name: 'DoorDash',
+    ticker: 'DASH',
+    logo: '🍔',
+    domain: 'doordash.com',
+    sector: 'Tech',
+    category: 'Tech Giants',
+    slug: 'doordash',
+    tagline: 'Food delivery leader used daily by millions'
+  },
+  {
+    name: 'Shopify',
+    ticker: 'SHOP',
+    logo: '🛍️',
+    domain: 'shopify.com',
+    sector: 'Tech',
+    category: 'Tech Giants',
+    slug: 'shopify',
+    tagline: 'E-commerce platform powering millions of businesses'
+  },
+  {
+    name: 'Block',
+    ticker: 'SQ',
+    logo: '⬛',
+    domain: 'block.xyz',
+    sector: 'Financial Services',
+    category: 'Financial Services',
+    slug: 'block',
+    tagline: 'Cash App and Square parent, fintech innovator'
+  },
+  {
+    name: 'Rivian',
+    ticker: 'RIVN',
+    logo: '🚙',
+    domain: 'rivian.com',
+    sector: 'Automotive',
+    category: 'Automotive',
+    slug: 'rivian',
+    tagline: 'Electric vehicle startup backed by Amazon'
+  },
+  {
+    name: 'Etsy',
+    ticker: 'ETSY',
+    logo: '🎨',
+    domain: 'etsy.com',
+    sector: 'Consumer',
+    category: 'Consumer Brands',
+    slug: 'etsy',
+    tagline: 'Handmade and vintage marketplace with loyal community'
+  },
+  {
+    name: 'Dell',
+    ticker: 'DELL',
+    logo: '💻',
+    domain: 'dell.com',
+    sector: 'Tech',
+    category: 'Tech Giants',
+    slug: 'dell',
+    tagline: 'PC and enterprise technology solutions'
+  },
+  {
+    name: 'Target',
+    ticker: 'TGT',
+    logo: '🎯',
+    domain: 'target.com',
+    sector: 'Consumer',
+    category: 'Consumer Brands',
+    slug: 'target',
+    tagline: 'Retail icon and popular dividend stock for beginners'
   }
 ];

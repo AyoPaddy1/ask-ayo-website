@@ -1,0 +1,11 @@
+{
+  "name": "ayo-scripts",
+  "version": "1.0.0",
+  "description": "AYO website automation scripts",
+  "scripts": {
+    "generate-charts": "node generate-static-charts.js",
+    "test-chart": "node generate-static-charts.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
