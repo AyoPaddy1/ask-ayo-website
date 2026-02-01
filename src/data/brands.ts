@@ -471,3 +471,104 @@ export const brands: Brand[] = [
     tagline: 'Track eBay earnings and performance'
   },
 ];
+  {
+    name: 'Lucid',
+    ticker: 'LCID',
+    logo: '⚡',
+    domain: 'lucidmotors.com',
+    sector: 'Automotive',
+    category: 'Automotive',
+    slug: 'lucid',
+    tagline: 'Luxury EV startup backed by Saudi Arabia'
+  },
+  {
+    name: 'Lululemon',
+    ticker: 'LULU',
+    logo: '🧘',
+    domain: 'lululemon.com',
+    sector: 'Sportswear',
+    category: 'Sportswear',
+    slug: 'lululemon',
+    tagline: 'Cult athleisure brand with loyal following'
+  },
+  {
+    name: 'Adidas',
+    ticker: 'ADDYY',
+    logo: '👟',
+    domain: 'adidas.com',
+    sector: 'Sportswear',
+    category: 'Sportswear',
+    slug: 'adidas',
+    tagline: 'Nike\'s main rival in global sportswear'
+  },
+  {
+    name: 'Costco',
+    ticker: 'COST',
+    logo: '🛒',
+    domain: 'costco.com',
+    sector: 'Consumer',
+    category: 'Consumer Brands',
+    slug: 'costco',
+    tagline: 'Cult retail following and membership model'
+  },
+  {
+    name: 'Walmart',
+    ticker: 'WMT',
+    logo: '🏪',
+    domain: 'walmart.com',
+    sector: 'Consumer',
+    category: 'Consumer Brands',
+    slug: 'walmart',
+    tagline: 'World\'s largest company by revenue'
+  },
+  {
+    name: 'Chipotle',
+    ticker: 'CMG',
+    logo: '🌯',
+    domain: 'chipotle.com',
+    sector: 'Consumer',
+    category: 'Consumer Brands',
+    slug: 'chipotle',
+    tagline: 'Fast-casual favorite with younger investors'
+  },
+  {
+    name: 'AMD',
+    ticker: 'AMD',
+    logo: '💻',
+    domain: 'amd.com',
+    sector: 'Tech',
+    category: 'Tech Giants',
+    slug: 'amd',
+    tagline: 'Nvidia\'s main rival in chips and GPUs'
+  },
+  {
+    name: 'Palantir',
+    ticker: 'PLTR',
+    logo: '🔮',
+    domain: 'palantir.com',
+    sector: 'Tech',
+    category: 'Tech Giants',
+    slug: 'palantir',
+    tagline: 'AI and data analytics for government and enterprise'
+  },
+  {
+    name: 'Coinbase',
+    ticker: 'COIN',
+    logo: '₿',
+    domain: 'coinbase.com',
+    sector: 'Financial Services',
+    category: 'Financial Services',
+    slug: 'coinbase',
+    tagline: 'Crypto exchange gateway for beginners'
+  },
+  {
+    name: 'Berkshire Hathaway',
+    ticker: 'BRK.B',
+    logo: '🏦',
+    domain: 'berkshirehathaway.com',
+    sector: 'Financial Services',
+    category: 'Financial Services',
+    slug: 'berkshire-hathaway',
+    tagline: 'Warren Buffett\'s legendary investment company'
+  }
+];
