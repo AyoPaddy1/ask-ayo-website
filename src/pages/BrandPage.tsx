@@ -198,6 +198,7 @@ export function BrandPage() {
             </section>
 
             {/* Investor Relations Link */}
+            {/* Investor Relations section - commented out until irUrl is added to Brand interface
             <section className="bg-white rounded-lg border border-gray-200 p-6">
               <div className="flex items-center gap-3">
                 <span className="text-2xl">📎</span>
@@ -214,6 +215,7 @@ export function BrandPage() {
                 </div>
               </div>
             </section>
+            */}
 
             {/* Extension CTA */}
             <section className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg p-8 text-white text-center">

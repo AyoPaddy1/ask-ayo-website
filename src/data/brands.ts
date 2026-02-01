@@ -231,14 +231,14 @@ export const brands: Brand[] = [
     tagline: 'Track J.P. Morgan earnings and performance'
   },
   {
-    name: 'L'Oréal',
+    name: "L'Oréal",
     ticker: 'OR.PA',
     logo: '💅',
     domain: 'loreal.com',
     sector: 'Luxury',
     category: 'Consumer Brands',
     slug: 'loreal',
-    tagline: 'Track L'Oréal earnings and performance'
+    tagline: "Track L'Oréal earnings and performance"
   },
   {
     name: 'LVMH',
@@ -251,14 +251,14 @@ export const brands: Brand[] = [
     tagline: 'Track LVMH earnings and performance'
   },
   {
-    name: 'McDonald's',
+    name: "McDonald's",
     ticker: 'MCD',
     logo: '🍔',
     domain: 'mcdonalds.com',
     sector: 'Consumer',
     category: 'Consumer Brands',
     slug: 'mcdonalds',
-    tagline: 'Track McDonald's earnings and performance'
+    tagline: "Track McDonald's earnings and performance"
   },
   {
     name: 'Mercedes-Benz',

@@ -3,7 +3,7 @@ import { HelmetProvider } from 'react-helmet-async';
 import { HomePage } from './pages/HomePage';
 import { BlogListPage } from './pages/BlogListPage';
 import { BlogArticlePage } from './pages/BlogArticlePage';
-import { EarningsListPage } from './pages/EarningsListPage';
+
 import { EarningsArticlePage } from './pages/EarningsArticlePage';
 import { BrandsDirectoryPage } from './pages/BrandsDirectoryPage';
 import { BrandPage } from './pages/BrandPage';
