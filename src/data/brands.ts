@@ -1,434 +1,473 @@
 export interface Brand {
-  id: string;
   name: string;
   ticker: string;
   logo: string;
-  domain: string; // Domain for Logo.dev API (e.g., 'apple.com')
-  sector: 'Tech' | 'Consumer' | 'Luxury' | 'Automotive' | 'Sportswear' | 'Financial Services' | 'Industrial';
-  category: 'Your Digital Life' | 'The Fit' | 'Cravings' | 'The Drive' | 'The Stream' | 'The Cart';
+  domain: string;
+  sector: 'Tech' | 'Sportswear' | 'Luxury' | 'Automotive' | 'Consumer' | 'Financial Services' | 'Industrial';
+  category: 'Tech Giants' | 'Sportswear' | 'Luxury' | 'Automotive' | 'Consumer Brands' | 'Financial Services' | 'Industrial';
   slug: string;
-  tagline: string; // One-sentence hook for the card
-  irUrl: string; // Investor Relations URL
-  insight: string; // The killer hook about the business
-  howTheyMakeMoney: {
-    summary: string;
-    breakdown: { segment: string; percentage: number; description: string }[];
-  };
-  growthStory: string; // 2-3 sentences
-  whatProsWatch: { metric: string; why: string }[];
-  rightNow: string; // Latest news/context
-  lastUpdated: string;
+  tagline: string;
 }
 
 export const brands: Brand[] = [
   {
-    id: '01',
-    name: 'Apple',
-    ticker: 'AAPL',
-    logo: '🍎',
-    domain: 'apple.com',
+    name: 'Accenture',
+    ticker: 'ACN',
+    logo: '💼',
+    domain: 'accenture.com',
+    sector: 'Industrial',
+    category: 'Industrial',
+    slug: 'accenture',
+    tagline: 'Track Accenture earnings and performance'
+  },
+  {
+    name: 'Adobe',
+    ticker: 'ADBE',
+    logo: '🎨',
+    domain: 'adobe.com',
     sector: 'Tech',
-    category: 'Your Digital Life',
-    slug: 'apple',
-    tagline: 'The ecosystem you can\'t escape',
-    irUrl: 'https://investor.apple.com/',
-    insight: 'Apple doesn\'t sell phones. They sell a walled garden you pay rent on forever.',
-    howTheyMakeMoney: {
-      summary: 'Apple makes money from hardware (iPhones, Macs, iPads) and an increasingly lucrative services business (App Store, iCloud, Apple Music, Apple TV+).',
-      breakdown: [
-        {
-          segment: 'iPhone',
-          percentage: 52,
-          description: 'The cash cow. Premium pricing, annual upgrades, and the gateway drug to the ecosystem.'
-        },
-        {
-          segment: 'Services',
-          percentage: 22,
-          description: 'App Store takes 30%, iCloud storage, subscriptions. Pure profit, recurring revenue.'
-        },
-        {
-          segment: 'Mac',
-          percentage: 11,
-          description: 'Premium laptops and desktops. M-series chips made them cool again.'
-        },
-        {
-          segment: 'iPad & Wearables',
-          percentage: 15,
-          description: 'iPads, AirPods, Apple Watch. Accessories that lock you deeper into the ecosystem.'
-        }
-      ]
-    },
-    growthStory: 'Dominated smartphones → Built a services empire → Now betting on AI and spatial computing (Vision Pro). The strategy: Get you on one device, keep you on all of them.',
-    whatProsWatch: [
-      { metric: 'iPhone ASP (Average Selling Price)', why: 'Shows whether people are buying Pro models or going cheap.' },
-      { metric: 'Services growth rate', why: 'Recurring revenue is more valuable than one-time hardware sales.' },
-      { metric: 'China revenue', why: 'Huge market, but geopolitical risk and Huawei competition.' },
-      { metric: 'Gross margin', why: 'Apple\'s pricing power. If margins drop, the premium brand is weakening.' }
-    ],
-    rightNow: 'Apple Intelligence (AI features) rolling out. Vision Pro launched but slow adoption. China sales under pressure from local competitors. Services growth slowing but still strong.',
-    lastUpdated: 'January 29, 2026'
+    category: 'Tech Giants',
+    slug: 'adobe',
+    tagline: 'Track Adobe earnings and performance'
   },
   {
-    id: '02',
-    name: 'Nike',
-    ticker: 'NKE',
-    logo: '👟',
-    domain: 'nike.com',
-    sector: 'Sportswear',
-    category: 'The Fit',
-    slug: 'nike',
-    tagline: 'Just do it. And report quarterly earnings.',
-    irUrl: 'https://investors.nike.com/',
-    insight: 'Nike doesn\'t make shoes. They make desire.',
-    howTheyMakeMoney: {
-      summary: 'Nike designs and markets athletic footwear, apparel, and equipment. They don\'t manufacture—they outsource production to factories (mostly in Asia) and focus on branding, design, and distribution.',
-      breakdown: [
-        {
-          segment: 'Footwear',
-          percentage: 68,
-          description: 'Sneakers, running shoes, basketball shoes. The core business. High margins on premium models.'
-        },
-        {
-          segment: 'Apparel',
-          percentage: 27,
-          description: 'Athletic wear, jerseys, hoodies. Lower margins than shoes but huge volume.'
-        },
-        {
-          segment: 'Equipment',
-          percentage: 5,
-          description: 'Bags, balls, accessories. Small but steady.'
-        }
-      ]
-    },
-    growthStory: 'Global dominance through athlete endorsements → Pivot to direct-to-consumer (DTC) and digital → Now a messy reset under new CEO. Cutting wholesale partners, betting on Nike.com and owned stores.',
-    whatProsWatch: [
-      { metric: 'Gross margin', why: 'Shows pricing power. If margins drop, they\'re discounting too much.' },
-      { metric: 'Inventory days', why: 'Too much inventory = markdowns coming. Bad for margins.' },
-      { metric: 'China revenue', why: 'Huge growth market, but competition from local brands (Li-Ning, Anta) is fierce.' },
-      { metric: 'DTC vs. wholesale mix', why: 'DTC is higher margin. Nike wants to own the customer relationship.' }
-    ],
-    rightNow: 'New CEO cleaning up. Guidance cut. Inventory issues. China sales weak. Stock down 40% from highs. Turnaround story or value trap?',
-    lastUpdated: 'January 27, 2026'
-  },
-  {
-    id: '03',
-    name: 'Netflix',
-    ticker: 'NFLX',
-    logo: '🎬',
-    domain: 'netflix.com',
-    sector: 'Tech',
-    category: 'The Stream',
-    slug: 'netflix',
-    tagline: 'Binge now, cancel later',
-    irUrl: 'https://ir.netflix.net/',
-    insight: 'Netflix doesn\'t sell shows. They sell the illusion of infinite choice.',
-    howTheyMakeMoney: {
-      summary: 'Subscription streaming service. You pay monthly, they give you unlimited access to movies and shows. No ads (unless you pick the cheap tier). Revenue = subscribers × average price.',
-      breakdown: [
-        {
-          segment: 'Standard Plan',
-          percentage: 55,
-          description: '$15.49/month. Most popular tier. HD streaming, 2 screens.'
-        },
-        {
-          segment: 'Premium Plan',
-          percentage: 30,
-          description: '$19.99/month. 4K, 4 screens. Families and sharers.'
-        },
-        {
-          segment: 'Ad-Supported Plan',
-          percentage: 15,
-          description: '$6.99/month. Cheaper, but you watch ads. Growing fast.'
-        }
-      ]
-    },
-    growthStory: 'Killed Blockbuster → Became the default streaming service → Competition arrived (Disney+, HBO Max) → Now focused on profitability over growth. Password-sharing crackdown working.',
-    whatProsWatch: [
-      { metric: 'Net subscriber adds', why: 'Growth is slowing. Every quarter, Wall Street asks: Are they still growing?' },
-      { metric: 'Average Revenue Per User (ARPU)', why: 'Can they raise prices without losing subscribers?' },
-      { metric: 'Content spend', why: 'They spend $17B/year on shows. Is it worth it?' },
-      { metric: 'Ad-tier adoption', why: 'Ads = higher margins. If this grows, profitability improves.' }
-    ],
-    rightNow: 'Password-sharing crackdown added millions of subscribers. Ad tier growing. Live sports coming (WWE, NFL). Stock near all-time highs. But growth is slowing.',
-    lastUpdated: 'January 29, 2026'
-  },
-  {
-    id: '04',
-    name: 'Tesla',
-    ticker: 'TSLA',
-    logo: '⚡',
-    domain: 'tesla.com',
-    sector: 'Automotive',
-    category: 'The Drive',
-    slug: 'tesla',
-    tagline: 'Electric dreams, earnings reality',
-    irUrl: 'https://ir.tesla.com/',
-    insight: 'Tesla doesn\'t sell cars. They sell Elon Musk\'s vision of the future.',
-    howTheyMakeMoney: {
-      summary: 'Tesla makes electric vehicles (EVs) and sells them directly to consumers (no dealerships). They also sell solar panels, batteries, and Full Self-Driving (FSD) software subscriptions.',
-      breakdown: [
-        {
-          segment: 'Automotive Sales',
-          percentage: 81,
-          description: 'Model 3, Model Y, Model S, Model X, Cybertruck. The core business.'
-        },
-        {
-          segment: 'Automotive Leasing',
-          percentage: 4,
-          description: 'Lease programs. Smaller but recurring revenue.'
-        },
-        {
-          segment: 'Energy Generation & Storage',
-          percentage: 6,
-          description: 'Solar panels, Powerwall batteries. Growing but still small.'
-        },
-        {
-          segment: 'Services & Other',
-          percentage: 9,
-          description: 'FSD subscriptions, Supercharger network, insurance. High-margin recurring revenue.'
-        }
-      ]
-    },
-    growthStory: 'Proved EVs could be cool → Scaled production → Now facing competition from legacy automakers (Ford, GM) and Chinese rivals (BYD). Margins under pressure from price cuts.',
-    whatProsWatch: [
-      { metric: 'Deliveries', why: 'Growth is slowing. 2025 was the first year deliveries declined.' },
-      { metric: 'Gross margin', why: 'Price cuts are killing margins. Can they stabilize?' },
-      { metric: 'FSD take rate', why: 'Recurring revenue from software is the future. But adoption is slow.' },
-      { metric: 'Cybertruck ramp', why: 'New product. Can they scale production without quality issues?' }
-    ],
-    rightNow: 'First annual delivery decline ever. Margins compressed from price cuts. Robotaxi promises not materializing. Stock volatile. Musk distracted by X (Twitter) and politics.',
-    lastUpdated: 'January 28, 2026'
-  },
-  {
-    id: '05',
-    name: 'McDonald\'s',
-    ticker: 'MCD',
-    logo: '🍔',
+    name: 'Airbnb',
+    ticker: 'ABNB',
+    logo: '🏠',
+    domain: 'airbnb.com',
     sector: 'Consumer',
-    category: 'Cravings',
-    slug: 'mcdonalds',
-    tagline: 'Billions served, franchises owned',
-    irUrl: 'https://corporate.mcdonalds.com/corpmcd/investors.html',
-    insight: 'McDonald\'s doesn\'t sell burgers. They sell real estate and franchise fees.',
-    howTheyMakeMoney: {
-      summary: 'McDonald\'s is a franchise business. They don\'t own most restaurants—franchisees do. McDonald\'s makes money from franchise fees (4-5% of sales) and rent (they own the land, franchisees lease it).',
-      breakdown: [
-        {
-          segment: 'Franchise Revenues',
-          percentage: 60,
-          description: 'Royalties from franchisees. Recurring, high-margin revenue.'
-        },
-        {
-          segment: 'Company-Operated Restaurants',
-          percentage: 35,
-          description: 'Restaurants McDonald\'s owns and operates directly. Lower margin but more control.'
-        },
-        {
-          segment: 'Other Revenue',
-          percentage: 5,
-          description: 'Licensing, real estate income, etc.'
-        }
-      ]
-    },
-    growthStory: 'Built a global empire → Shifted to franchising (asset-light model) → Now focused on digital (mobile app, delivery) and menu innovation. Steady, boring, profitable.',
-    whatProsWatch: [
-      { metric: 'Same-store sales growth', why: 'Are existing restaurants growing? This is the key metric.' },
-      { metric: 'Digital sales penetration', why: 'Mobile app and delivery are higher margin. Growing fast.' },
-      { metric: 'Franchise margin', why: 'Franchise revenue is pure profit. Watch for any pressure here.' },
-      { metric: 'International expansion', why: 'Growth is coming from emerging markets (China, India).' }
-    ],
-    rightNow: 'Digital sales booming (mobile app, delivery). Menu innovation (adult Happy Meals, McFlurry collabs). Inflation pressuring low-income customers. Stock steady.',
-    lastUpdated: 'January 29, 2026'
+    category: 'Consumer Brands',
+    slug: 'airbnb',
+    tagline: 'Track Airbnb earnings and performance'
   },
   {
-    id: '06',
-    name: 'Coca-Cola',
-    ticker: 'KO',
-    logo: '🥤',
-    domain: 'coca-cola.com',
-    sector: 'Consumer',
-    category: 'Cravings',
-    slug: 'coca-cola',
-    tagline: 'Sugar water, global scale',
-    irUrl: 'https://investors.coca-colacompany.com/',
-    insight: 'Coca-Cola doesn\'t sell soda. They sell a distribution network.',
-    howTheyMakeMoney: {
-      summary: 'Coca-Cola makes beverage concentrates and syrups, then sells them to bottling partners who manufacture, package, and distribute the final products. They also own some bottling operations.',
-      breakdown: [
-        {
-          segment: 'Sparkling Soft Drinks',
-          percentage: 65,
-          description: 'Coke, Sprite, Fanta. The core business. Declining in developed markets.'
-        },
-        {
-          segment: 'Water, Sports, Coffee & Tea',
-          percentage: 20,
-          description: 'Dasani, Powerade, Costa Coffee. Healthier options, growing.'
-        },
-        {
-          segment: 'Juice, Dairy & Plant-Based',
-          percentage: 10,
-          description: 'Minute Maid, Fairlife. Smaller but diversifying.'
-        },
-        {
-          segment: 'Other',
-          percentage: 5,
-          description: 'Energy drinks, alcohol experiments (hard seltzer).'
-        }
-      ]
-    },
-    growthStory: 'Dominated soda globally → Health trends hurt soda sales → Diversifying into water, coffee, and healthier beverages. Steady dividend payer, defensive stock.',
-    whatProsWatch: [
-      { metric: 'Unit case volume', why: 'Are people drinking more Coke products? Volume growth is key.' },
-      { metric: 'Pricing power', why: 'Can they raise prices without losing customers? Inflation test.' },
-      { metric: 'Emerging markets growth', why: 'Growth is coming from Africa, Asia, Latin America.' },
-      { metric: 'Zero Sugar mix', why: 'Coke Zero growing faster than regular Coke. Better margins.' }
-    ],
-    rightNow: 'Zero Sugar Coke growing. Coffee business (Costa) expanding. Dividend aristocrat (60+ years of increases). Stock steady, boring, reliable.',
-    lastUpdated: 'January 29, 2026'
+    name: 'Allianz',
+    ticker: 'ALV.DE',
+    logo: '🛡️',
+    domain: 'allianz.com',
+    sector: 'Financial Services',
+    category: 'Financial Services',
+    slug: 'allianz',
+    tagline: 'Track Allianz earnings and performance'
   },
   {
-    id: '07',
     name: 'Amazon',
     ticker: 'AMZN',
     logo: '📦',
     domain: 'amazon.com',
     sector: 'Tech',
-    category: 'The Cart',
+    category: 'Tech Giants',
     slug: 'amazon',
-    tagline: 'Everything store, cloud empire',
-    irUrl: 'https://ir.aboutamazon.com/',
-    insight: 'Amazon doesn\'t sell products. They sell infrastructure.',
-    howTheyMakeMoney: {
-      summary: 'Amazon has three businesses: E-commerce (retail), AWS (cloud computing), and Advertising. E-commerce has thin margins, AWS prints money, and ads are growing fast.',
-      breakdown: [
-        {
-          segment: 'AWS (Cloud Computing)',
-          percentage: 17,
-          description: 'Only 17% of revenue but 60% of profit. The cash cow.'
-        },
-        {
-          segment: 'Online Stores',
-          percentage: 42,
-          description: 'Retail sales on Amazon.com. Low margin but huge volume.'
-        },
-        {
-          segment: 'Third-Party Seller Services',
-          percentage: 24,
-          description: 'Fees from sellers using Amazon\'s platform. Higher margin than retail.'
-        },
-        {
-          segment: 'Advertising',
-          percentage: 9,
-          description: 'Sponsored products, display ads. Growing 20%+ per year. High margin.'
-        },
-        {
-          segment: 'Subscription Services',
-          percentage: 8,
-          description: 'Prime memberships ($139/year). Recurring revenue, high margin.'
-        }
-      ]
-    },
-    growthStory: 'Started as a bookstore → Became the everything store → Built AWS (cloud) → Now a conglomerate. Retail funds AWS, AWS funds everything else.',
-    whatProsWatch: [
-      { metric: 'AWS growth rate', why: 'This is the profit engine. Slowing growth = big problem.' },
-      { metric: 'Operating margin', why: 'Retail is low margin. Can they improve efficiency?' },
-      { metric: 'Ad revenue growth', why: 'Ads are high margin and growing fast. Key to profitability.' },
-      { metric: 'Prime subscriber count', why: 'Prime members spend 2-3x more than non-members.' }
-    ],
-    rightNow: 'AWS growth slowing but still dominant. Advertising booming. Retail margins improving (automation, efficiency). AI investments (Anthropic, Bedrock). Stock strong.',
-    lastUpdated: 'January 29, 2026'
+    tagline: 'Track Amazon earnings and performance'
   },
   {
-    id: '08',
+    name: 'American Express',
+    ticker: 'AXP',
+    logo: '💳',
+    domain: 'americanexpress.com',
+    sector: 'Financial Services',
+    category: 'Financial Services',
+    slug: 'american-express',
+    tagline: 'Track American Express earnings and performance'
+  },
+  {
+    name: 'Apple',
+    ticker: 'AAPL',
+    logo: '🍎',
+    domain: 'apple.com',
+    sector: 'Tech',
+    category: 'Tech Giants',
+    slug: 'apple',
+    tagline: 'Track Apple earnings and performance'
+  },
+  {
+    name: 'Audi',
+    ticker: 'VOW3.DE',
+    logo: '🔴',
+    domain: 'audi.com',
+    sector: 'Automotive',
+    category: 'Automotive',
+    slug: 'audi',
+    tagline: 'Track Audi earnings and performance'
+  },
+  {
+    name: 'BMW',
+    ticker: 'BMW.DE',
+    logo: '🏁',
+    domain: 'bmw.com',
+    sector: 'Automotive',
+    category: 'Automotive',
+    slug: 'bmw',
+    tagline: 'Track BMW earnings and performance'
+  },
+  {
+    name: 'Canon',
+    ticker: 'CAJ',
+    logo: '📷',
+    domain: 'canon.com',
+    sector: 'Industrial',
+    category: 'Industrial',
+    slug: 'canon',
+    tagline: 'Track Canon earnings and performance'
+  },
+  {
+    name: 'Cisco',
+    ticker: 'CSCO',
+    logo: '🌐',
+    domain: 'cisco.com',
+    sector: 'Tech',
+    category: 'Tech Giants',
+    slug: 'cisco',
+    tagline: 'Track Cisco earnings and performance'
+  },
+  {
+    name: 'Coca-Cola',
+    ticker: 'KO',
+    logo: '🥤',
+    domain: 'pepsi.com',
+    sector: 'Consumer',
+    category: 'Consumer Brands',
+    slug: 'coca-cola',
+    tagline: 'Track Coca-Cola earnings and performance'
+  },
+  {
+    name: 'Disney',
+    ticker: 'DIS',
+    logo: '🏰',
+    domain: 'disney.com',
+    sector: 'Consumer',
+    category: 'Consumer Brands',
+    slug: 'disney',
+    tagline: 'Track Disney earnings and performance'
+  },
+  {
+    name: 'Google',
+    ticker: 'GOOGL',
+    logo: '🔍',
+    domain: 'google.com',
+    sector: 'Tech',
+    category: 'Tech Giants',
+    slug: 'google',
+    tagline: 'Track Google earnings and performance'
+  },
+  {
+    name: 'Gucci',
+    ticker: 'KER.PA',
+    logo: '💎',
+    domain: 'gucci.com',
+    sector: 'Luxury',
+    category: 'Luxury',
+    slug: 'gucci',
+    tagline: 'Track Gucci earnings and performance'
+  },
+  {
+    name: 'H&M',
+    ticker: 'HM-B.ST',
+    logo: '👔',
+    domain: 'hm.com',
+    sector: 'Consumer',
+    category: 'Consumer Brands',
+    slug: 'h&m',
+    tagline: 'Track H&M earnings and performance'
+  },
+  {
+    name: 'Hermès',
+    ticker: 'RMS.PA',
+    logo: '👜',
+    domain: 'hermes.com',
+    sector: 'Luxury',
+    category: 'Luxury',
+    slug: 'hermès',
+    tagline: 'Track Hermès earnings and performance'
+  },
+  {
+    name: 'Honda',
+    ticker: 'HMC',
+    logo: '🏍️',
+    domain: 'honda.com',
+    sector: 'Automotive',
+    category: 'Automotive',
+    slug: 'honda',
+    tagline: 'Track Honda earnings and performance'
+  },
+  {
+    name: 'Hyundai',
+    ticker: '005380.KS',
+    logo: '🚙',
+    domain: 'hyundai.com',
+    sector: 'Automotive',
+    category: 'Automotive',
+    slug: 'hyundai',
+    tagline: 'Track Hyundai earnings and performance'
+  },
+  {
+    name: 'IBM',
+    ticker: 'IBM',
+    logo: '💼',
+    domain: 'ibm.com',
+    sector: 'Tech',
+    category: 'Tech Giants',
+    slug: 'ibm',
+    tagline: 'Track IBM earnings and performance'
+  },
+  {
+    name: 'Intel',
+    ticker: 'INTC',
+    logo: '🔷',
+    domain: 'intel.com',
+    sector: 'Tech',
+    category: 'Tech Giants',
+    slug: 'intel',
+    tagline: 'Track Intel earnings and performance'
+  },
+  {
+    name: 'J.P. Morgan',
+    ticker: 'JPM',
+    logo: '🏦',
+    domain: 'jpmorgan.com',
+    sector: 'Consumer',
+    category: 'Consumer Brands',
+    slug: 'jp-morgan',
+    tagline: 'Track J.P. Morgan earnings and performance'
+  },
+  {
+    name: 'L'Oréal',
+    ticker: 'OR.PA',
+    logo: '💅',
+    domain: 'loreal.com',
+    sector: 'Luxury',
+    category: 'Consumer Brands',
+    slug: 'loréal',
+    tagline: 'Track L'Oréal earnings and performance'
+  },
+  {
     name: 'LVMH',
     ticker: 'MC.PA',
     logo: '👜',
     domain: 'lvmh.com',
     sector: 'Luxury',
-    category: 'The Fit',
+    category: 'Luxury',
     slug: 'lvmh',
-    tagline: 'Luxury at scale, margins at altitude',
-    irUrl: 'https://www.lvmh.com/investors/',
-    insight: 'LVMH doesn\'t sell handbags. They sell status.',
-    howTheyMakeMoney: {
-      summary: 'LVMH owns 75+ luxury brands (Louis Vuitton, Dior, Tiffany, Moët Hennessy). They make money from selling high-margin luxury goods to wealthy consumers globally.',
-      breakdown: [
-        {
-          segment: 'Fashion & Leather Goods',
-          percentage: 48,
-          description: 'Louis Vuitton, Dior, Fendi. The profit engine. 40%+ operating margins.'
-        },
-        {
-          segment: 'Selective Retailing',
-          percentage: 28,
-          description: 'Sephora, DFS (duty-free). Lower margin but huge volume.'
-        },
-        {
-          segment: 'Wines & Spirits',
-          percentage: 10,
-          description: 'Moët & Chandon, Hennessy. Steady, high-margin business.'
-        },
-        {
-          segment: 'Perfumes & Cosmetics',
-          percentage: 9,
-          description: 'Dior Beauty, Givenchy. Growing fast, especially in Asia.'
-        },
-        {
-          segment: 'Watches & Jewelry',
-          percentage: 5,
-          description: 'Tiffany, TAG Heuer, Bulgari. Acquired Tiffany for $16B in 2021.'
-        }
-      ]
-    },
-    growthStory: 'Built a luxury empire through acquisitions → Dominated China\'s luxury boom → Now facing a slowdown as Chinese consumers pull back. Still the king of luxury.',
-    whatProsWatch: [
-      { metric: 'Fashion & Leather Goods margin', why: 'This is the profit engine. Any margin pressure is a red flag.' },
-      { metric: 'China revenue', why: '30% of sales. Chinese consumers are the luxury market.' },
-      { metric: 'Organic growth', why: 'Are existing brands growing, or just acquisitions driving growth?' },
-      { metric: 'Pricing power', why: 'Can they keep raising prices? Luxury is about exclusivity.' }
-    ],
-    rightNow: 'China slowdown hurting sales. Luxury fatigue among younger consumers. Stock down 20% from highs. But margins still strong. Waiting for China to recover.',
-    lastUpdated: 'January 27, 2026'
-  }
-];
-
-// Category definitions
-export const categories = [
-  {
-    name: 'Your Digital Life',
-    tagline: 'The tech you can\'t quit',
-    gradient: 'from-blue-500 to-purple-600',
-    brands: ['Apple', 'Google', 'Meta', 'Microsoft']
+    tagline: 'Track LVMH earnings and performance'
   },
   {
-    name: 'The Fit',
-    tagline: 'What you wear, who you are',
-    gradient: 'from-orange-500 to-pink-600',
-    brands: ['Nike', 'Lululemon', 'Adidas', 'LVMH']
+    name: 'McDonald's',
+    ticker: 'MCD',
+    logo: '🍔',
+    domain: 'mcdonalds.com',
+    sector: 'Consumer',
+    category: 'Consumer Brands',
+    slug: 'mcdonalds',
+    tagline: 'Track McDonald's earnings and performance'
   },
   {
-    name: 'Cravings',
-    tagline: 'Fast food, faster profits',
-    gradient: 'from-red-500 to-yellow-500',
-    brands: ['McDonald\'s', 'Coca-Cola', 'Starbucks', 'Pepsi']
+    name: 'Mercedes-Benz',
+    ticker: 'MBG.DE',
+    logo: '⭐',
+    domain: 'mercedes-benz.com',
+    sector: 'Automotive',
+    category: 'Automotive',
+    slug: 'mercedes-benz',
+    tagline: 'Track Mercedes-Benz earnings and performance'
   },
   {
-    name: 'The Drive',
-    tagline: 'Cars, status, and the road ahead',
-    gradient: 'from-gray-700 to-gray-900',
-    brands: ['Tesla', 'Toyota', 'Mercedes-Benz', 'BMW']
+    name: 'Meta',
+    ticker: 'META',
+    logo: '👥',
+    domain: 'meta.com',
+    sector: 'Tech',
+    category: 'Tech Giants',
+    slug: 'meta',
+    tagline: 'Track Meta earnings and performance'
   },
   {
-    name: 'The Stream',
-    tagline: 'Binge-worthy business models',
-    gradient: 'from-purple-500 to-pink-500',
-    brands: ['Netflix', 'Disney', 'Spotify', 'Sony']
+    name: 'Microsoft',
+    ticker: 'MSFT',
+    logo: '🪟',
+    domain: 'microsoft.com',
+    sector: 'Tech',
+    category: 'Tech Giants',
+    slug: 'microsoft',
+    tagline: 'Track Microsoft earnings and performance'
   },
   {
-    name: 'The Cart',
-    tagline: 'One-click to everything',
-    gradient: 'from-green-500 to-teal-600',
-    brands: ['Amazon', 'Walmart', 'Target', 'Costco']
-  }
+    name: 'NVIDIA',
+    ticker: 'NVDA',
+    logo: '🎮',
+    domain: 'nvidia.com',
+    sector: 'Consumer',
+    category: 'Consumer Brands',
+    slug: 'nvidia',
+    tagline: 'Track NVIDIA earnings and performance'
+  },
+  {
+    name: 'Nescafé',
+    ticker: 'NSRGY',
+    logo: '☕',
+    domain: 'nescafe.com',
+    sector: 'Consumer',
+    category: 'Consumer Brands',
+    slug: 'nescafé',
+    tagline: 'Track Nescafé earnings and performance'
+  },
+  {
+    name: 'Netflix',
+    ticker: 'NFLX',
+    logo: '🎬',
+    domain: 'netflix.com',
+    sector: 'Consumer',
+    category: 'Tech Giants',
+    slug: 'netflix',
+    tagline: 'Track Netflix earnings and performance'
+  },
+  {
+    name: 'Nike',
+    ticker: 'NKE',
+    logo: '👟',
+    domain: 'nike.com',
+    sector: 'Sportswear',
+    category: 'Sportswear',
+    slug: 'nike',
+    tagline: 'Track Nike earnings and performance'
+  },
+  {
+    name: 'Oracle',
+    ticker: 'ORCL',
+    logo: '🔴',
+    domain: 'oracle.com',
+    sector: 'Tech',
+    category: 'Tech Giants',
+    slug: 'oracle',
+    tagline: 'Track Oracle earnings and performance'
+  },
+  {
+    name: 'Pepsi',
+    ticker: 'PEP',
+    logo: '🥤',
+    domain: 'pepsi.com',
+    sector: 'Consumer',
+    category: 'Consumer Brands',
+    slug: 'pepsi',
+    tagline: 'Track Pepsi earnings and performance'
+  },
+  {
+    name: 'Philips',
+    ticker: 'PHIA.AS',
+    logo: '💡',
+    domain: 'philips.com',
+    sector: 'Industrial',
+    category: 'Industrial',
+    slug: 'philips',
+    tagline: 'Track Philips earnings and performance'
+  },
+  {
+    name: 'Porsche',
+    ticker: 'P911.DE',
+    logo: '🏎️',
+    domain: 'porsche.com',
+    sector: 'Automotive',
+    category: 'Automotive',
+    slug: 'porsche',
+    tagline: 'Track Porsche earnings and performance'
+  },
+  {
+    name: 'SAP',
+    ticker: 'SAP',
+    logo: '📊',
+    domain: 'sap.com',
+    sector: 'Tech',
+    category: 'Tech Giants',
+    slug: 'sap',
+    tagline: 'Track SAP earnings and performance'
+  },
+  {
+    name: 'Salesforce',
+    ticker: 'CRM',
+    logo: '☁️',
+    domain: 'salesforce.com',
+    sector: 'Tech',
+    category: 'Tech Giants',
+    slug: 'salesforce',
+    tagline: 'Track Salesforce earnings and performance'
+  },
+  {
+    name: 'Samsung',
+    ticker: '005930.KS',
+    logo: '📱',
+    domain: 'samsung.com',
+    sector: 'Tech',
+    category: 'Tech Giants',
+    slug: 'samsung',
+    tagline: 'Track Samsung earnings and performance'
+  },
+  {
+    name: 'Siemens',
+    ticker: 'SIE.DE',
+    logo: '⚙️',
+    domain: 'siemens.com',
+    sector: 'Industrial',
+    category: 'Industrial',
+    slug: 'siemens',
+    tagline: 'Track Siemens earnings and performance'
+  },
+  {
+    name: 'Starbucks',
+    ticker: 'SBUX',
+    logo: '☕',
+    domain: 'starbucks.com',
+    sector: 'Consumer',
+    category: 'Consumer Brands',
+    slug: 'starbucks',
+    tagline: 'Track Starbucks earnings and performance'
+  },
+  {
+    name: 'Tesla',
+    ticker: 'TSLA',
+    logo: '⚡',
+    domain: 'tesla.com',
+    sector: 'Automotive',
+    category: 'Automotive',
+    slug: 'tesla',
+    tagline: 'Track Tesla earnings and performance'
+  },
+  {
+    name: 'Toyota',
+    ticker: 'TM',
+    logo: '🚗',
+    domain: 'toyota.com',
+    sector: 'Automotive',
+    category: 'Automotive',
+    slug: 'toyota',
+    tagline: 'Track Toyota earnings and performance'
+  },
+  {
+    name: 'UPS',
+    ticker: 'UPS',
+    logo: '📦',
+    domain: 'ups.com',
+    sector: 'Industrial',
+    category: 'Industrial',
+    slug: 'ups',
+    tagline: 'Track UPS earnings and performance'
+  },
+  {
+    name: 'Zara',
+    ticker: 'ITX.MC',
+    logo: '👗',
+    domain: 'zara.com',
+    sector: 'Consumer',
+    category: 'Consumer Brands',
+    slug: 'zara',
+    tagline: 'Track Zara earnings and performance'
+  },
+  {
+    name: 'eBay',
+    ticker: 'EBAY',
+    logo: '🛒',
+    domain: 'ebay.com',
+    sector: 'Tech',
+    category: 'Tech Giants',
+    slug: 'ebay',
+    tagline: 'Track eBay earnings and performance'
+  },
 ];
