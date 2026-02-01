@@ -15,7 +15,7 @@ interface StockChartProps {
 }
 
 interface ChartDataPoint {
-  date: string;
+  datetime: string;
   close: string;
 }
 
@@ -149,7 +149,7 @@ export function StockChartStatic({ ticker, brandSlug }: StockChartProps) {
               borderRadius: '8px',
               padding: '8px 12px'
             }}
-            formatter={(value: number) => [`$${value.toFixed(2)}`, 'Price']}
+            formatter={(value: number | undefined) => value ? [`$${value.toFixed(2)}`, 'Price'] : ['N/A', 'Price']}
           />
           <Line
             type="monotone"
