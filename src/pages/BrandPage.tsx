@@ -3,7 +3,8 @@ import { useParams, Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { brands } from '../data/brands';
 import { earningsReports } from '../data/earnings';
-import { StockChartStatic } from '../components/StockChartStatic';
+import TradingViewChart from '../components/TradingViewChart';
+import { getTradingViewSymbol } from '../utils/tradingViewSymbol';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 
@@ -135,7 +136,10 @@ export function BrandPage() {
           <div className="space-y-12">
             {/* Stock Chart */}
             <div>
-              <StockChartStatic ticker={brand.ticker} brandSlug={brand.slug} />
+              <TradingViewChart 
+                symbol={getTradingViewSymbol(brand.ticker)} 
+                brandName={brand.name}
+              />
             </div>
 
             {/* Earnings Feed */}
