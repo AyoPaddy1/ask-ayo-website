@@ -6,13 +6,13 @@ fiscalYear: 2025
 type: preview
 reportDate: 2026-02-04
 source: Multiple analyst estimates and news sources
-generatedAt: 2026-02-02T18:00:00.000Z
+generatedAt: 2026-02-02T20:00:00.000Z
 factCheckPassed: true
 ---
 
 # Google Q4 2025 Earnings Preview: Can Cloud Growth Justify the $4 Trillion Valuation?
 
-Google (Alphabet) reports Q4 2025 earnings **Tuesday, February 4** after market close. Wall Street expects **$111.2 billion in revenue** (up 16% year-over-year) and **$2.64 adjusted EPS** (up 23%).
+Google (Alphabet) reports Q4 2025 earnings **Wednesday, February 4** after market close. Wall Street expects **$111.2 billion in revenue** (up 16% year-over-year) and **$2.64 adjusted EPS** (up 23%).
 
 The stock is up **66% over the past year** and recently crossed a **$4 trillion market cap**. Now investors want to know: Can Google justify that valuation with continued growth in Cloud and AI?
 
@@ -20,9 +20,9 @@ Here's what to watch when Google reports.
 
 ## The Expectations
 
-**Revenue:** $111.2 billion (up 16% from $95.9B in Q4 2024)  
+**Revenue:** $111.2 billion (up 16% from $96.47B in Q4 2024)  
 **Adjusted EPS:** $2.64 (up 23% from $2.15 in Q4 2024)  
-**Google Cloud revenue:** $12.5-13B (up 30%+ year-over-year)  
+**Google Cloud revenue:** ~$16B (up 35% year-over-year)  
 **YouTube ad revenue:** $11.82B (up 12.9%)  
 **Total Google advertising revenue:** $80.97B (up 11.8%)
 
@@ -30,13 +30,13 @@ If Google hits these numbers, it will mark another strong quarter of double-digi
 
 ## What to Watch: Google Cloud
 
-**Google Cloud** is the story everyone's watching. Analysts expect **$12.5-13 billion in revenue** (up 30%+ year-over-year), making it Google's fastest-growing segment.
+**Google Cloud** is the story everyone's watching. Analysts expect **~$16 billion in revenue** (up 35% year-over-year from Q4 2024's $11.96B), making it Google's fastest-growing segment.
 
-Why it matters: Google Cloud is Google's AI growth engine. Businesses are paying Google to use its AI models (Gemini, Vertex AI) and infrastructure to build AI applications. If Cloud growth stays above 30%, it signals that Google is winning the AI infrastructure race against Amazon (AWS) and Microsoft (Azure).
+Why it matters: Google Cloud is Google's AI growth engine. Businesses are paying Google to use its AI models (Gemini, Vertex AI) and infrastructure to build AI applications. If Cloud growth stays above 30-35%, it signals that Google is winning the AI infrastructure race against Amazon (AWS) and Microsoft (Azure).
 
-The risk: **Capital expenditures (capex)**. Google is spending billions on data centers and AI chips (TPUs) to support Cloud growth. If capex keeps rising without a corresponding increase in Cloud revenue, investors will worry about returns on investment.
+The risk: **Capital expenditures (capex)**. Google spent **$91-93 billion on capex in 2025** (up from $83B in 2024), with the CFO signaling a "significant increase" for 2026. Some analysts project ~$29 billion per quarter, which would push 2026 capex above $115 billion.
 
-Meta just guided to **$115-135 billion in capex** for 2026, spooking investors. If Google announces similar AI spending increases, expect the stock to react negatively—even if Cloud growth is strong.
+Meta just guided to **$115-135 billion in capex** for 2026. While the stock initially surged 10% on strong revenue guidance, investors remain cautious about AI spending across Big Tech. If Google announces similar or higher AI spending increases, expect the stock to react negatively—even if Cloud growth is strong.
 
 ## What to Watch: Search and YouTube Ads
 
@@ -62,9 +62,7 @@ If Google stays vague about AI monetization, expect skepticism.
 
 ## What to Watch: Capex and 2026 Guidance
 
-The biggest wildcard is **2026 guidance**. Meta just guided to **$115-135 billion in capex** for 2026, and the stock dropped 8% because investors worried about profitability.
-
-If Google announces a similar capex increase (analysts expect $60-70 billion for 2026, up from ~$50 billion in 2025), the stock could sell off—even if Q4 results are strong.
+The biggest wildcard is **2026 guidance**. If Google announces capex above $115 billion for 2026 (up from $91-93 billion in 2025), the stock could sell off—even if Q4 results are strong.
 
 The bull case: Google is investing in AI infrastructure now to dominate the next decade of cloud computing. The capex will pay off in higher Cloud revenue and margins.
 
@@ -73,11 +71,11 @@ The bear case: Google is overspending on AI without a clear path to profitabilit
 ## The Bull Case
 
 **Why Google could beat expectations:**
-- **Google Cloud growth accelerates above 30%** (driven by AI demand)
+- **Google Cloud growth accelerates above 35%** (driven by AI demand)
 - **Search ad revenue beats estimates** (AI Overviews driving more ad clicks)
 - **YouTube growth reaccelerates** (Shorts monetization improving)
 - **Google announces AI-specific revenue** (proves AI is monetizing, not just a cost center)
-- **Capex guidance is moderate** (investors don't panic about overspending)
+- **2026 capex guidance is moderate** (below $120B, signaling disciplined AI spending)
 
 If Google delivers on all of these, the stock could rally 5-10% and push toward $200 per share.
 
@@ -88,7 +86,7 @@ If Google delivers on all of these, the stock could rally 5-10% and push toward 
 - **Search ad revenue misses estimates** (AI search competition is hurting Google)
 - **YouTube growth decelerates** (Shorts aren't monetizing well)
 - **Google stays vague about AI monetization** (no proof that AI is generating revenue)
-- **Capex guidance spikes** (Google announces $80-100B in AI spending for 2026)
+- **2026 capex guidance spikes above $120B** (investors worry about overspending on AI)
 
 If Google disappoints on any of these, the stock could drop 5-10%, especially after a 66% run-up over the past year.
 
@@ -96,17 +94,17 @@ If Google disappoints on any of these, the stock could drop 5-10%, especially af
 
 Google's Q4 earnings will answer one question: **Can the company justify its $4 trillion valuation with continued growth in Cloud and AI?**
 
-If Google Cloud stays above 30% growth and Google proves that AI is monetizing (not just costing money), the stock will keep climbing.
+If Google Cloud stays above 30-35% growth and Google proves that AI is monetizing (not just costing money), the stock will keep climbing.
 
 If Cloud growth slows or capex spikes without clear returns, expect investors to take profits after a massive 66% rally.
 
 **Watch for:**
-- Google Cloud revenue and growth rate (target: 30%+)
+- Google Cloud revenue and growth rate (target: 35%+)
 - Search ad revenue growth (target: 13%+)
 - AI monetization details (revenue, customers, margins)
-- 2026 capex guidance (risk: $70B+)
+- 2026 capex guidance (risk: $120B+)
 
-Google reports **Tuesday, February 4 after market close**. Results article will be published within 24 hours.
+Google reports **Wednesday, February 4 after market close**. Results article will be published within 24 hours.
 
 ---
 
