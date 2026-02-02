@@ -6,23 +6,26 @@ fiscalYear: 2025
 type: results
 reportDate: 2026-01-27
 source: https://www.lvmh.com/en/publications/solid-performance-in-a-disrupted-global-economic-and-geopolitical-environment
-generatedAt: 2026-02-02T11:30:00.000Z
+generatedAt: 2026-02-02T14:30:00.000Z
 factCheckPassed: true
 ---
 
-# LVMH 2025: Revenue Down 5%, But Margins Tell a Different Story
+# LVMH 2025: Revenue Down 5%, Stock Down 8%—But the Business Is Stronger Than It Looks
 
-LVMH just reported **€80.8 billion** in revenue for 2025, down 5% from 2024. That's the headline. But here's what actually matters: **operating margin stayed at 22%** and **free cash flow grew 8%** to €11.3 billion.
+LVMH just reported **€80.8 billion** in revenue for 2025, down 5% from 2024. The stock fell **7-8%** the day after results, dragging down the entire European luxury sector with it (Kering -3-5%, Hermès -2-4%, Prada -5%).
 
-Translation: LVMH took a revenue hit from the luxury slowdown but protected profitability. That's how you manage a downturn.
+But here's the thing: The business is actually in better shape than the headline suggests. **Operating margin contracted slightly to 22%** (down from ~23% in 2024), but **free cash flow grew 8%** to €11.3 billion. LVMH took a revenue hit from the luxury slowdown but protected profitability and generated more cash.
+
+So why did the stock fall? Because **Richemont and Burberry had already beaten expectations**, raising the bar. LVMH's results were "fine" but not good enough to match peers. That's the context the market cares about.
 
 ## The Numbers
 
 - **Revenue:** €80.8 billion (-5% reported, -1% organic)
 - **Operating profit:** €17.8 billion (-9%)
+- **Operating margin:** 22% (down ~100 basis points from 23% in 2024)
 - **Net profit:** €10.9 billion (-13%)
 - **Free cash flow:** €11.3 billion (+8%)
-- **Operating margin:** 22% (unchanged)
+- **Net financial debt:** €6.9 billion (-26%)
 
 The revenue decline looks bad until you break it down:
 - **-3% from currency** (strong euro hurt conversions)
@@ -82,13 +85,17 @@ How? LVMH cut costs, managed inventory tightly, and collected cash faster. This 
 
 LVMH also paid down debt. **Net financial debt fell 26%** to €6.9 billion. The balance sheet is rock-solid.
 
-## What Bernard Arnault Said
+## What Bernard Arnault Said (And Didn't Say)
+
+Here's the quote that mattered most: **"2026 won't be simple."**
+
+That was the headline from every major outlet covering the results. Arnault is warning that the luxury slowdown isn't over yet. The full quote:
 
 "Once again in 2025, LVMH demonstrated its solidity and effective strategy upheld by its highly engaged teams. The Group was buoyed by the loyalty and growing demand shown by our local customers."
 
-Translation: "We're fine. Local customers (not tourists) kept buying. We're managing through this."
+Translation: "We're managing through this, but don't expect a quick recovery."
 
-He also highlighted:
+He also highlighted long-term investments:
 - **The Louis** (new luxury hotel in Shanghai)
 - **House of Dior** store openings
 - **Tiffany** renovations in Milan and Tokyo
@@ -97,10 +104,16 @@ He also highlighted:
 
 Arnault is playing the long game. He's investing in stores, experiences, and brand-building while competitors cut back.
 
+## Why the Stock Fell
+
+LVMH's results weren't bad. But they came after **Richemont reported record sales** and **Burberry beat expectations**. The bar was raised, and LVMH didn't clear it.
+
+The market was hoping for a stronger China recovery or better margin performance. Instead, LVMH delivered "fine" results in a tough environment. That's not enough when peers are outperforming.
+
 ## The Bottom Line
 
-LVMH's revenue fell 5% in 2025, but the business is stronger than the headline suggests:
-- **Margins held at 22%** (cost discipline)
+LVMH's revenue fell 5% in 2025, and the stock fell 8% after results. But the business is stronger than the headlines suggest:
+- **Margins contracted slightly to 22%** (cost discipline kept it from falling further)
 - **Free cash flow grew 8%** (operational excellence)
 - **China returned to growth in H2** (stimulus working)
 - **Sephora keeps growing** (beauty is resilient)
@@ -108,7 +121,9 @@ LVMH's revenue fell 5% in 2025, but the business is stronger than the headline s
 
 This is what a well-managed luxury business looks like in a slowdown. LVMH didn't panic, didn't discount, and didn't sacrifice long-term brand value for short-term sales.
 
-The question for 2026: Will China's recovery continue? If yes, LVMH will be fine. If China stalls again, expect another year of flat-to-down revenue. But even then, margins and cash flow will probably hold up.
+But the stock fell because the market compares you to your peers, not to your own expectations. Richemont and Burberry set the bar high, and LVMH didn't match them.
+
+The question for 2026: Will China's recovery continue? Arnault says "2026 won't be simple," which means he's not expecting a quick turnaround. If China stalls again, expect another year of flat-to-down revenue. But even then, margins and cash flow will probably hold up.
 
 ---
 
