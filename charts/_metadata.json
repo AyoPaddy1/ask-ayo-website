@@ -1,0 +1,300 @@
+{
+  "generated": "2026-02-02T09:29:44.926Z",
+  "totalBrands": 69,
+  "successful": 53,
+  "failed": 16,
+  "results": [
+    {
+      "success": true,
+      "brand": "accenture"
+    },
+    {
+      "success": true,
+      "brand": "adobe"
+    },
+    {
+      "success": true,
+      "brand": "airbnb"
+    },
+    {
+      "success": false,
+      "brand": "allianz",
+      "error": "API Error for ALV.DE: **symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data"
+    },
+    {
+      "success": true,
+      "brand": "amazon"
+    },
+    {
+      "success": true,
+      "brand": "american-express"
+    },
+    {
+      "success": true,
+      "brand": "apple"
+    },
+    {
+      "success": false,
+      "brand": "audi",
+      "error": "API Error for VOW3.DE: **symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data"
+    },
+    {
+      "success": false,
+      "brand": "bmw",
+      "error": "API Error for BMW.DE: **symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data"
+    },
+    {
+      "success": false,
+      "brand": "canon",
+      "error": "API Error for CAJ: **symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data"
+    },
+    {
+      "success": true,
+      "brand": "cisco"
+    },
+    {
+      "success": true,
+      "brand": "coca-cola"
+    },
+    {
+      "success": true,
+      "brand": "disney"
+    },
+    {
+      "success": true,
+      "brand": "google"
+    },
+    {
+      "success": false,
+      "brand": "gucci",
+      "error": "API Error for KER.PA: **symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data"
+    },
+    {
+      "success": false,
+      "brand": "hm",
+      "error": "API Error for HM-B.ST: **symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data"
+    },
+    {
+      "success": false,
+      "brand": "hermes",
+      "error": "API Error for RMS.PA: **symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data"
+    },
+    {
+      "success": true,
+      "brand": "honda"
+    },
+    {
+      "success": false,
+      "brand": "hyundai",
+      "error": "API Error for 005380.KS: **symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data"
+    },
+    {
+      "success": true,
+      "brand": "ibm"
+    },
+    {
+      "success": true,
+      "brand": "intel"
+    },
+    {
+      "success": true,
+      "brand": "jp-morgan"
+    },
+    {
+      "success": false,
+      "brand": "loreal",
+      "error": "API Error for OR.PA: **symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data"
+    },
+    {
+      "success": false,
+      "brand": "lvmh",
+      "error": "API Error for MC.PA: **symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data"
+    },
+    {
+      "success": true,
+      "brand": "mcdonalds"
+    },
+    {
+      "success": false,
+      "brand": "mercedes-benz",
+      "error": "API Error for MBG.DE: **symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data"
+    },
+    {
+      "success": true,
+      "brand": "meta"
+    },
+    {
+      "success": true,
+      "brand": "microsoft"
+    },
+    {
+      "success": true,
+      "brand": "nvidia"
+    },
+    {
+      "success": true,
+      "brand": "nescafe"
+    },
+    {
+      "success": true,
+      "brand": "netflix"
+    },
+    {
+      "success": true,
+      "brand": "nike"
+    },
+    {
+      "success": true,
+      "brand": "oracle"
+    },
+    {
+      "success": true,
+      "brand": "pepsi"
+    },
+    {
+      "success": false,
+      "brand": "philips",
+      "error": "API Error for PHIA.AS: **symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data"
+    },
+    {
+      "success": false,
+      "brand": "porsche",
+      "error": "API Error for P911.DE: **symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data"
+    },
+    {
+      "success": true,
+      "brand": "sap"
+    },
+    {
+      "success": true,
+      "brand": "salesforce"
+    },
+    {
+      "success": false,
+      "brand": "samsung",
+      "error": "API Error for 005930.KS: **symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data"
+    },
+    {
+      "success": false,
+      "brand": "siemens",
+      "error": "API Error for SIE.DE: **symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data"
+    },
+    {
+      "success": true,
+      "brand": "starbucks"
+    },
+    {
+      "success": true,
+      "brand": "tesla"
+    },
+    {
+      "success": true,
+      "brand": "toyota"
+    },
+    {
+      "success": true,
+      "brand": "ups"
+    },
+    {
+      "success": false,
+      "brand": "zara",
+      "error": "API Error for ITX.MC: **symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data"
+    },
+    {
+      "success": true,
+      "brand": "ebay"
+    },
+    {
+      "success": true,
+      "brand": "lucid"
+    },
+    {
+      "success": true,
+      "brand": "lululemon"
+    },
+    {
+      "success": true,
+      "brand": "adidas"
+    },
+    {
+      "success": true,
+      "brand": "costco"
+    },
+    {
+      "success": true,
+      "brand": "walmart"
+    },
+    {
+      "success": true,
+      "brand": "chipotle"
+    },
+    {
+      "success": true,
+      "brand": "amd"
+    },
+    {
+      "success": true,
+      "brand": "palantir"
+    },
+    {
+      "success": true,
+      "brand": "coinbase"
+    },
+    {
+      "success": true,
+      "brand": "berkshire-hathaway"
+    },
+    {
+      "success": true,
+      "brand": "uber"
+    },
+    {
+      "success": true,
+      "brand": "qualcomm"
+    },
+    {
+      "success": true,
+      "brand": "snap"
+    },
+    {
+      "success": true,
+      "brand": "pinterest"
+    },
+    {
+      "success": true,
+      "brand": "reddit"
+    },
+    {
+      "success": true,
+      "brand": "robinhood"
+    },
+    {
+      "success": true,
+      "brand": "doordash"
+    },
+    {
+      "success": true,
+      "brand": "shopify"
+    },
+    {
+      "success": true,
+      "brand": "block"
+    },
+    {
+      "success": true,
+      "brand": "rivian"
+    },
+    {
+      "success": true,
+      "brand": "etsy"
+    },
+    {
+      "success": true,
+      "brand": "dell"
+    },
+    {
+      "success": true,
+      "brand": "target"
+    }
+  ]
+}
