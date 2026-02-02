@@ -6,21 +6,24 @@ fiscalYear: FY2026
 type: results
 reportDate: 2026-01-28
 source: https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-Reports-Q1-Fiscal-Year-2026-Results/default.aspx
-generatedAt: 2026-02-02T11:00:00.000Z
+generatedAt: 2026-02-02T14:00:00.000Z
 factCheckPassed: true
 ---
 
-# Starbucks Q1 FY2026: The Turnaround Is Real
+# Starbucks Q1 FY2026: The Turnaround Is Real (And the Stock Agrees)
 
 Starbucks just posted something it hasn't done in two years: **positive comparable transaction growth** in the US. Transactions were up **3%** year-over-year, marking the first time since Q1 FY2024 that more people actually walked into Starbucks stores.
+
+The stock surged **10%** after earnings. Why? Because investors care more about traffic returning than they do about the profit miss.
 
 This is the Brian Niccol effect.
 
 ## The Numbers
 
-Revenue hit **$9.9 billion**, up 6% from last year. Non-GAAP EPS came in at **$0.56**, down 19% due to labor investments and higher coffee costs (more on that in a second).
+Revenue hit **$9.92 billion**, up 6% from last year and **beating Wall Street's estimate of $9.62-9.67 billion**. But EPS came in at **$0.56**, down 19% year-over-year and **missing the $0.59 estimate** due to labor investments and higher coffee costs.
 
-But the real story is in the comparable store sales:
+This was a classic "mixed" quarter—revenue beat, earnings miss. But the market loved it anyway because the real story is in the comparable store sales:
+
 - **Global comp sales: +4%** (3% transactions, 1% ticket)
 - **US comp sales: +4%** (3% transactions, 1% ticket)  
 - **China comp sales: +7%** (5% transactions, 2% ticket)
@@ -31,7 +34,7 @@ Translation: People are coming back to Starbucks. Not just buying more expensive
 
 Starbucks has been bleeding customers for eight straight quarters. Traffic was down, wait times were up, and the whole "third place" coffeehouse vibe had turned into a mobile order pickup station.
 
-Brian Niccol (the guy who turned Chipotle around) took over as CEO in September 2025. His "Back to Starbucks" strategy focuses on:
+Brian Niccol (the guy who turned Chipotle around) took over as CEO in **September 2024**. His "Back to Starbucks" strategy focuses on:
 - Faster service (less waiting around)
 - Better in-store experience (actual coffeehouse atmosphere)
 - Simpler menu (stop confusing baristas with 47 customization options)
@@ -51,16 +54,19 @@ Operating margin fell from **11.9%** to **9.0%** (GAAP). Why?
 - **Coffee prices**: Elevated coffee costs hit margins.
 - **Tariffs**: Import tariffs added pressure.
 
-CFO Cathy Smith said the plan is to "translate topline strength into sustainable earnings growth." Translation: We're investing now to fix the business, profits will follow.
+But here's the plan: Starbucks is tracking **$2 billion in cost reductions** over the next two years. CFO Cathy Smith said the goal is to "translate topline strength into sustainable earnings growth." Translation: We're investing now to fix the business, profits will follow.
 
 ## What Starbucks Said About the Future
 
-The company introduced **FY2026 guidance** for the first time under Niccol. They're expecting:
-- Continued comparable store sales growth
-- Margin pressure to ease as efficiency improves
-- China joint venture to close in Spring 2026
+For the first time since **suspending guidance in October 2024** under the previous CEO, Starbucks restored its forecast. That's a big deal—it shows Niccol has confidence in the turnaround.
 
-No specific numbers, but the tone is optimistic.
+**FY2026 guidance:**
+- **Non-GAAP EPS:** $2.15 to $2.40
+- **Comp sales growth:** 3% or greater
+- **Net new stores:** 600-650
+- **Margin:** Slightly improving as efficiency gains kick in
+
+The fact that Niccol is willing to put numbers out there tells you he believes the turnaround is sustainable.
 
 ## The Bottom Line
 
@@ -68,7 +74,9 @@ This is the first real evidence that Niccol's turnaround is working. Comp transa
 
 The margin hit is temporary—Starbucks is investing in labor and service to win customers back. If traffic keeps growing, margins will recover.
 
-One thing to watch: Starbucks is still selling the China business. If that deal falls through or takes longer than expected, it could create uncertainty. But for now, the turnaround story is real.
+The stock surged 10% because investors see the bigger picture: **traffic is the hardest thing to fix in retail, and Starbucks just fixed it**. The EPS miss doesn't matter if customers are coming back. That's the lesson here—and it's the exact opposite of what happened to Microsoft (which beat estimates but fell 7% because Azure growth slowed).
+
+Stock price isn't just about hitting numbers. It's about the story.
 
 ---
 
