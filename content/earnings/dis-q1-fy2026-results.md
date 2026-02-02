@@ -12,7 +12,7 @@ factCheckPassed: true
 
 # Disney Q1 FY2026: Parks Hit Record Revenue, Streaming Profitable, CEO Succession Looms
 
-Disney just beat Wall Street expectations with **$26.0 billion** in revenue (vs $25.6B expected) and **$1.63 adjusted EPS** (vs $1.57-1.58 expected). The stock rose **4% in premarket trading** to around $115.
+Disney just beat Wall Street expectations with **$26.0 billion** in revenue (vs $25.6B expected) and **$1.63 adjusted EPS** (vs $1.57-1.58 expected). The stock rose **2% in premarket trading** to around $115.
 
 But the real story isn't this quarter's numbers—it's what happens next. **Disney's board is meeting this week to vote on Bob Iger's successor**, with **Josh D'Amaro** (Disney Experiences Chairman) reportedly the frontrunner. For investors, who runs Disney next matters more than any single quarter.
 
@@ -62,7 +62,7 @@ The **Entertainment segment** (movies, TV, streaming content) posted revenue gro
 So part of that 7% growth is acquisition-driven, not organic. Without Fubo, the growth would have been lower.
 
 The segment's theatrical revenue was strong in Q1, driven by:
-- **Zootopia 2** (released December 2025, crossed $1 billion globally)
+- **Zootopia 2** (released December 2025, strong box office performer)
 - New **Avatar** and **Predator** franchise installments
 
 Disney's theatrical slate is back on track after a few years of underperformance. That matters because theatrical releases drive downstream revenue (streaming, merchandise, theme park attractions).
