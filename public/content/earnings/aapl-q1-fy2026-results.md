@@ -21,7 +21,7 @@ The star of the show? The iPhone. Again.
 iPhone revenue was **$85.3 billion**, up 23% year-over-year. That's the highest iPhone revenue Apple has ever reported in a single quarter.
 
 Why the surge? A few reasons:
-- The iPhone 16 lineup is selling well (especially the Pro models)
+- The iPhone 17 lineup is selling well (especially the Pro models)
 - Apple Intelligence features are finally rolling out properly
 - Upgrade cycles are picking up after a few slow years
 
@@ -42,11 +42,11 @@ Translation: Apple is making more profit on each product it sells, even after ab
 ## What Apple Said About Next Quarter
 
 Apple's CFO, Kevan Parekh, guided for:
-- **Revenue growth of 13-16%** for Q2 (the current quarter ending in March)
-- **Gross margin of 48-49%**
+- **Gross margin of 48-49%** for Q2 (the current quarter ending in March)
+- **Operating expenses of $18.4-18.7 billion**
 - Services growth to stay similar to Q1
 
-That's pretty optimistic. If they hit the high end (16% growth), we're looking at another record quarter.
+Apple didn't give specific revenue growth guidance, but analysts are expecting continued strong performance based on iPhone 17 momentum.
 
 ## The Bottom Line for Investors
 
