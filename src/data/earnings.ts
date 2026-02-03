@@ -267,6 +267,56 @@ export const earningsReports: EarningsReport[] = [
       expected: '$2.65',
       beat: false
     }
+  },
+  {
+    id: '11',
+    company: 'Google',
+    ticker: 'GOOGL',
+    quarter: 'Q4',
+    fiscalYear: '2025',
+    title: 'Google Q4 2025 Earnings Preview: Can Cloud Growth Justify the $4 Trillion Valuation?',
+    description: 'Google reports Q4 2025 earnings Wednesday, February 4. Wall Street expects $111.2 billion in revenue (up 16%) and $2.64 adjusted EPS (up 23%). The stock is up 66% over the past year and recently crossed a $4 trillion market cap. Can Google justify that valuation with continued growth in Cloud and AI?',
+    date: 'February 2, 2026',
+    readTime: '10 min read',
+    sector: 'Tech',
+    slug: 'google-q4-2025-preview',
+    status: 'preview',
+    keywords: ['Google', 'GOOGL', 'Alphabet', 'Cloud', 'AI', 'YouTube', 'earnings preview'],
+    revenue: {
+      actual: 'TBD',
+      expected: '$111.2B',
+      beat: false
+    },
+    eps: {
+      actual: 'TBD',
+      expected: '$2.64',
+      beat: false
+    }
+  },
+  {
+    id: '12',
+    company: 'Amazon',
+    ticker: 'AMZN',
+    quarter: 'Q4',
+    fiscalYear: '2025',
+    title: 'Amazon Q4 2025 Earnings Preview: Can AWS Keep the Party Going?',
+    description: 'Amazon reports Q4 2025 earnings Wednesday, February 5. Wall Street expects $187.7 billion in revenue (up 9%) and $1.49 adjusted EPS (up 43%). AWS is the profit engine, but retail margins are compressing. Can Amazon keep the momentum going?',
+    date: 'February 2, 2026',
+    readTime: '11 min read',
+    sector: 'Tech',
+    slug: 'amazon-q4-2025-preview',
+    status: 'preview',
+    keywords: ['Amazon', 'AMZN', 'AWS', 'e-commerce', 'cloud computing', 'earnings preview'],
+    revenue: {
+      actual: 'TBD',
+      expected: '$187.7B',
+      beat: false
+    },
+    eps: {
+      actual: 'TBD',
+      expected: '$1.49',
+      beat: false
+    }
   }
 ];
 
