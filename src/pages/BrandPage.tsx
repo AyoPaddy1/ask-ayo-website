@@ -60,10 +60,10 @@ export function BrandPage() {
     );
   }
 
-  // Filter earnings articles for this brand
-  const brandEarnings = earningsReports.filter((e: any) => 
-    e.title.toLowerCase().includes(brand.name.toLowerCase())
-  );
+  // Filter earnings articles for this brand and sort by date (newest first)
+  const brandEarnings = earningsReports
+    .filter((e: any) => e.title.toLowerCase().includes(brand.name.toLowerCase()))
+    .sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
 
 

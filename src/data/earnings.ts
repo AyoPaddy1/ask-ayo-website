@@ -317,6 +317,206 @@ export const earningsReports: EarningsReport[] = [
       expected: '$1.49',
       beat: false
     }
+  },
+  {
+    id: '13',
+    company: 'Apple',
+    ticker: 'AAPL',
+    quarter: 'Q1',
+    fiscalYear: 'FY2026',
+    title: 'Apple Q1 FY2026 Earnings: $143.8B Revenue Smashes Records',
+    description: 'Apple posted one of its best quarters ever. Revenue hit $143.8 billion (up 16%), and EPS came in at $2.84 (up 19%). iPhone revenue was $85.3 billion, up 23% year-over-year. China revenue jumped 38%.',
+    date: 'January 29, 2026',
+    readTime: '10 min read',
+    sector: 'Tech',
+    slug: 'apple-q1-fy2026-results',
+    status: 'results',
+    keywords: ['Apple', 'AAPL', 'iPhone 17', 'China', 'Services', 'earnings results'],
+    revenue: {
+      actual: '$143.8B',
+      expected: '$138.4B',
+      beat: true
+    },
+    eps: {
+      actual: '$2.84',
+      expected: '$2.65',
+      beat: true
+    }
+  },
+  {
+    id: '14',
+    company: 'Microsoft',
+    ticker: 'MSFT',
+    quarter: 'Q2',
+    fiscalYear: 'FY2026',
+    title: 'Microsoft Q2 FY2026 Earnings: Azure Growth Slows to 31%',
+    description: 'Microsoft beat expectations with $72.3 billion in revenue (up 12%) and $3.23 EPS. But Azure growth slowed to 31%, down from 34% last quarter. The stock fell 4% after hours as investors worry about AI capex returns.',
+    date: 'January 28, 2026',
+    readTime: '11 min read',
+    sector: 'Tech',
+    slug: 'microsoft-q2-fy2026-results',
+    status: 'results',
+    keywords: ['Microsoft', 'MSFT', 'Azure', 'AI', 'cloud computing', 'earnings results'],
+    revenue: {
+      actual: '$72.3B',
+      expected: '$71.5B',
+      beat: true
+    },
+    eps: {
+      actual: '$3.23',
+      expected: '$3.11',
+      beat: true
+    }
+  },
+  {
+    id: '15',
+    company: 'Meta',
+    ticker: 'META',
+    quarter: 'Q4',
+    fiscalYear: '2025',
+    title: 'Meta Q4 2025 Earnings: $50B Revenue, $115-135B AI Spending',
+    description: 'Meta crushed expectations with $50.3 billion in revenue (up 21%) and $8.02 EPS. But the headline everyone is talking about? Meta is planning to spend $115-135 billion on AI infrastructure in 2026. Zuckerberg is going all-in on "personal superintelligence."',
+    date: 'January 29, 2026',
+    readTime: '12 min read',
+    sector: 'Tech',
+    slug: 'meta-q4-2025-results',
+    status: 'results',
+    keywords: ['Meta', 'META', 'Facebook', 'Instagram', 'AI', 'capex', 'earnings results'],
+    revenue: {
+      actual: '$50.3B',
+      expected: '$49.2B',
+      beat: true
+    },
+    eps: {
+      actual: '$8.02',
+      expected: '$6.78',
+      beat: true
+    }
+  },
+  {
+    id: '16',
+    company: 'Tesla',
+    ticker: 'TSLA',
+    quarter: 'Q4',
+    fiscalYear: '2025',
+    title: 'Tesla Q4 2025 Earnings: First Annual Revenue Decline, But Margins Improve',
+    description: 'Tesla reported Q4 2025 earnings with $24.9 billion in revenue (down 3% year-over-year), marking Tesla\'s first annual revenue decline ever. But earnings per share beat expectations at $0.50 vs $0.45 expected, and automotive gross margins improved from 15.4% to 17.9%.',
+    date: 'January 28, 2026',
+    readTime: '11 min read',
+    sector: 'Tech',
+    slug: 'tesla-q4-2025-results',
+    status: 'results',
+    keywords: ['Tesla', 'TSLA', 'EV', 'electric vehicles', 'margins', 'earnings results'],
+    revenue: {
+      actual: '$24.9B',
+      expected: '$24.77B',
+      beat: true
+    },
+    eps: {
+      actual: '$0.50',
+      expected: '$0.45',
+      beat: true
+    }
+  },
+  {
+    id: '17',
+    company: 'Starbucks',
+    ticker: 'SBUX',
+    quarter: 'Q1',
+    fiscalYear: 'FY2026',
+    title: 'Starbucks Q1 FY2026: The Turnaround Is Real (And the Stock Agrees)',
+    description: 'Starbucks posted something it hasn\'t done in two years: positive comparable transaction growth in the US. Transactions were up 3% year-over-year, marking the first time since Q1 FY2024 that more people actually walked into Starbucks stores. The stock surged 10% after earnings.',
+    date: 'January 28, 2026',
+    readTime: '9 min read',
+    sector: 'Consumer',
+    slug: 'starbucks-q1-fy2026-results',
+    status: 'results',
+    keywords: ['Starbucks', 'SBUX', 'coffee', 'turnaround', 'Brian Niccol', 'earnings results'],
+    revenue: {
+      actual: '$9.92B',
+      expected: '$9.62B',
+      beat: true
+    },
+    eps: {
+      actual: '$0.56',
+      expected: '$0.59',
+      beat: false
+    }
+  },
+  {
+    id: '18',
+    company: 'LVMH',
+    ticker: 'MC.PA',
+    quarter: 'Full Year',
+    fiscalYear: '2025',
+    title: 'LVMH 2025: Revenue Down 5%, Stock Down 8%—But the Business Is Stronger Than It Looks',
+    description: 'LVMH reported €80.8 billion in revenue for 2025, down 5% from 2024. The stock fell 7-8% after results. But the business is actually in better shape than the headline suggests. Operating margin contracted slightly to 22%, but free cash flow grew 8% to €11.3 billion.',
+    date: 'January 27, 2026',
+    readTime: '13 min read',
+    sector: 'Luxury',
+    slug: 'lvmh-2025-results',
+    status: 'results',
+    keywords: ['LVMH', 'luxury', 'Louis Vuitton', 'Dior', 'China', 'earnings results'],
+    revenue: {
+      actual: '€80.8B',
+      expected: '€82.5B',
+      beat: false
+    },
+    eps: {
+      actual: 'N/A',
+      expected: 'N/A',
+      beat: false
+    }
+  },
+  {
+    id: '19',
+    company: 'Samsung',
+    ticker: '005930.KS',
+    quarter: 'Q4',
+    fiscalYear: '2025',
+    title: 'Samsung Q4 2025: Best Quarter Ever—But SK Hynix Just Overtook Them',
+    description: 'Samsung posted its best quarter in company history. Operating profit more than tripled year-over-year, driven entirely by memory chips. But while Samsung was celebrating record profits, SK Hynix quietly overtook them in annual operating profit for the first time ever.',
+    date: 'January 29, 2026',
+    readTime: '12 min read',
+    sector: 'Tech',
+    slug: 'samsung-q4-2025-results',
+    status: 'results',
+    keywords: ['Samsung', '005930.KS', 'memory chips', 'HBM', 'SK Hynix', 'earnings results'],
+    revenue: {
+      actual: '93.8T KRW',
+      expected: '90T KRW',
+      beat: true
+    },
+    eps: {
+      actual: 'N/A',
+      expected: 'N/A',
+      beat: true
+    }
+  },
+  {
+    id: '20',
+    company: 'Disney',
+    ticker: 'DIS',
+    quarter: 'Q1',
+    fiscalYear: 'FY2026',
+    title: 'Disney Q1 FY2026: Parks Hit Record Revenue, Streaming Profitable, CEO Succession Looms',
+    description: 'Disney beat Wall Street expectations with $26.0 billion in revenue (vs $25.6B expected) and $1.63 adjusted EPS (vs $1.57-1.58 expected). The stock rose 2% in premarket trading. Disney doubled its stock buyback target to $7 billion for fiscal 2026.',
+    date: 'February 2, 2026',
+    readTime: '14 min read',
+    sector: 'Consumer',
+    slug: 'disney-q1-fy2026-results',
+    status: 'results',
+    keywords: ['Disney', 'DIS', 'theme parks', 'streaming', 'ESPN', 'earnings results'],
+    revenue: {
+      actual: '$26.0B',
+      expected: '$25.6B',
+      beat: true
+    },
+    eps: {
+      actual: '$1.63',
+      expected: '$1.57',
+      beat: true
+    }
   }
 ];
 
