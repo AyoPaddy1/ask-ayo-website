@@ -274,23 +274,23 @@ export const earningsReports: EarningsReport[] = [
     ticker: 'GOOGL',
     quarter: 'Q4',
     fiscalYear: '2025',
-    title: 'Google Q4 2025 Earnings Preview: Can Cloud Growth Justify the $4 Trillion Valuation?',
-    description: 'Google reports Q4 2025 earnings Wednesday, February 4. Wall Street expects $111.2 billion in revenue (up 16%) and $2.64 adjusted EPS (up 23%). The stock is up 66% over the past year and recently crossed a $4 trillion market cap. Can Google justify that valuation with continued growth in Cloud and AI?',
-    date: 'February 2, 2026',
-    readTime: '10 min read',
+    title: "Google just had its biggest year ever—and it's about to spend twice as much",
+    description: "Google (Alphabet) just crossed $400 billion in annual revenue for the first time. But the real story is the money they're about to spend on AI.",
+    date: 'February 5, 2026',
+    readTime: '9 min read',
     sector: 'Tech',
-    slug: 'google-q4-2025-preview',
-    status: 'preview',
-    keywords: ['Google', 'GOOGL', 'Alphabet', 'Cloud', 'AI', 'YouTube', 'earnings preview'],
+    slug: 'google-q4-2025-results',
+    status: 'results',
+    keywords: ['Google', 'GOOGL', 'Alphabet', 'Cloud', 'AI', 'YouTube', 'earnings results', 'capex'],
     revenue: {
-      actual: 'TBD',
-      expected: '$111.2B',
-      beat: false
+      actual: '$113.83B',
+      expected: '$111.43B',
+      beat: true
     },
     eps: {
-      actual: 'TBD',
-      expected: '$2.64',
-      beat: false
+      actual: '$2.82',
+      expected: '$2.63',
+      beat: true
     }
   },
   {
