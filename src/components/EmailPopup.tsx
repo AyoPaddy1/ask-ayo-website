@@ -1,10 +1,13 @@
 import { useState, useEffect, type FormEvent } from 'react';
 import { useLocation } from 'react-router-dom';
 import { X } from 'lucide-react';
+import { subscribeToNewsletter } from '../utils/beehiiv';
 
 export function EmailPopup() {
   const [email, setEmail] = useState('');
   const [isVisible, setIsVisible] = useState(false);
+  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+  const [errorMessage, setErrorMessage] = useState('');
   const location = useLocation();
 
   useEffect(() => {
@@ -13,9 +16,10 @@ export function EmailPopup() {
       return;
     }
 
-    // Check if user has already seen the popup
+    // Check if user has already subscribed or dismissed the popup
+    const hasSubscribed = localStorage.getItem('ayo_newsletter_subscribed');
     const hasSeenPopup = localStorage.getItem('ayo-email-popup-seen');
-    if (hasSeenPopup) {
+    if (hasSubscribed || hasSeenPopup) {
       return;
     }
 
@@ -27,11 +31,30 @@ export function EmailPopup() {
     return () => clearTimeout(timer);
   }, [location.pathname]);
 
-  const handleSubmit = (e: FormEvent) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
-    if (email) {
+    if (!email) return;
+
+    setStatus('loading');
+    setErrorMessage('');
+
+    const result = await subscribeToNewsletter(email);
+    
+    if (result.success) {
+      setStatus('success');
+      setEmail('');
+      
+      // Store in localStorage to prevent showing popup again
+      localStorage.setItem('ayo_newsletter_subscribed', 'true');
       localStorage.setItem('ayo-email-popup-seen', 'true');
-      window.location.href = `https://magic.beehiiv.com/v1/cc8b49cc-67a6-4bde-8875-d31fb3d8558d?email=${encodeURIComponent(email)}`;
+      
+      // Auto-close popup after 3 seconds
+      setTimeout(() => {
+        setIsVisible(false);
+      }, 3000);
+    } else {
+      setStatus('error');
+      setErrorMessage(result.message);
     }
   };
 
@@ -53,33 +76,53 @@ export function EmailPopup() {
           <X size={24} />
         </button>
         
-        <h3 className="text-2xl font-bold text-gray-900 mb-3">
-          Before you go — want earnings breakdowns like this in your inbox every week?
-        </h3>
-        
-        <form onSubmit={handleSubmit} className="mt-6">
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder="Enter your email"
-            required
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 mb-3"
-          />
-          <button
-            type="submit"
-            className="w-full px-6 py-3 font-medium text-white bg-green-600 rounded-lg hover:bg-green-700 transition-colors mb-2"
-          >
-            Yes, sign me up
-          </button>
-          <button
-            type="button"
-            onClick={handleDismiss}
-            className="w-full px-6 py-3 font-medium text-gray-600 hover:text-gray-800 transition-colors"
-          >
-            No thanks
-          </button>
-        </form>
+        {status === 'success' ? (
+          <div className="text-center py-8">
+            <span className="text-5xl mb-4 block">🎉</span>
+            <h3 className="text-2xl font-bold text-gray-900 mb-2">
+              You're in!
+            </h3>
+            <p className="text-gray-600">Check your inbox for a welcome email.</p>
+          </div>
+        ) : (
+          <>
+            <h3 className="text-2xl font-bold text-gray-900 mb-2">
+              Earnings, explained like a human
+            </h3>
+            <p className="text-gray-600 mb-6">
+              One email a week. Plain English. No jargon, no fluff.
+            </p>
+            
+            <form onSubmit={handleSubmit}>
+              <input
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="your@email.com"
+                required
+                disabled={status === 'loading'}
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 mb-3 disabled:bg-gray-100 disabled:cursor-not-allowed"
+              />
+              {status === 'error' && (
+                <p className="text-sm text-red-600 mb-3">{errorMessage}</p>
+              )}
+              <button
+                type="submit"
+                disabled={status === 'loading'}
+                className="w-full px-6 py-3 font-medium text-white bg-green-600 rounded-lg hover:bg-green-700 transition-colors mb-2 disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                {status === 'loading' ? 'Subscribing...' : 'Subscribe'}
+              </button>
+              <button
+                type="button"
+                onClick={handleDismiss}
+                className="w-full px-6 py-3 font-medium text-gray-600 hover:text-gray-800 transition-colors"
+              >
+                No thanks
+              </button>
+            </form>
+          </>
+        )}
       </div>
     </div>
   );
