@@ -143,6 +143,24 @@ export function EarningsArticlePage() {
                   <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
                 </div>
                 
+                {/* AYO Widget Callout */}
+                <div className="mt-12 mb-8 bg-gradient-to-r from-purple-50 to-pink-50 border-2 border-purple-200 rounded-xl p-8 text-center">
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">
+                    Confused by any of the terms in this article?
+                  </h3>
+                  <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
+                    The AYO Chrome extension lets you highlight any word or passage on any website and get a plain English explanation.
+                  </p>
+                  <a
+                    href="https://chromewebstore.google.com/detail/askayo-financial-terms/aadolejfccokodnobpipmpknijggnjcj"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-3 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg"
+                  >
+                    Try it free →
+                  </a>
+                </div>
+
                 {/* Email Signup */}
                 <div className="px-8 sm:px-12 py-8">
                   <EmailSignup 
@@ -174,22 +192,7 @@ export function EarningsArticlePage() {
 
         <Footer />
         
-        {/* Sticky Footer Prompt */}
-        <div className="fixed bottom-0 left-0 right-0 bg-gradient-to-r from-purple-600 to-pink-600 text-white py-3 px-4 shadow-lg z-50">
-          <div className="max-w-4xl mx-auto flex items-center justify-between gap-4">
-            <p className="text-sm font-medium">
-              Confused by a term? Highlight it. AYO explains.
-            </p>
-            <a
-              href="https://chromewebstore.google.com/detail/askayo-financial-terms/aadolejfccokodnobpipmpknijggnjcj"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-white text-purple-600 px-4 py-2 rounded-lg font-semibold text-sm hover:bg-gray-100 transition-colors whitespace-nowrap"
-            >
-              Try it →
-            </a>
-          </div>
-        </div>
+
       </div>
     </>
   );
