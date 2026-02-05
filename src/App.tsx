@@ -10,11 +10,15 @@ import { BrandPage } from './pages/BrandPage';
 import { NewsPage } from './pages/NewsPage';
 import { WorkPage } from './pages/WorkPage';
 import { YourMoneyPage } from './pages/YourMoneyPage';
+import { ScrollToTop } from './components/ScrollToTop';
+import { EmailPopup } from './components/EmailPopup';
 
 export default function App() {
   return (
     <HelmetProvider>
       <BrowserRouter>
+        <ScrollToTop />
+        <EmailPopup />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/blog" element={<BlogListPage />} />

@@ -7,6 +7,8 @@ import TradingViewChart from '../components/TradingViewChart';
 import { getTradingViewSymbol } from '../utils/tradingViewSymbol';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
+import { EmailSignup } from '../components/EmailSignup';
+import { OrganizationStructuredData } from '../components/StructuredData';
 
 export function BrandPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -60,18 +62,32 @@ export function BrandPage() {
     );
   }
 
-  // Filter earnings articles for this brand and sort by date (newest first)
+  // Filter earnings articles for this brand and sort by date (newest first), then by status (results before preview)
   const brandEarnings = earningsReports
     .filter((e: any) => e.title.toLowerCase().includes(brand.name.toLowerCase()))
-    .sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime());
+    .sort((a: any, b: any) => {
+      // First sort by date (newest first)
+      const dateComparison = new Date(b.date).getTime() - new Date(a.date).getTime();
+      if (dateComparison !== 0) return dateComparison;
+      
+      // If dates are equal, sort by status (results before preview)
+      if (a.status === 'results' && b.status === 'preview') return -1;
+      if (a.status === 'preview' && b.status === 'results') return 1;
+      return 0;
+    });
 
 
 
   return (
     <>
+      <OrganizationStructuredData 
+        name={brand.name}
+        ticker={brand.ticker}
+        sector={brand.sector}
+      />
       <Helmet>
         <title>{brand.name} ({brand.ticker}) - Earnings & Stock Price | Ask AYO</title>
-        <meta name="description" content={`Track ${brand.name}'s earnings and live stock price. Understand every term in their reports with Ask AYO.`} />
+        <meta name="description" content={`${brand.name} earnings explained in plain English. Revenue, ${brand.sector === 'Tech' ? 'cloud growth, AI investments' : brand.sector === 'Luxury' ? 'luxury sales, brand performance' : brand.sector === 'Automotive' ? 'vehicle sales, EV strategy' : 'financial performance'} — what it means for investors.`} />
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">
@@ -141,6 +157,13 @@ export function BrandPage() {
                 brandName={brand.name}
               />
             </div>
+
+            {/* Email Signup */}
+            <EmailSignup 
+              message={`Following ${brand.name}? We cover their earnings every quarter → Join AYO Weekly`}
+              ctaText="Subscribe"
+              variant="inline"
+            />
 
             {/* Earnings Feed */}
             <section>

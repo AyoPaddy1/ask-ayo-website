@@ -7,6 +7,8 @@ import { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { TrendingUp, TrendingDown, Calendar, Clock, ArrowLeft } from 'lucide-react';
+import { EmailSignup } from '../components/EmailSignup';
+import { ArticleStructuredData } from '../components/StructuredData';
 
 export function EarningsArticlePage() {
   const { slug, earningsSlug } = useParams<{ slug?: string; earningsSlug?: string }>();
@@ -40,6 +42,12 @@ export function EarningsArticlePage() {
 
   return (
     <>
+      <ArticleStructuredData 
+        title={report.title}
+        description={report.description}
+        datePublished={report.date}
+        url={`https://ask-ayo.com/investing/${slug}/earnings/${report.slug}`}
+      />
       <Helmet>
         <title>{report.company} {report.quarter} Earnings | AskAYO</title>
         <meta name="description" content={report.description} />
@@ -133,6 +141,15 @@ export function EarningsArticlePage() {
                   prose-code:text-teal-700 prose-code:bg-teal-50 prose-code:px-2 prose-code:py-1 prose-code:rounded prose-code:font-mono prose-code:text-sm
                 ">
                   <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
+                </div>
+                
+                {/* Email Signup */}
+                <div className="px-8 sm:px-12 py-8">
+                  <EmailSignup 
+                    message="We break down earnings like this every week. Get them straight to your inbox."
+                    ctaText="Get AYO Weekly"
+                    variant="compact"
+                  />
                 </div>
               </div>
 
