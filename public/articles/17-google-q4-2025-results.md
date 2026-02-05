@@ -1,5 +1,5 @@
 ---
-title: "Google's Biggest Year Ever (And Why They're Doubling Down)"
+title: "Google Q4 2025 Earnings: A $400 Billion Year and a Massive Bet on AI"
 shortTitle: "Google Q4 2025"
 description: "Google (Alphabet) just crossed $400 billion in annual revenue. Here’s a plain English breakdown of their results and their massive new bet on AI."
 category: "Investing"
@@ -7,15 +7,17 @@ brand: "Google"
 date: "2026-02-05"
 ---
 
-### The Short of It
+Google’s parent company, Alphabet, just reported its Q4 2025 earnings, capping off its biggest year ever with over **$400 billion** in annual revenue for the first time [1]. Revenue for the quarter was **$113.83 billion** (up 18% year-over-year), and earnings per share came in at **$2.82**, both beating what analysts were expecting [2].
 
-Google’s parent company, Alphabet, just wrapped up its biggest year ever, pulling in over $400 billion in revenue for the first time [1]. In the last three months of 2025, they beat Wall Street's expectations, with their core Search and Cloud businesses growing faster than anyone predicted [2].
+The real story, however, is the money they're about to spend. Google announced plans to nearly double its spending in 2026 to accelerate its push into artificial intelligence [3].
 
-The real story, though, isn't just the record-breaking numbers. It's the money they're about to spend. Google announced plans to nearly double its spending in 2026 to build out its artificial intelligence capabilities [3]. It’s a Texas-sized bet on the future of AI.
+### The Numbers: Record Revenue, Strong Profits
 
-### The Numbers
+- **Revenue:** $113.83 billion (up 18% year-over-year)
+- **Net Income:** $34.46 billion (up 30% year-over-year)
+- **EPS (Earnings Per Share):** $2.82 (beat the $2.63 analysts expected)
 
-Here’s how Alphabet’s Q4 2025 results stacked up against the same period last year. Plain and simple.
+Here’s how the quarter compares to the same period last year:
 
 | Metric | Q4 2025 | Q4 2024 | Change |
 | --- | --- | --- | --- |
@@ -25,31 +27,31 @@ Here’s how Alphabet’s Q4 2025 results stacked up against the same period las
 
 *Source: Alphabet Q4 2025 Earnings Release [1]*
 
-### What's Working
+### Search: Still the Cash Cow
 
-**Search is still the cash cow.** Despite all the chatter about AI chatbots taking over, Google's search business is accelerating. Revenue from Search & other advertising hit roughly $70.9 billion for the quarter, a 17% jump from last year [4]. People are also using Search in new ways; the company noted that queries in its AI-powered search mode are three times longer than traditional searches [4].
+Despite fears of AI disruption, Google's Search business is stronger than ever. Revenue from Search and other advertising hit roughly **$70.9 billion** for the quarter, a 17% jump from last year [4]. The company noted that its AI-powered search features are leading to longer, more complex user queries, suggesting higher engagement [4].
 
-**The Cloud business is exploding.** Google Cloud, which rents out computing power and AI tools to other companies, was the standout performer. Its revenue shot up 48% to $17.7 billion [2]. The demand for AI is so intense that Google Cloud now has a backlog of contracts worth a staggering $240 billion [4].
+### Cloud: The Growth Engine
 
-**Gemini is getting cheaper and more popular.** Google's flagship AI model, Gemini, now has over 750 million monthly active users. More importantly, the company has managed to slash the cost of running Gemini by 78% over the last year, making the whole operation much more efficient [4].
+Google Cloud was the standout performer. Its revenue shot up **48%** to **$17.7 billion** as more companies adopt Google’s AI tools [2]. The demand is so high that Google Cloud now has a backlog of contracts worth a staggering **$240 billion** [4]. This shows that the company's big investments in enterprise AI are paying off.
 
-### What's Complicated
+### YouTube: A Slight Miss
 
-**YouTube ads were a little soft.** YouTube’s ad revenue grew 9% to $11.4 billion, which was a bit shy of what analysts had penciled in [2]. The company pointed out that it was a tough comparison to the end of 2024, which was flooded with political ad spending during the U.S. elections [2].
+YouTube’s ad revenue grew **9%** to **$11.4 billion**, which was a little shy of what analysts had penciled in [2]. The company explained this was a tough comparison to the end of 2024, which was flooded with political ad spending during the U.S. elections [2].
 
-**“Other Bets” are still a moonshot.** This is Google’s division for experimental projects like the self-driving car company Waymo. This division lost $3.6 billion this quarter, a loss that was inflated by a large stock-based compensation charge for Waymo after it raised a new round of funding [2].
+### What's Coming in 2026: The AI Spending Spree
 
-### The $185 Billion Bet on AI
-
-The biggest takeaway from the report wasn’t the record revenue—it was the spending plan. Alphabet announced it expects to spend between $175 billion and $185 billion on capital expenditures in 2026 [3]. That’s nearly double what they spent in 2025.
+Google announced it expects to spend between **$175 billion and $185 billion** on capital expenditures in 2026, nearly double its 2025 spend [3].
 
 > “We’re seeing our AI investments and infrastructure drive revenue and growth across the board,” said CEO Sundar Pichai. “To meet customer demand and capitalize on the growing opportunities ahead of us, our 2026 CapEx investments are anticipated to be in the range of $175 to $185 billion.” [4]
 
-This cash will be poured into building more data centers, buying more powerful chips, and generally beefing up the infrastructure needed to power the next generation of AI. It's a clear sign that Google is going all-in on the AI arms race.
+Translation: Google is building the infrastructure—data centers, custom chips (TPUs), and more—to power the next decade of AI, and it's not afraid to spend big to do it.
 
-### What to Watch
+### The Bottom Line for Investors
 
-Google is in a fascinating spot. It’s a hugely profitable, mature company that’s investing with the aggression of a startup. The big question for the year ahead is how quickly these massive AI investments will translate into new products and even more growth. For now, Google is sending a clear message: the future is AI, and they’re building it, no matter the cost.
+This was a blowout quarter for Google. The core Search business is accelerating, the Cloud business is exploding, and the company is more profitable than ever. The massive increase in spending shows a company that is aggressively investing from a position of strength to cement its leadership in AI.
+
+The key question for the next year is how quickly these huge AI investments will translate into new products and even faster growth. For now, Google is sending a clear message: the future is AI, and they’re building it, no matter the cost.
 
 ---
 

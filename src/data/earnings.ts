@@ -274,7 +274,7 @@ export const earningsReports: EarningsReport[] = [
     ticker: 'GOOGL',
     quarter: 'Q4',
     fiscalYear: '2025',
-    title: "Google's Biggest Year Ever (And Why They're Doubling Down)",
+    title: "Google Q4 2025 Earnings: A $400 Billion Year and a Massive Bet on AI",
     description: "Google (Alphabet) just crossed $400 billion in annual revenue. Here’s a plain English breakdown of their results and their massive new bet on AI.",
     date: 'February 5, 2026',
     readTime: '9 min read',
