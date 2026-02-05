@@ -28,8 +28,9 @@ export default async function handler(
     });
   }
 
-  const BEEHIIV_API_KEY = process.env.VITE_BEEHIIV_API_KEY;
-  const BEEHIIV_PUBLICATION_ID = process.env.VITE_BEEHIIV_PUBLICATION_ID;
+  // Serverless functions use non-VITE_ prefixed env vars
+  const BEEHIIV_API_KEY = process.env.BEEHIIV_API_KEY;
+  const BEEHIIV_PUBLICATION_ID = process.env.BEEHIIV_PUBLICATION_ID;
 
   if (!BEEHIIV_API_KEY || !BEEHIIV_PUBLICATION_ID) {
     console.error('Missing Beehiiv credentials');
