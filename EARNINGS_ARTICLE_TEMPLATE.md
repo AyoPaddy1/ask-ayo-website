@@ -3,6 +3,23 @@
 ## Purpose
 This template ensures every earnings article follows the same structure, voice, and format. Use this as the blueprint for all earnings coverage.
 
+## CRITICAL: Preview vs Results Approach
+
+**Earnings PREVIEWS:**
+- Can include market predictions and speculation
+- Can discuss "what to watch for" and analyst expectations
+- Can reference stock price movements and market sentiment
+- Tone: Forward-looking, anticipatory
+
+**Earnings RESULTS:**
+- MUST be factual and business-focused
+- MUST help readers understand the investment story
+- NO stock price reactions or market sentiment
+- Focus on: What happened, what it means for the business, what's next
+- Tone: Educational, explanatory, grounded in facts
+
+**This distinction is hardwired and non-negotiable.**
+
 ---
 
 ## Article Structure (MANDATORY)

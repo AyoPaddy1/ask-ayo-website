@@ -17,31 +17,32 @@ The real story, however, is the money they're about to spend. Google announced p
 - **Net Income:** $34.46 billion (up 30% year-over-year)
 - **EPS (Earnings Per Share):** $2.82 (beat the $2.63 analysts expected)
 
-Here’s how the quarter compares to the same period last year:
-
-| Metric | Q4 2025 | Q4 2024 | Change |
-| --- | --- | --- | --- |
-| **Total Revenue** | $113.83 billion | $96.5 billion | +18% |
-| **Net Income** | $34.46 billion | $26.54 billion | +30% |
-| **Earnings Per Share (EPS)** | $2.82 | $2.15 | +31% |
-
-*Source: Alphabet Q4 2025 Earnings Release [1]*
+Google didn't just grow—it accelerated. Revenue growth of 18% is faster than the 16% analysts were expecting. Net income grew even faster at 30%, showing that Google is getting more profitable as it scales. For context, this was Google's first year crossing **$400 billion** in annual revenue.
 
 ### Search: Still the Cash Cow
 
-Despite fears of AI disruption, Google's Search business is stronger than ever. Revenue from Search and other advertising hit roughly **$70.9 billion** for the quarter, a 17% jump from last year [4]. The company noted that its AI-powered search features are leading to longer, more complex user queries, suggesting higher engagement [4].
+Despite fears of AI disruption, Google's Search business is stronger than ever. Revenue from Search and other advertising hit roughly **$70.9 billion** for the quarter, a 17% jump from last year [4]. That's an acceleration from previous quarters, not a slowdown.
+
+Why the growth?
+- AI-powered search features are leading to longer, more complex queries
+- Queries in AI Mode are **3x longer** than traditional searches
+- More engagement is leading to more ad opportunities
+
+Translation: AI isn't killing Search. It's making Search better, and Google is monetizing it.
 
 ### Cloud: The Growth Engine
 
-Google Cloud was the standout performer. Its revenue shot up **48%** to **$17.7 billion** as more companies adopt Google’s AI tools [2]. The demand is so high that Google Cloud now has a backlog of contracts worth a staggering **$240 billion** [4]. This shows that the company's big investments in enterprise AI are paying off.
+Google Cloud was the standout performer. Its revenue shot up **48%** to **$17.7 billion**, crushing the $16.18 billion analysts expected [2]. For context, that's nearly double the growth rate of Search.
+
+The demand is so intense that Google Cloud now has a backlog of contracts worth **$240 billion** [4]. This isn't just growth—it's explosive growth.
 
 ### YouTube: A Slight Miss
 
-YouTube’s ad revenue grew **9%** to **$11.4 billion**, which was a little shy of what analysts had penciled in [2]. The company explained this was a tough comparison to the end of 2024, which was flooded with political ad spending during the U.S. elections [2].
+YouTube’s ad revenue grew 9% to **$11.4 billion**, which was a little shy of the $11.84 billion analysts had penciled in [2]. The company explained this was a tough comparison to the end of 2024, which was flooded with political ad spending during the U.S. elections [2].
 
 ### What's Coming in 2026: The AI Spending Spree
 
-Google announced it expects to spend between **$175 billion and $185 billion** on capital expenditures in 2026, nearly double its 2025 spend [3].
+Google announced it expects to spend between **$175 billion and $185 billion** on capital expenditures in 2026. That's nearly double its 2025 spend [3].
 
 > “We’re seeing our AI investments and infrastructure drive revenue and growth across the board,” said CEO Sundar Pichai. “To meet customer demand and capitalize on the growing opportunities ahead of us, our 2026 CapEx investments are anticipated to be in the range of $175 to $185 billion.” [4]
 
