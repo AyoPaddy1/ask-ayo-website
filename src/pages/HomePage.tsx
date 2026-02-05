@@ -11,10 +11,17 @@ import { UseCaseCards } from '../components/UseCaseCards';
 import { Footer } from '../components/Footer';
 import { EmailSignup } from '../components/EmailSignup';
 import { WebSiteStructuredData } from '../components/StructuredData';
+import { SEO } from '../components/SEO';
 
 export function HomePage() {
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title="AI Financial Terms Translator | Browser Extension"
+        description="Understand finance with confidence. Get instant AI explanations of any financial term, from EBITDA to P/E ratios, right where you read. Free browser extension for Chrome and Edge."
+        canonical="https://www.ask-ayo.com/"
+        keywords={['financial terms', 'financial jargon', 'earnings explained', 'EBITDA', 'P/E ratio', 'financial literacy', 'browser extension']}
+      />
       <WebSiteStructuredData 
         name="AskAYO"
         url="https://ask-ayo.com"

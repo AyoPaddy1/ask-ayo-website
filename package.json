@@ -9,7 +9,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "generate-sitemap": "node scripts/generate-sitemap.cjs",
+    "generate-sitemap": "npx tsx scripts/generate-sitemap.js",
     "predeploy": "npm run generate-sitemap && npm run build",
     "deploy": "gh-pages -d dist"
   },

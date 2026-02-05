@@ -9,6 +9,7 @@ import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import { EmailSignup } from '../components/EmailSignup';
 import { OrganizationStructuredData } from '../components/StructuredData';
+import { SEO } from '../components/SEO';
 
 export function BrandPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -22,6 +23,8 @@ export function BrandPage() {
       fetchLivePrice();
     }
   }, [brand]);
+
+  const brandDescription = brand ? `${brand.name} (${brand.ticker}) earnings reports, financial analysis, and stock insights explained in plain English. Track ${brand.name}'s quarterly results and understand what they mean for investors.` : '';
 
   const fetchLivePrice = async () => {
     if (!brand) return;
@@ -80,6 +83,12 @@ export function BrandPage() {
 
   return (
     <>
+      <SEO
+        title={`${brand.name} (${brand.ticker}) - Earnings & Stock Price`}
+        description={brandDescription}
+        canonical={`https://www.ask-ayo.com/investing/${brand.slug}`}
+        keywords={[brand.name, brand.ticker, `${brand.name} earnings`, `${brand.name} stock`, brand.sector, 'financial analysis']}
+      />
       <OrganizationStructuredData 
         name={brand.name}
         ticker={brand.ticker}

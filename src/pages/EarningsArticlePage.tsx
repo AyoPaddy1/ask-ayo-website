@@ -9,6 +9,7 @@ import remarkGfm from 'remark-gfm';
 import { TrendingUp, TrendingDown, Calendar, Clock, ArrowLeft } from 'lucide-react';
 import { EmailSignup } from '../components/EmailSignup';
 import { ArticleStructuredData } from '../components/StructuredData';
+import { SEO } from '../components/SEO';
 
 export function EarningsArticlePage() {
   const { slug, earningsSlug } = useParams<{ slug?: string; earningsSlug?: string }>();
@@ -42,6 +43,14 @@ export function EarningsArticlePage() {
 
   return (
     <>
+      <SEO
+        title={report.title}
+        description={report.description}
+        canonical={`https://www.ask-ayo.com/investing/${slug}/earnings/${report.slug}`}
+        type="article"
+        publishedTime={report.date}
+        keywords={report.keywords}
+      />
       <ArticleStructuredData 
         title={report.title}
         description={report.description}
