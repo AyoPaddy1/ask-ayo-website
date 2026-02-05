@@ -20,10 +20,6 @@ export function WhatWeDont() {
           </span>{' '}
           Do
         </h2>
-        <p className="text-gray-700 text-2xl mb-16">
-          We're a translator. That's it. 🤷
-        </p>
-        
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
           {dontDo.map((item, index) => (
             <div key={index} className="bg-white border-4 border-red-400 rounded-2xl p-6 flex items-center gap-4 transform hover:scale-105 transition-all shadow-lg">

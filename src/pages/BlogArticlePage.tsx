@@ -141,7 +141,7 @@ export function BlogArticlePage() {
               Want instant explanations while you read?
             </h3>
             <p className="text-teal-50 mb-6 max-w-2xl mx-auto">
-              Install the AskAYO Chrome extension to get AI-powered explanations of any financial term, right where you read. No more tab-switching or googling.
+              Install the AYO Browser Extension to get AI-powered explanations of any financial term, right where you read. No more tab-switching or googling.
             </p>
             <a
               href="https://chromewebstore.google.com/detail/askayo-financial-terms/aadolejfccokodnobpipmpknijggnjcj"

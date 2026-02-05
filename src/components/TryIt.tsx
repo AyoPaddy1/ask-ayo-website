@@ -150,7 +150,7 @@ export function TryIt() {
                     Want the full experience?
                   </h4>
                   <p className="text-gray-700 mb-6 text-lg">
-                    Install the Chrome extension to translate <strong>any term</strong> on <strong>any website</strong> with just a right-click!
+                    Install the AYO Browser Extension to translate <strong>any term</strong> on <strong>any website</strong> with just a right-click!
                   </p>
                   <button
                     onClick={handleInstallExtension}

@@ -149,7 +149,7 @@ export function EarningsArticlePage() {
                     Confused by any of the terms in this article?
                   </h3>
                   <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
-                    The AYO Chrome extension lets you highlight any word or passage on any website and get a plain English explanation.
+                    The AYO Browser Extension lets you highlight any word or passage on any website and get a plain English explanation.
                   </p>
                   <a
                     href="https://chromewebstore.google.com/detail/askayo-financial-terms/aadolejfccokodnobpipmpknijggnjcj"
