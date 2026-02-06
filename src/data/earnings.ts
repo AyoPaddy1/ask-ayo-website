@@ -294,31 +294,6 @@ export const earningsReports: EarningsReport[] = [
     }
   },
   {
-    id: '12',
-    company: 'Amazon',
-    ticker: 'AMZN',
-    quarter: 'Q4',
-    fiscalYear: '2025',
-    title: 'Amazon Q4 2025 Earnings Preview: Can AWS Keep the Party Going?',
-    description: 'Amazon reports Q4 2025 earnings Wednesday, February 5. Wall Street expects $187.7 billion in revenue (up 9%) and $1.49 adjusted EPS (up 43%). AWS is the profit engine, but retail margins are compressing. Can Amazon keep the momentum going?',
-    date: 'February 2, 2026',
-    readTime: '11 min read',
-    sector: 'Tech',
-    slug: 'amazon-q4-2025-preview',
-    status: 'preview',
-    keywords: ['Amazon', 'AMZN', 'AWS', 'e-commerce', 'cloud computing', 'earnings preview'],
-    revenue: {
-      actual: 'TBD',
-      expected: '$187.7B',
-      beat: false
-    },
-    eps: {
-      actual: 'TBD',
-      expected: '$1.49',
-      beat: false
-    }
-  },
-  {
     id: '13',
     company: 'Apple',
     ticker: 'AAPL',
