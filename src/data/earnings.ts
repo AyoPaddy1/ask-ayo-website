@@ -517,6 +517,31 @@ export const earningsReports: EarningsReport[] = [
       expected: '$1.57',
       beat: true
     }
+  },
+  {
+    id: '21',
+    company: 'Amazon',
+    ticker: 'AMZN',
+    quarter: 'Q4',
+    fiscalYear: '2025',
+    title: 'Amazon Q4 2025 Earnings: A $700 Billion Year and a $200 Billion Bet on AI',
+    description: 'Amazon crossed $700 billion in annual revenue for the first time. Here\'s a plain English breakdown of their Q4 results and why they\'re about to spend $200 billion.',
+    date: 'February 6, 2026',
+    readTime: '10 min read',
+    sector: 'Tech',
+    slug: 'amazon-q4-2025-results',
+    status: 'results',
+    keywords: ['Amazon', 'AMZN', 'AWS', 'cloud computing', 'AI', 'capex', 'earnings results'],
+    revenue: {
+      actual: '$213.4B',
+      expected: '$211.3B',
+      beat: true
+    },
+    eps: {
+      actual: '$1.95',
+      expected: '$1.97',
+      beat: false
+    }
   }
 ];
 
