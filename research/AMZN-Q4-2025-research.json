@@ -1,0 +1,62 @@
+{
+  "company": "Amazon",
+  "ticker": "AMZN",
+  "quarter": "Q4",
+  "fiscalYear": "2025",
+  "reportDate": "2026-02-05",
+  "source": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results/",
+  "metrics": {
+    "revenue": {
+      "actual": 213.4,
+      "unit": "billion USD",
+      "yoyChange": "+14%"
+    },
+    "eps": {
+      "actual": 1.95,
+      "unit": "USD",
+      "yoyChange": "+4.8%"
+    },
+    "segments": [
+      {
+        "name": "North America",
+        "revenue": 127.1,
+        "yoyChange": "+10%"
+      },
+      {
+        "name": "International",
+        "revenue": 49.7,
+        "yoyChange": null
+      },
+      {
+        "name": "AWS",
+        "revenue": 34.9,
+        "yoyChange": null
+      }
+    ],
+    "geographic": [
+      {
+        "region": "North America",
+        "revenue": 127.1,
+        "yoyChange": "+10%"
+      },
+      {
+        "region": "International",
+        "revenue": 49.7,
+        "yoyChange": null
+      }
+    ],
+    "guidance": {
+      "nextQuarter": "Net sales of $173.5 billion to $178.5 billion",
+      "notes": "Q1 2026 guidance provided"
+    }
+  },
+  "citations": [
+    "https://www.investing.com/news/company-news/amazon-q4-2025-slides-revenue-jumps-14-aws-growth-accelerates-to-24-93CH-4489269",
+    "https://www.nasdaq.com/press-release/amazoncom-announces-fourth-quarter-results-2026-02-05-0",
+    "https://www.businessinsider.com/amazon-report-q4-earnings-call-amzn-stock-live-updates-2026-2",
+    "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results/",
+    "https://www.geekwire.com/2026/amazon-stock-sinks-10-after-q4-profit-miss-as-jassy-signals-200b-in-capital-spending/",
+    "https://ir.aboutamazon.com/overview/default.aspx"
+  ],
+  "fetchedAt": "2026-02-06T14:53:18.198Z"
+}
