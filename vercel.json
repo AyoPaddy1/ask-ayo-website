@@ -10,6 +10,16 @@
       ],
       "destination": "https://www.ask-ayo.com/:path*",
       "permanent": true
+    },
+    {
+      "source": "/examples",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/earnings",
+      "destination": "/investing",
+      "permanent": true
     }
   ],
   "rewrites": [
