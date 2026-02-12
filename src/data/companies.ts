@@ -498,6 +498,15 @@ export const companies: Company[] = [
     interbrandRank: 5,
     fiscalYearEnd: 'December',
     description: 'Korean tech giant. Smartphones, semiconductors, displays, and consumer electronics.'
+  },
+  {
+    id: '55',
+    name: 'Airbnb',
+    ticker: 'ABNB',
+    sector: 'Consumer',
+    interbrandRank: 0,
+    fiscalYearEnd: 'December',
+    description: 'Travel platform. Home-sharing marketplace, experiences, services, and AI-powered travel.'
   }
 ];
 

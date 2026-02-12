@@ -542,6 +542,56 @@ export const earningsReports: EarningsReport[] = [
       expected: '€2.85',
       beat: true
     }
+  },
+  {
+    id: '23',
+    company: 'Airbnb',
+    ticker: 'ABNB',
+    quarter: 'Q4',
+    fiscalYear: '2025',
+    title: 'Airbnb Q4 2025 Earnings: Revenue Beats, Bookings Surge, But Profits Dip',
+    description: 'Airbnb beat revenue and bookings expectations in Q4 2025, but earnings missed due to tax costs and strategic investments in AI, Services, and Experiences.',
+    date: '2026-02-12',
+    readTime: '5 min read',
+    sector: 'Consumer' as const,
+    status: 'results' as const,
+    slug: 'airbnb-q4-2025-results',
+    keywords: ['Airbnb', 'ABNB', 'travel', 'bookings', 'GBV', 'earnings', 'Q4 2025'],
+    revenue: {
+      actual: '$2.78B',
+      expected: '$2.72B',
+      beat: true
+    },
+    eps: {
+      actual: '$0.56',
+      expected: '$0.66',
+      beat: false
+    }
+  },
+  {
+    id: '24',
+    company: 'Roku',
+    ticker: 'ROKU',
+    quarter: 'Q4',
+    fiscalYear: '2025',
+    title: 'Roku Q4 2025 Earnings: First Full-Year Profit, Revenue Surges',
+    description: 'Roku achieved its first full-year profit in company history, crushing Q4 expectations with revenue up 16% and free cash flow more than doubling year-over-year.',
+    date: '2026-02-12',
+    readTime: '5 min read',
+    sector: 'Tech' as const,
+    status: 'results' as const,
+    slug: 'roku-q4-2025-results',
+    keywords: ['Roku', 'ROKU', 'streaming', 'platform', 'advertising', 'earnings', 'Q4 2025'],
+    revenue: {
+      actual: '$1.395B',
+      expected: '$1.35B',
+      beat: true
+    },
+    eps: {
+      actual: '$0.53',
+      expected: '$0.28',
+      beat: true
+    }
   }
 ];
 
