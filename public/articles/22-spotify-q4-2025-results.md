@@ -7,6 +7,8 @@ brand: "Spotify"
 date: "2026-02-10"
 ---
 
+# Spotify Q4 2025 Earnings: Record Users, Massive Profit Beat
+
 Spotify just reported Q4 2025 earnings, and this is a blowout quarter. The company hit 751 million monthly active users — its biggest quarter for new additions ever — and profits came in more than 55% above what analysts expected.
 
 Here's what happened.
