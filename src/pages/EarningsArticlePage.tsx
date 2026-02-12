@@ -23,7 +23,12 @@ export function EarningsArticlePage() {
     if (report) {
       fetch(`/articles/${report.id}-${report.slug}.md`)
         .then(response => response.text())
-        .then(text => setContent(text))
+        .then(text => {
+          // Strip frontmatter (YAML between --- delimiters)
+          const frontmatterRegex = /^---\s*\n[\s\S]*?\n---\s*\n/;
+          const contentWithoutFrontmatter = text.replace(frontmatterRegex, '');
+          setContent(contentWithoutFrontmatter);
+        })
         .catch(error => console.error('Error loading markdown:', error));
     }
   }, [report]);
