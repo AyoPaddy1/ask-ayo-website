@@ -402,7 +402,7 @@ export const brands: Brand[] = [
   },
   {
     name: 'Samsung',
-    ticker: '005930.KS',
+    ticker: 'KRX:005930',
     logo: '📱',
     domain: 'samsung.com',
     sector: 'Tech',

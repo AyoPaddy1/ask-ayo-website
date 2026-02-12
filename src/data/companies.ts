@@ -489,6 +489,15 @@ export const companies: Company[] = [
     interbrandRank: 0,
     fiscalYearEnd: 'December',
     description: 'Streaming platform. TV operating system, ad revenue, and platform growth.'
+  },
+  {
+    id: '54',
+    name: 'Samsung',
+    ticker: 'KRX:005930',
+    sector: 'Tech',
+    interbrandRank: 5,
+    fiscalYearEnd: 'December',
+    description: 'Korean tech giant. Smartphones, semiconductors, displays, and consumer electronics.'
   }
 ];
 
