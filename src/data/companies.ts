@@ -376,7 +376,7 @@ export const companies: Company[] = [
   {
     id: '41',
     name: 'L\'Oréal',
-    ticker: 'OR.PA',
+    ticker: 'EURONEXT:OR',
     sector: 'Luxury',
     interbrandRank: 59,
     fiscalYearEnd: 'December',
@@ -465,6 +465,15 @@ export const companies: Company[] = [
   },
   {
     id: '51',
+    name: 'H&M',
+    ticker: 'OMXSTO:HM-B',
+    sector: 'Consumer',
+    interbrandRank: 0,
+    fiscalYearEnd: 'November',
+    description: 'Swedish fast fashion retailer. Global store network, online growth, sustainability focus.'
+  },
+  {
+    id: '52',
     name: 'Spotify',
     ticker: 'SPOT',
     sector: 'Tech',
@@ -473,7 +482,7 @@ export const companies: Company[] = [
     description: 'Music streaming leader. 751 million users, subscription growth, ad platform rebuild.'
   },
   {
-    id: '52',
+    id: '53',
     name: 'Roku',
     ticker: 'ROKU',
     sector: 'Tech',
