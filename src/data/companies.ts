@@ -462,6 +462,24 @@ export const companies: Company[] = [
     interbrandRank: 27,
     fiscalYearEnd: 'December',
     description: 'German insurance giant. Asset management and insurance premiums grow.'
+  },
+  {
+    id: '51',
+    name: 'Spotify',
+    ticker: 'SPOT',
+    sector: 'Tech',
+    interbrandRank: 0,
+    fiscalYearEnd: 'December',
+    description: 'Music streaming leader. 751 million users, subscription growth, ad platform rebuild.'
+  },
+  {
+    id: '52',
+    name: 'Roku',
+    ticker: 'ROKU',
+    sector: 'Tech',
+    interbrandRank: 0,
+    fiscalYearEnd: 'December',
+    description: 'Streaming platform. TV operating system, ad revenue, and platform growth.'
   }
 ];
 

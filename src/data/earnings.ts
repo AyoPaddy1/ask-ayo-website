@@ -517,6 +517,31 @@ export const earningsReports: EarningsReport[] = [
       expected: '$1.97',
       beat: false
     }
+  },
+  {
+    id: '22',
+    company: 'Spotify',
+    ticker: 'SPOT',
+    quarter: 'Q4',
+    fiscalYear: '2025',
+    title: 'Spotify Q4 2025 Earnings: Record Users, Massive Profit Beat',
+    description: 'Spotify crushed earnings expectations with record user growth, hitting 751 million monthly users and blowing past profit estimates.',
+    date: '2026-02-10',
+    readTime: '4 min read',
+    sector: 'Tech' as const,
+    status: 'results' as const,
+    slug: 'spotify-q4-2025-results',
+    keywords: ['Spotify', 'SPOT', 'streaming', 'music', 'subscribers', 'MAU', 'earnings', 'Q4 2025'],
+    revenue: {
+      actual: '€4.53B',
+      expected: '€4.52B',
+      beat: true
+    },
+    eps: {
+      actual: '€4.43',
+      expected: '€2.85',
+      beat: true
+    }
   }
 ];
 
