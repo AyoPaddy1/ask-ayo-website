@@ -162,7 +162,7 @@ export const brands: Brand[] = [
   },
   {
     name: 'H&M',
-    ticker: 'HM-B.ST',
+    ticker: 'OMXSTO:HM-B',
     logo: '👔',
     domain: 'hm.com',
     sector: 'Consumer',
@@ -232,7 +232,7 @@ export const brands: Brand[] = [
   },
   {
     name: "L'Oréal",
-    ticker: 'OR.PA',
+    ticker: 'EURONEXT:OR',
     logo: '💅',
     domain: 'loreal.com',
     sector: 'Luxury',
