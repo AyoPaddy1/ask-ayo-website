@@ -371,6 +371,16 @@ export const brands: Brand[] = [
     tagline: 'Track Porsche earnings and performance'
   },
   {
+    name: 'Roku',
+    ticker: 'ROKU',
+    logo: '📺',
+    domain: 'roku.com',
+    sector: 'Tech',
+    category: 'Tech Giants',
+    slug: 'roku',
+    tagline: 'Track Roku earnings and performance'
+  },
+  {
     name: 'SAP',
     ticker: 'SAP',
     logo: '📊',
@@ -409,6 +419,16 @@ export const brands: Brand[] = [
     category: 'Industrial',
     slug: 'siemens',
     tagline: 'Track Siemens earnings and performance'
+  },
+  {
+    name: 'Spotify',
+    ticker: 'SPOT',
+    logo: '🎵',
+    domain: 'spotify.com',
+    sector: 'Tech',
+    category: 'Tech Giants',
+    slug: 'spotify',
+    tagline: 'Track Spotify earnings and performance'
   },
   {
     name: 'Starbucks',
