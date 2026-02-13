@@ -507,6 +507,15 @@ export const companies: Company[] = [
     interbrandRank: 0,
     fiscalYearEnd: 'December',
     description: 'Travel platform. Home-sharing marketplace, experiences, services, and AI-powered travel.'
+  },
+  {
+    id: '56',
+    name: 'Pinterest',
+    ticker: 'PINS',
+    sector: 'Tech',
+    interbrandRank: 0,
+    fiscalYearEnd: 'December',
+    description: 'Visual discovery platform. 619 million users, advertising, AI-powered search, and CTV expansion.'
   }
 ];
 

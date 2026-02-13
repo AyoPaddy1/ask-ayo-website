@@ -592,6 +592,31 @@ export const earningsReports: EarningsReport[] = [
       expected: '$0.28',
       beat: true
     }
+  },
+  {
+    id: '25',
+    company: 'Pinterest',
+    ticker: 'PINS',
+    quarter: 'Q4',
+    fiscalYear: '2025',
+    title: 'Pinterest Q4 2025 Earnings: Record Users, Revenue Grows 14%, But Advertisers Pull Back',
+    description: 'Pinterest hit record 619 million users and $4.2B annual revenue, but Q4 revenue missed expectations as large retailers pulled back advertising due to tariff uncertainty.',
+    date: '2026-02-12',
+    readTime: '5 min read',
+    sector: 'Tech' as const,
+    status: 'results' as const,
+    slug: 'pinterest-q4-2025-results',
+    keywords: ['Pinterest', 'PINS', 'social media', 'advertising', 'MAU', 'ARPU', 'earnings', 'Q4 2025'],
+    revenue: {
+      actual: '$1.32B',
+      expected: '$1.33B',
+      beat: false
+    },
+    eps: {
+      actual: '$0.67',
+      expected: '$0.69',
+      beat: false
+    }
   }
 ];
 
