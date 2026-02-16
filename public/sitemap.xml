@@ -2,14 +2,18 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>https://www.ask-ayo.com/sitemap-static.xml</loc>
-    <lastmod>2026-02-05</lastmod>
+    <lastmod>2026-02-16</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.ask-ayo.com/sitemap-brands.xml</loc>
-    <lastmod>2026-02-05</lastmod>
+    <lastmod>2026-02-16</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.ask-ayo.com/sitemap-earnings.xml</loc>
-    <lastmod>2026-02-05</lastmod>
+    <lastmod>2026-02-16</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.ask-ayo.com/sitemap-blog.xml</loc>
+    <lastmod>2026-02-16</lastmod>
   </sitemap>
 </sitemapindex>

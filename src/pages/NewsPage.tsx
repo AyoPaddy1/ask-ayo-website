@@ -1,4 +1,3 @@
-import { Helmet } from 'react-helmet-async';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import { SEO } from '../components/SEO';
@@ -7,15 +6,11 @@ export function NewsPage() {
   return (
     <>
       <SEO
-        title="Finally Make Sense of Business Headlines"
-        description="Interest rates. Inflation. Yield curves. Tariffs. The news is full of terms that sound important but nobody explains. AYO translates business news into plain English."
+        title="Business News, Decoded | Ask AYO"
+        description="Financial headlines are full of jargon. Ask AYO translates business and market news into plain English so you can actually understand what's happening."
         canonical="https://www.ask-ayo.com/news"
         keywords={['business news', 'financial news explained', 'interest rates', 'inflation', 'yield curves', 'tariffs', 'economic terms']}
       />
-      <Helmet>
-        <title>Finally Make Sense of Business Headlines | Ask AYO</title>
-        <meta name="description" content="Interest rates. Inflation. Yield curves. Tariffs. The news is full of terms that sound important but nobody explains. AYO does." />
-      </Helmet>
 
       <div className="min-h-screen bg-white">
         <Header />

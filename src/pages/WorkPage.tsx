@@ -1,4 +1,3 @@
-import { Helmet } from 'react-helmet-async';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import { SEO } from '../components/SEO';
@@ -7,15 +6,11 @@ export function WorkPage() {
   return (
     <>
       <SEO
-        title="Finally Decode What Your CFO Is Actually Saying"
-        description="Your company's all-hands. The earnings call. That email about runway. Everyone nods along. Nobody actually understands. AYO translates corporate finance speak into plain English."
+        title="Understand What Your CFO Is Saying | Ask AYO"
+        description="Budget reviews, board packs, company financials — Ask AYO helps you decode workplace financial language so you can keep up without faking it."
         canonical="https://www.ask-ayo.com/work"
         keywords={['corporate finance', 'CFO language', 'business jargon', 'earnings call', 'runway', 'EBITDA', 'workplace finance']}
       />
-      <Helmet>
-        <title>Finally Decode What Your CFO Is Actually Saying | Ask AYO</title>
-        <meta name="description" content="Your company's all-hands. The earnings call. That email about runway. Everyone nods along. Nobody actually understands. AYO translates it." />
-      </Helmet>
 
       <div className="min-h-screen bg-white">
         <Header />

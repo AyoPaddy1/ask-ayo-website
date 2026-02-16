@@ -8,6 +8,7 @@ const __dirname = path.dirname(__filename);
 // Import data files
 import { brands } from '../src/data/brands.ts';
 import { earningsReports } from '../src/data/earnings.ts';
+import { articles } from '../src/data/articles.ts';
 
 const BASE_URL = 'https://www.ask-ayo.com';
 const CURRENT_DATE = new Date().toISOString().split('T')[0];
@@ -16,11 +17,10 @@ const CURRENT_DATE = new Date().toISOString().split('T')[0];
 const staticPages = [
   { url: '/', changefreq: 'weekly', priority: 1.0 },
   { url: '/investing', changefreq: 'daily', priority: 0.9 },
+  { url: '/blog', changefreq: 'weekly', priority: 0.8 },
   { url: '/news', changefreq: 'monthly', priority: 0.7 },
   { url: '/work', changefreq: 'monthly', priority: 0.7 },
   { url: '/your-money', changefreq: 'monthly', priority: 0.7 },
-  { url: '/privacy', changefreq: 'yearly', priority: 0.3 },
-  { url: '/terms', changefreq: 'yearly', priority: 0.3 },
 ];
 
 // Generate XML for a single URL
@@ -78,6 +78,24 @@ ${urls}
 </urlset>`;
 }
 
+// Generate sitemap for blog articles
+function generateBlogSitemap() {
+  const urls = articles.map(article => {
+    const lastmod = article.date ? new Date(article.date).toISOString().split('T')[0] : CURRENT_DATE;
+    return generateUrlEntry(
+      `/blog/${article.slug}`,
+      lastmod,
+      'monthly',
+      0.7
+    );
+  }).join('\n');
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls}
+</urlset>`;
+}
+
 // Generate sitemap index
 function generateSitemapIndex() {
   return `<?xml version="1.0" encoding="UTF-8"?>
@@ -92,6 +110,10 @@ function generateSitemapIndex() {
   </sitemap>
   <sitemap>
     <loc>${BASE_URL}/sitemap-earnings.xml</loc>
+    <lastmod>${CURRENT_DATE}</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>${BASE_URL}/sitemap-blog.xml</loc>
     <lastmod>${CURRENT_DATE}</lastmod>
   </sitemap>
 </sitemapindex>`;
@@ -110,6 +132,7 @@ function generateAllSitemaps() {
   fs.writeFileSync(path.join(publicDir, 'sitemap-static.xml'), generateStaticSitemap());
   fs.writeFileSync(path.join(publicDir, 'sitemap-brands.xml'), generateBrandsSitemap());
   fs.writeFileSync(path.join(publicDir, 'sitemap-earnings.xml'), generateEarningsSitemap());
+  fs.writeFileSync(path.join(publicDir, 'sitemap-blog.xml'), generateBlogSitemap());
   fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), generateSitemapIndex());
 
   console.log('✅ Sitemaps generated successfully!');
@@ -117,6 +140,7 @@ function generateAllSitemaps() {
   console.log(`   - sitemap-static.xml (${staticPages.length} pages)`);
   console.log(`   - sitemap-brands.xml (${brands.length} brands)`);
   console.log(`   - sitemap-earnings.xml (${earningsReports.length} articles)`);
+  console.log(`   - sitemap-blog.xml (${articles.length} blog posts)`);
 }
 
 // Run the generator

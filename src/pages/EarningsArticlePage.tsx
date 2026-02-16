@@ -2,7 +2,6 @@ import { useParams, Link } from 'react-router-dom';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import { earningsReports } from '../data/earnings';
-import { Helmet } from 'react-helmet-async';
 import { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -62,10 +61,6 @@ export function EarningsArticlePage() {
         datePublished={report.date}
         url={`https://ask-ayo.com/investing/${slug}/earnings/${report.slug}`}
       />
-      <Helmet>
-        <title>{report.company} {report.quarter} Earnings | AskAYO</title>
-        <meta name="description" content={report.description} />
-      </Helmet>
 
       <div className="min-h-screen bg-[#1a1a2e]">
         <Header />

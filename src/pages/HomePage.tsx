@@ -17,8 +17,8 @@ export function HomePage() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="AI Financial Terms Translator | Browser Extension"
-        description="Understand finance with confidence. Get instant AI explanations of any financial term, from EBITDA to P/E ratios, right where you read. Free browser extension for Chrome and Edge."
+        title="Ask AYO — Financial Jargon, Translated Into Plain English"
+        description="Confused by financial terms? Ask AYO is a free Chrome extension that translates Wall Street jargon into words you actually use. Earnings breakdowns, term explanations, zero BS."
         canonical="https://www.ask-ayo.com/"
         keywords={['financial terms', 'financial jargon', 'earnings explained', 'EBITDA', 'P/E ratio', 'financial literacy', 'browser extension']}
       />

@@ -1,14 +1,16 @@
-import { Helmet } from 'react-helmet-async';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
+import { SEO } from '../components/SEO';
 
 export function YourMoneyPage() {
   return (
     <>
-      <Helmet>
-        <title>Finally Understand What Your Bank Is Actually Saying | Ask AYO</title>
-        <meta name="description" content="Your mortgage offer. Your pension statement. That letter from HMRC. The jargon is deliberate. They don't want you to understand. AYO cuts through it." />
-      </Helmet>
+      <SEO
+        title="Personal Finance Jargon Explained | Ask AYO"
+        description="APR, equity, amortisation — your bank loves this stuff. Ask AYO translates personal finance terms into plain English so you know exactly what you're agreeing to."
+        canonical="https://www.ask-ayo.com/your-money"
+        keywords={['personal finance', 'APR', 'equity', 'amortisation', 'mortgage', 'pension', 'banking terms']}
+      />
 
       <div className="min-h-screen bg-white">
         <Header />

@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
 import { brands } from '../data/brands';
 import { earningsReports } from '../data/earnings';
 import TradingViewChart from '../components/TradingViewChart';
@@ -94,10 +93,6 @@ export function BrandPage() {
         ticker={brand.ticker}
         sector={brand.sector}
       />
-      <Helmet>
-        <title>{brand.name} ({brand.ticker}) - Earnings & Stock Price | Ask AYO</title>
-        <meta name="description" content={`${brand.name} earnings explained in plain English. Revenue, ${brand.sector === 'Tech' ? 'cloud growth, AI investments' : brand.sector === 'Luxury' ? 'luxury sales, brand performance' : brand.sector === 'Automotive' ? 'vehicle sales, EV strategy' : 'financial performance'} — what it means for investors.`} />
-      </Helmet>
 
       <div className="min-h-screen bg-gray-50">
         <Header />

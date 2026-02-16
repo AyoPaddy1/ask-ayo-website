@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
 import { brands } from '../data/brands';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
@@ -26,15 +25,11 @@ export function BrandsDirectoryPage() {
   return (
     <>
       <SEO
-        title="Investing - Understand the Brands You Invest In"
-        description="Finally understand the brands you invest in. Browse 69+ companies with earnings reports decoded and explained in plain English. Track Apple, Tesla, Nike, Amazon, and more."
+        title="Earnings Breakdowns in Plain English | Ask AYO"
+        description="What are your favourite companies actually saying in their earnings reports? Ask AYO breaks down results from Apple, Tesla, Netflix and more — no MBA required."
         canonical="https://www.ask-ayo.com/investing"
         keywords={['investing', 'earnings reports', 'stock analysis', 'financial education', 'brand analysis', 'quarterly earnings']}
       />
-      <Helmet>
-        <title>Investing - Understand the Brands You Invest In | Ask AYO</title>
-        <meta name="description" content="Finally understand the brands you invest in. We decode earnings and explain the numbers in plain English." />
-      </Helmet>
 
       <div className="min-h-screen bg-white">
         <Header />

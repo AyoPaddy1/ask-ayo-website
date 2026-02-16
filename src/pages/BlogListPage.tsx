@@ -2,15 +2,17 @@ import { Link } from 'react-router-dom';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import { articles } from '../data/articles';
-import { Helmet } from 'react-helmet-async';
+import { SEO } from '../components/SEO';
 
 export function BlogListPage() {
   return (
     <>
-      <Helmet>
-        <title>Financial Terms Blog | AskAYO</title>
-        <meta name="description" content="Learn about financial terms, investing concepts, and stock market basics. Plain English explanations of EBITDA, P/E ratio, market cap, and more." />
-      </Helmet>
+      <SEO
+        title="Financial Terms Blog | AskAYO"
+        description="Learn about financial terms, investing concepts, and stock market basics. Plain English explanations of EBITDA, P/E ratio, market cap, and more."
+        canonical="https://www.ask-ayo.com/blog"
+        keywords={['financial terms', 'investing basics', 'EBITDA', 'P/E ratio', 'market cap', 'financial literacy']}
+      />
       
       <div className="min-h-screen bg-white">
         <Header />

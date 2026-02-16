@@ -70,10 +70,14 @@ export function BlogArticlePage() {
         <meta name="description" content={article.description} />
         <meta name="keywords" content={article.keywords.join(', ')} />
         
+        {/* Canonical URL */}
+        <link rel="canonical" href={`https://www.ask-ayo.com/blog/${article.slug}`} />
+        
         {/* Open Graph */}
         <meta property="og:title" content={article.title} />
         <meta property="og:description" content={article.description} />
         <meta property="og:type" content="article" />
+        <meta property="og:url" content={`https://www.ask-ayo.com/blog/${article.slug}`} />
         
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />

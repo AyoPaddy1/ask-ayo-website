@@ -48,10 +48,14 @@ export function Footer() {
           </div>
           
           <div>
-            <h4 className="text-white mb-4 font-bold">Product</h4>
+            <h4 className="text-white mb-4 font-bold">Explore</h4>
             <ul className="space-y-2 text-gray-400 text-sm">
-              <li><a href="#" className="hover:text-teal-400 transition-colors">Home</a></li>
-              <li><a href="#examples" className="hover:text-teal-400 transition-colors">Examples</a></li>
+              <li><a href="/" className="hover:text-teal-400 transition-colors">Home</a></li>
+              <li><a href="/investing" className="hover:text-teal-400 transition-colors">Investing</a></li>
+              <li><a href="/blog" className="hover:text-teal-400 transition-colors">Blog</a></li>
+              <li><a href="/news" className="hover:text-teal-400 transition-colors">News</a></li>
+              <li><a href="/work" className="hover:text-teal-400 transition-colors">Work</a></li>
+              <li><a href="/your-money" className="hover:text-teal-400 transition-colors">Your Money</a></li>
             </ul>
           </div>
           
@@ -76,7 +80,7 @@ export function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-gray-800 py-6 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto text-center text-gray-400 text-sm">
-          © 2025 Ask AYO. We explain, we don't recommend.
+          © 2026 Ask AYO. We explain, we don't recommend.
         </div>
       </div>
     </footer>

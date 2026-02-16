@@ -27,6 +27,9 @@ export function Header() {
           <Link to="/investing" className="text-gray-600 hover:text-gray-900 transition-colors font-medium">
             Investing
           </Link>
+          <Link to="/blog" className="text-gray-600 hover:text-gray-900 transition-colors font-medium">
+            Blog
+          </Link>
           <Link to="/news" className="text-gray-600 hover:text-gray-900 transition-colors font-medium">
             News
           </Link>
@@ -66,6 +69,13 @@ export function Header() {
               onClick={() => setMobileMenuOpen(false)}
             >
               Investing
+            </Link>
+            <Link 
+              to="/blog" 
+              className="block text-gray-600 hover:text-gray-900 transition-colors py-2 font-medium"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Blog
             </Link>
             <Link 
               to="/news" 
