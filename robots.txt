@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /api/
 
-Sitemap: https://ask-ayo.com/sitemap.xml
+Sitemap: https://www.ask-ayo.com/sitemap.xml
