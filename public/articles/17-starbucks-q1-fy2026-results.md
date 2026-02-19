@@ -1,69 +1,111 @@
+---
+title: "Starbucks Q1 FY2026 Earnings: Revenue Grows 6%, But Margins Shrink as Turnaround Takes Shape"
+shortTitle: "Starbucks Q1 FY2026 Results"
+description: "Starbucks posted its first quarter of positive US comp transaction growth in two years, signaling CEO Brian Niccol's turnaround plan is working."
+category: "Consumer"
+brand: "Starbucks"
+date: "2026-01-28"
+---
 
-# Starbucks Q1 FY2026: The Turnaround Is Real (And the Stock Agrees)
+# Starbucks Q1 FY2026 Earnings: Revenue Grows 6%, But Margins Shrink as Turnaround Takes Shape
 
-Starbucks just posted something it hasn't done in two years: **positive comparable transaction growth** in the US. Transactions were up **3%** year-over-year, marking the first time since Q1 FY2024 that more people actually walked into Starbucks stores.
+Starbucks posted its first quarter of positive US comp transaction growth in two years, a clear signal that CEO Brian Niccol's "Back to Starbucks" turnaround plan is starting to work. Revenue came in at $9.9 billion, up 6% year-over-year. But the recovery isn't free — earnings per share missed expectations as the company spends heavily on labour, absorbs higher coffee costs, and navigates tariff headwinds. The big structural move? Starbucks is selling 60% of its China business.
 
-The stock surged **10%** after earnings. Why? Because investors care more about traffic returning than they do about the profit miss.
+Here's what happened.
 
-This is the Brian Niccol effect.
+## The Numbers: Revenue Grew, Earnings Missed
 
-## The Numbers
+- **Revenue:** $9.9 billion, up 6% year-over-year (5% on a constant-currency basis)
+- **GAAP EPS:** $0.26, down 62% from a year ago
+- **Non-GAAP EPS:** $0.56 vs. ~$0.58-$0.59 expected — a miss
+- **GAAP Operating Margin:** 9.0%, down 290 basis points from 11.9% a year ago
+- **Non-GAAP Operating Margin:** 10.1%, down 180 basis points
+- **Global Comp Sales:** +4% (3% transactions, 1% ticket)
+- **Net New Stores:** 128, bringing the total to 41,118 worldwide
 
-Revenue hit **$9.92 billion**, up 6% from last year and **beating Wall Street's estimate of $9.62-9.67 billion**. But EPS came in at **$0.56**, down 19% year-over-year and **missing the $0.59 estimate** due to labor investments and higher coffee costs.
+*Translation: The headline revenue number looks strong — 6% growth is solid for a company this size. But the earnings miss tells you Starbucks is in "invest now, profit later" mode. The company is deliberately spending more on staff, store improvements, and menu changes, which is eating into margins. Non-GAAP EPS strips out one-off items to show the underlying business — and even that number came in below what analysts expected.*
 
-This was a classic "mixed" quarter—revenue beat, earnings miss. But the market loved it anyway because the real story is in the comparable store sales:
+## Comp Sales: The First Green Shoots in Two Years
 
-- **Global comp sales: +4%** (3% transactions, 1% ticket)
-- **US comp sales: +4%** (3% transactions, 1% ticket)  
-- **China comp sales: +7%** (5% transactions, 2% ticket)
+The most important number in this report is the +4% US comp sales growth, driven by a 3% increase in transactions. That's the first time US transaction growth has been positive in eight quarters.
 
-Translation: People are coming back to Starbucks. Not just buying more expensive drinks—actually showing up more often.
+- **US Comp Sales:** +4% (3% transactions, 1% ticket)
+- **International Comp Sales:** +5% (3% transactions, 2% ticket)
+- **China Comp Sales:** +7% (5% transactions, 2% ticket)
 
-## Why This Matters
+*Translation: "Comp sales" (or comparable store sales) measures revenue growth at stores that have been open for at least a year. It's the single most important metric for any restaurant or retail chain because it tells you whether existing locations are getting busier and selling more — not just whether the company is opening new stores. Transaction growth means more customers are walking through the door, which is more sustainable than just raising prices (ticket growth).*
 
-Starbucks has been bleeding customers for eight straight quarters. Traffic was down, wait times were up, and the whole "third place" coffeehouse vibe had turned into a mobile order pickup station.
+The turnaround here is significant. For most of 2024 and early 2025, Starbucks was losing customers. People were trading down, skipping their daily coffee, or going to competitors. That trend has now reversed — and it reversed faster than most analysts expected.
 
-Brian Niccol (the guy who turned Chipotle around) took over as CEO in **September 2024**. His "Back to Starbucks" strategy focuses on:
-- Faster service (less waiting around)
-- Better in-store experience (actual coffeehouse atmosphere)
-- Simpler menu (stop confusing baristas with 47 customization options)
+## Margins: The Cost of a Turnaround
 
-This quarter is proof it's working. Niccol himself said: "We believe we're ahead of schedule."
+While revenue grew, profitability shrank. Operating margin dropped from 11.9% to 9.0% on a GAAP basis.
 
-## The China Story
+Three things are driving the squeeze:
 
-Here's the weird part: Starbucks is **selling 60% of its China business** to Boyu Capital in a joint venture deal (closing Spring 2026), but China comp sales grew **7%** this quarter.
+**Labour investments:** Starbucks is hiring more baristas and investing in better staffing to reduce wait times. CEO Brian Niccol's strategy centres on faster service and a better in-store experience, and that requires more people behind the counter. This is deliberate spending, not a cost blowout.
 
-Why sell if things are going well? Because China is brutally competitive. Local brands like Luckin Coffee are everywhere, and Starbucks needs a local partner to compete long-term. The joint venture lets Starbucks keep 40% ownership and the brand rights while Boyu handles operations.
+**Coffee costs:** Global coffee prices have been elevated throughout 2025-2026. As one of the world's largest buyers of coffee beans, Starbucks is particularly exposed to commodity price swings.
 
-## Margins Got Crushed
+**Tariffs:** Trade tariffs are adding costs across the supply chain, from equipment to packaging to imported ingredients.
 
-Operating margin fell from **11.9%** to **9.0%** (GAAP). Why?
-- **Labor investments**: Niccol is staffing stores properly to improve service. That costs money.
-- **Coffee prices**: Elevated coffee costs hit margins.
-- **Tariffs**: Import tariffs added pressure.
+*Translation: Operating margin tells you how much profit a company makes from each pound or dollar of revenue before interest and taxes. A 9.0% margin means Starbucks keeps 9p of every £1 it earns. That's down from 11.9p a year ago — a meaningful drop. But the company is arguing this is temporary: spend now on making stores better, and margins will recover as customers come back and revenue grows.*
 
-But here's the plan: Starbucks is tracking **$2 billion in cost reductions** over the next two years. CFO Cathy Smith said the goal is to "translate topline strength into sustainable earnings growth." Translation: We're investing now to fix the business, profits will follow.
+There's also a tax issue inflating the GAAP earnings decline. Starbucks's effective tax rate jumped to 61.7% (from 23.6% a year ago), largely because of accounting treatment related to the China business being classified as "held for sale." That makes the GAAP EPS number ($0.26, down 62%) look worse than the underlying business actually performed.
 
-## What Starbucks Said About the Future
+*Translation: When a company marks a business unit as "held for sale," it changes how the numbers flow through the accounts. In this case, it pushed the tax rate up dramatically for this one quarter. That's why the non-GAAP EPS ($0.56) is a better indicator of how the core business is actually doing — it strips out these kinds of one-off distortions.*
 
-For the first time since **suspending guidance in October 2024** under the previous CEO, Starbucks restored its forecast. That's a big deal—it shows Niccol has confidence in the turnaround.
+## China: Selling the Stake, Keeping the Brand
 
-**FY2026 guidance:**
+The biggest strategic move in the quarter was Starbucks announcing it's selling 60% of its China business to Boyu Capital, a private equity firm. The deal is expected to close in spring 2026.
+
+Starbucks currently operates 8,011 stores in China — its second-largest market. After the deal, Starbucks will retain a minority stake but hand operational control to Boyu. The brand, product standards, and supply chain will still be governed by Starbucks.
+
+*Translation: This is a "franchise-like" model. Starbucks gets a large upfront payment, reduces its risk exposure in China (where competition from local chains like Luckin Coffee is intense), and still earns royalties and supply chain fees going forward. It's a similar playbook to what McDonald's did in China years ago — sell the operations, keep the brand, and collect fees without the headaches of running thousands of stores directly.*
+
+China comp sales were actually strong this quarter — up 7%, with 5% transaction growth. But the competitive landscape is brutal, and Starbucks clearly decided it's better to partner than go it alone.
+
+## The "Back to Starbucks" Strategy
+
+Brian Niccol, who joined as CEO in September 2024, has been reshaping the business around four pillars:
+
+**Faster service:** Reducing wait times by improving store workflows and adding staff. This is the single biggest customer complaint Starbucks identified.
+
+**Better in-store experience:** Making cafés more inviting for people who want to sit down, not just grab and go. Niccol wants Starbucks to feel like a "community coffeehouse" again.
+
+**Simpler menu:** Cutting underperforming items to speed up preparation and reduce complexity behind the counter.
+
+**Cost discipline:** Tracking $2 billion in cost reductions over the next two years to offset the upfront investment in stores and labour.
+
+Niccol said the company believes it's "ahead of schedule" on the turnaround.
+
+## What's Coming in FY2026
+
+Starbucks restored its full-year guidance — a sign of confidence after pulling guidance earlier in the turnaround:
+
 - **Non-GAAP EPS:** $2.15 to $2.40
-- **Comp sales growth:** 3% or greater
-- **Net new stores:** 600-650
-- **Margin:** Slightly improving as efficiency gains kick in
+- **Non-GAAP Operating Margin:** Slight improvement year-over-year
+- **Comp Sales Growth:** 3% or greater
+- **Net New Stores:** 600 to 650
 
-The fact that Niccol is willing to put numbers out there tells you he believes the turnaround is sustainable.
+*Translation: Restoring guidance is a big deal. When a company pulls its financial forecasts, it's usually because management doesn't have enough visibility to predict results. Putting guidance back out there tells investors: "We can see where this is heading now, and we're confident enough to commit to numbers." The EPS range of $2.15 to $2.40 suggests management expects margins to gradually recover through the rest of the year.*
 
-## The Bottom Line
+## The Bottom Line for Investors
 
-This is the first real evidence that Niccol's turnaround is working. Comp transactions are positive, traffic is back, and the "Back to Starbucks" strategy is gaining traction.
+Starbucks is in an awkward phase — the turnaround is clearly working (customers are coming back), but the cost of fixing the business is dragging down earnings in the short term. This is the classic "it gets worse before it gets better" pattern.
 
-The margin hit is temporary—Starbucks is investing in labor and service to win customers back. If traffic keeps growing, margins will recover.
+The bull case is that Brian Niccol is doing exactly what he did at Chipotle: simplify the menu, invest in the experience, and let the results follow. The first positive US transaction growth in eight quarters is a strong early signal. If margins recover as the turnaround matures and the China deal frees up capital, Starbucks could look very different in 12-18 months.
 
-The stock surged 10% because investors see the bigger picture: **traffic is the hardest thing to fix in retail, and Starbucks just fixed it**. The EPS miss doesn't matter if customers are coming back. That's the lesson here—and it's the exact opposite of what happened to Microsoft (which beat estimates but fell 7% because Azure growth slowed).
+The bear case is that coffee costs, tariffs, and labour investments keep pressuring margins longer than expected. The EPS miss shows the market that "working" and "profitable" aren't the same thing yet. And giving up control of China — its biggest growth market — is a bet that the upfront cash and reduced risk are worth more than running those 8,000 stores directly.
 
-Stock price isn't just about hitting numbers. It's about the story.
+The direction is right. The question is how long it takes for the numbers to catch up.
 
+---
+
+**References:**
+
+1. Starbucks Investor Relations — [Q1 FY2026 Earnings Press Release](https://investor.starbucks.com) (January 28, 2026)
+2. Starbucks — [Back to Starbucks Strategy Overview](https://stories.starbucks.com) (January 2026)
+3. CNBC — [Starbucks Q1 FY2026 Earnings Report](https://www.cnbc.com/2026/01/28/starbucks-sbux-q1-fy2026-earnings.html) (January 28, 2026)
+
+**Ticker:** SBUX (NASDAQ) · **Reported:** January 28, 2026
