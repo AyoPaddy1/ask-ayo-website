@@ -324,22 +324,22 @@ export const earningsReports: EarningsReport[] = [
     ticker: 'MSFT',
     quarter: 'Q2',
     fiscalYear: 'FY2026',
-    title: 'Microsoft Q2 FY2026 Earnings: Azure Growth Slows to 31%',
-    description: 'Microsoft beat expectations with $72.3 billion in revenue (up 12%) and $3.23 EPS. But Azure growth slowed to 31%, down from 34% last quarter. The stock fell 4% after hours as investors worry about AI capex returns.',
+    title: 'Microsoft Q2 FY2026: Cloud Crosses $50B, But Azure Growth Concerns Linger',
+    description: 'Microsoft beat earnings expectations with $81.3 billion in revenue and Microsoft Cloud crossing $50 billion for the first time, but Azure growth guidance disappointed.',
     date: 'January 28, 2026',
-    readTime: '11 min read',
+    readTime: '12 min read',
     sector: 'Tech',
     slug: 'microsoft-q2-fy2026-results',
     status: 'results',
     keywords: ['Microsoft', 'MSFT', 'Azure', 'AI', 'cloud computing', 'earnings results'],
     revenue: {
-      actual: '$72.3B',
-      expected: '$71.5B',
+      actual: '$81.3B',
+      expected: '$80.3B',
       beat: true
     },
     eps: {
-      actual: '$3.23',
-      expected: '$3.11',
+      actual: '$4.14',
+      expected: '$4.10',
       beat: true
     }
   },
