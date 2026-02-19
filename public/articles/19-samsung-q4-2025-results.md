@@ -15,15 +15,17 @@ That's a seismic shift in the semiconductor industry. Samsung is still the bigge
 
 For context, Samsung's Q4 operating profit of 20.1T KRW broke the previous record of 17.6T KRW set in Q3 2018. This wasn't just a good quarter—it was the best quarter Samsung has ever had.
 
-The stock opened up 2.6% but then reversed to close down 1.5%. Mixed reaction.
-
 ## The Memory Chip Boom
 
 Samsung's memory division—which makes DRAM and NAND chips—is the star of the show. The **Device Solutions (DS) division** (which includes both Memory and Foundry) brought in 44.0 trillion KRW in Q4.
 
 Why the explosion? AI data centers need massive amounts of memory. Specifically, they need **HBM (high-bandwidth memory)**—specialized DRAM that sits right next to Nvidia's AI chips—and **server DDR5**, the standard memory for AI servers.
 
+*Translation: HBM (high-bandwidth memory) is a specialized type of DRAM that sits physically next to AI chips like Nvidia's H100 and H200. Because it's so close to the chip, it can transfer data much faster than regular memory. This is critical for AI training and inference, which require moving massive amounts of data quickly. HBM is significantly more expensive than standard DRAM, which is why it's so profitable for Samsung and SK Hynix.*
+
 Here's the key context: **Memory prices surged 40-50% in Q4**. That's the direct mechanism behind the profit explosion. Demand is high, supply is tight, and Samsung (along with SK Hynix and Micron) is printing money.
+
+*Translation: Memory chip prices are cyclical—they go up and down based on supply and demand. When demand is high (like now with AI) and supply is tight, prices surge. A 40-50% price increase means Samsung can sell the same chips for 40-50% more money than last year, which directly flows to profit. This is why Samsung's operating profit tripled even though revenue only grew 24%.*
 
 Samsung has been playing catch-up to SK Hynix in HBM, but Q4 showed they're closing the gap. They're ramping up production of HBM4 (the next generation, planned for 2026) and expect the AI boom to keep driving demand through the year.
 
@@ -50,6 +52,8 @@ Here's the part Samsung doesn't want to talk about: **SK Hynix posted 47.2 trill
 
 This is the first time in history that SK Hynix has overtaken Samsung in annual operating profit. Why? Because **Hynix is dominating HBM**, the most profitable memory product right now.
 
+*Translation: Operating profit is revenue minus operating expenses. SK Hynix overtaking Samsung in operating profit means Hynix made more money from its core business operations in 2025, even though Samsung is still the larger company by total revenue. This is significant because Samsung has been the dominant player in memory chips for decades.*
+
 Hynix supplies HBM to Nvidia for its AI chips. Samsung is trying to catch up, but they're behind. That's why Hynix is winning the profit race despite being a smaller company overall.
 
 This is a huge deal in the semiconductor industry. Samsung is still the bigger player, but Hynix is eating their lunch in the most important product category.
@@ -72,3 +76,12 @@ If the AI boom continues and memory prices stay high, Samsung's memory division 
 
 And if Samsung can't close the gap with SK Hynix in HBM, they risk losing their leadership position in the semiconductor industry.
 
+---
+
+**References:**
+
+1. [Samsung Electronics Announces Fourth Quarter and FY 2025 Results](https://news.samsung.com/global/samsung-electronics-announces-fourth-quarter-and-fy-2025-results) (Samsung Newsroom, January 31, 2026)
+2. [Samsung Q4 2025 earnings](https://www.reuters.com/technology/samsung-elec-q4-operating-profit-beats-estimates-2026-01-31/) (Reuters, January 31, 2026)
+3. [SK Hynix overtakes Samsung in annual operating profit](https://www.cnbc.com/2026/01/31/sk-hynix-overtakes-samsung-in-annual-operating-profit.html) (CNBC, January 31, 2026)
+
+**Ticker:** 005930.KS (Korea Exchange) · **Reported:** January 31, 2026
